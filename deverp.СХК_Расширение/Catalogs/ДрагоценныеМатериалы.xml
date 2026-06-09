@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="55080d21-c828-4757-815d-66e3a1d40e4c">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ДрагоценныеМатериалы" category="Object">
+				<xr:TypeId>96b0d260-c5e3-465e-94c7-850f5d078f0f</xr:TypeId>
+				<xr:ValueId>411698de-65a3-48f5-aea2-5f3e1344bad9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ДрагоценныеМатериалы" category="Ref">
+				<xr:TypeId>167d3545-9ae6-460c-9ab3-df071472ed6b</xr:TypeId>
+				<xr:ValueId>d913595b-8756-417f-9884-bca275411606</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ДрагоценныеМатериалы" category="Selection">
+				<xr:TypeId>666dd6c0-c40e-4a81-aa5e-b0c5937970b5</xr:TypeId>
+				<xr:ValueId>df8f961a-3ec8-401c-8438-6ea8ca2ba6ad</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ДрагоценныеМатериалы" category="List">
+				<xr:TypeId>08cfb2ea-8a25-45b5-a4f9-bc10063094b7</xr:TypeId>
+				<xr:ValueId>affd0fa6-dc97-414a-a2a1-30d9300ff81e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ДрагоценныеМатериалы" category="Manager">
+				<xr:TypeId>b1583780-dc47-4de1-81ef-c9cb0aa78ece</xr:TypeId>
+				<xr:ValueId>39794d48-b399-4cc3-96dc-c2feb1bccc17</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ДрагоценныеМатериалы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7fab6b57-3b56-4f62-b21e-afa1b8a6451b</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="2092596e-4408-41da-bbbf-c14156c8dfa9">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.СписаниеНДСНаРасходы" category="Object">
+				<xr:TypeId>6f08b020-99ef-48a5-a0d8-c448c36feea2</xr:TypeId>
+				<xr:ValueId>b1e9c2c9-091e-4616-b7a2-581ede3a95c4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.СписаниеНДСНаРасходы" category="Ref">
+				<xr:TypeId>00defac6-f8ce-4e8a-b807-822c0cd2a2e4</xr:TypeId>
+				<xr:ValueId>aa8165a5-a64e-449c-99ef-7a8877e10460</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.СписаниеНДСНаРасходы" category="Selection">
+				<xr:TypeId>88831258-c867-471c-ae53-05b39478d43f</xr:TypeId>
+				<xr:ValueId>7542862c-be37-49b6-8738-10d2259dc88a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.СписаниеНДСНаРасходы" category="List">
+				<xr:TypeId>a1585728-c431-455e-b328-0b2c1751e747</xr:TypeId>
+				<xr:ValueId>5a85344f-dabb-4796-8c8d-455d3e8cfcba</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.СписаниеНДСНаРасходы" category="Manager">
+				<xr:TypeId>c5e91346-5e7e-408b-96b9-40d831bea040</xr:TypeId>
+				<xr:ValueId>2e126afc-edc8-4668-ba34-0e3a7f5a8f9b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СписаниеНДСНаРасходы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>62531e70-4e58-4afe-8aa2-05bcb2140738</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="ebccb91a-44fd-4908-aaa9-953c23176acb">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОплаты</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>94413e19-a00a-49e2-bbb6-0ecf61bfe7b3</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ОснованиеСчетФактураВыданныйАванс</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ef75756f-c8d0-4468-84fa-add4a0bfd3df">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СчетФактура</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>56e90479-392e-4ae1-a245-df694c0ce666</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.СчетФактура</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="9b4cda10-d819-443f-acd1-618c43e5fb9a">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.СписаниеНДСНаРасходы.АвансыПолученные" category="TabularSection">
+						<xr:TypeId>12ee965a-5dac-46b3-86ae-55be36b0d9c8</xr:TypeId>
+						<xr:ValueId>fc55d73e-4648-4265-bbbd-f6691b030fba</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.СписаниеНДСНаРасходы.АвансыПолученные" category="TabularSectionRow">
+						<xr:TypeId>1624f951-90fa-44de-b8ae-0dbc6b8aa436</xr:TypeId>
+						<xr:ValueId>e4355263-99f9-4204-a4ac-b8713ad95bdd</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>АвансыПолученные</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e27d57e4-c590-46da-9033-d6258005efa7</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="dadd184c-0191-4116-97ff-6cd938ba581f">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ИсправленныйСчетФактура</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>caca7328-bf16-4ef2-bb0a-0b8f524e2153</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:DocumentRef.СчетФактураВыданныйАванс</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="650951ed-7cbe-488b-85d0-5db6da74f6e2">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.СписаниеНДСНаРасходы.Ценности" category="TabularSection">
+						<xr:TypeId>5969b479-f010-46fe-8442-cace0c1097d2</xr:TypeId>
+						<xr:ValueId>c37b4fde-db1a-4d0a-943f-961b1d778577</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.СписаниеНДСНаРасходы.Ценности" category="TabularSectionRow">
+						<xr:TypeId>b6bb706a-c3a1-4a7c-9978-86344369b6f5</xr:TypeId>
+						<xr:ValueId>09ad74de-aea8-404d-9b98-77788304ff81</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Ценности</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c132f2a6-193b-46ae-ae97-8cf79a7818dd</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="9356c423-fbaf-4186-a1c8-39c754e621b3">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ИсправленныйСчетФактура</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>7fd6a96e-7576-4a3e-8149-7cb78074957d</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

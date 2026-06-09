@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="ce340f4c-e1de-4f86-84b0-9e3e8e674e4a">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.НапоминанияПользователя" category="Record">
+				<xr:TypeId>7ae79c51-3e78-4e18-9281-ead249543525</xr:TypeId>
+				<xr:ValueId>e4de0b06-1485-406b-b336-1d0b0ca41a0d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.НапоминанияПользователя" category="Manager">
+				<xr:TypeId>d6913ec6-e8c6-4272-8379-2e75150b9a7c</xr:TypeId>
+				<xr:ValueId>ef1bf0b0-a97f-4d9e-b194-189ca067ce4e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.НапоминанияПользователя" category="Selection">
+				<xr:TypeId>5a73fe60-290c-49a9-bcd5-c1278611b5f8</xr:TypeId>
+				<xr:ValueId>205185a6-7336-4724-a092-9f81eab348d7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.НапоминанияПользователя" category="List">
+				<xr:TypeId>9727d2cd-1e04-4f49-b96f-8599c5056cb5</xr:TypeId>
+				<xr:ValueId>5228a096-13a7-4e81-89b6-7f05509b53a5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.НапоминанияПользователя" category="RecordSet">
+				<xr:TypeId>ee522778-c310-46ce-9d69-ab8da3f28764</xr:TypeId>
+				<xr:ValueId>39faa6b1-1193-4954-a505-bff93aeb32ba</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.НапоминанияПользователя" category="RecordKey">
+				<xr:TypeId>bef5bcf0-200a-4a12-bb31-b82266a1e3c4</xr:TypeId>
+				<xr:ValueId>070a365c-4e80-4544-afa5-1573e963ac73</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.НапоминанияПользователя" category="RecordManager">
+				<xr:TypeId>65c487b0-cb73-4ab1-b090-b309c7f402e4</xr:TypeId>
+				<xr:ValueId>2a6f7224-ba95-4704-a5a9-79f621c655dc</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НапоминанияПользователя</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>94b2e060-53b7-4b40-af05-30bea3520330</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="9cd78fcc-96b9-407d-bbae-120c0e2cb784">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Описание</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>41b0dabd-85a3-4819-84dd-371eaf4f996e</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>255</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="690b5a1f-3c04-4933-90b4-409a249fdcea">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИнтервалВремениНапоминания</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>12d936f5-932b-4561-b934-c8444808a450</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Dimension uuid="bff28f62-19a1-451a-b8d3-a6d5e54de5db">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Пользователь</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c3ffeb09-121b-4d77-9c15-def4648b4f3c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="dd3bdd1d-d10d-4921-a0a7-dc52c21f70b6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВремяСобытия</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c2de0724-04c1-4adb-b62a-b7ba727dbe67</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="4cbd01b4-b305-4b4a-9821-cfffcd9188d1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Источник</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4ae26777-69ff-4a55-942b-0bad8ab7a70a</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ПредметНапоминания</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="289aa290-f2b6-49c9-91a1-6726b2068460">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПринятиеКУчетуОС" category="Object">
+				<xr:TypeId>865a5bd2-38ef-4fbd-b54f-4a6b1e9a7fb7</xr:TypeId>
+				<xr:ValueId>c7a2db9b-c5fd-4c6f-9d04-b73ec5f4c9c0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПринятиеКУчетуОС" category="Ref">
+				<xr:TypeId>c2ebdfcd-f795-4d46-9952-6978dc82e8b1</xr:TypeId>
+				<xr:ValueId>a30f4aa9-0a38-420f-b28f-dd87e87d258e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПринятиеКУчетуОС" category="Selection">
+				<xr:TypeId>0f4dc310-d997-400a-994f-05576e66515f</xr:TypeId>
+				<xr:ValueId>ca528010-8f06-4909-8c1b-5e40fd746286</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПринятиеКУчетуОС" category="List">
+				<xr:TypeId>736d8700-9c1d-4a15-9906-1838137a92e2</xr:TypeId>
+				<xr:ValueId>71bc47c9-2f5f-48a5-90aa-2f6dab499f02</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПринятиеКУчетуОС" category="Manager">
+				<xr:TypeId>81fd5e4c-9e2b-45a2-9b48-77410790aa70</xr:TypeId>
+				<xr:ValueId>19bb3309-be42-4262-93de-493c5fd418be</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПринятиеКУчетуОС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>22d39da4-403d-480e-a9cb-4e595f7eb5dd</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="2f2c2d3c-bba9-4e5c-8e55-ffe0506e6cf2">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1d396f31-8927-4889-bfe0-1df0d2296c02</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

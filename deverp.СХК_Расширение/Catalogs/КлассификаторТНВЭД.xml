@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="167a3013-0f59-4491-b132-71fc767dd6d7">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.КлассификаторТНВЭД" category="Object">
+				<xr:TypeId>0b76774c-3167-40eb-80a0-b6094717c106</xr:TypeId>
+				<xr:ValueId>aa643130-5e9e-4f64-81a6-1eb5d2d9b831</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.КлассификаторТНВЭД" category="Ref">
+				<xr:TypeId>7985da72-29ad-4554-8c4c-814ffbd538a5</xr:TypeId>
+				<xr:ValueId>5aa977ff-a825-4531-9cc9-5624775b472a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.КлассификаторТНВЭД" category="Selection">
+				<xr:TypeId>2e8127be-f7df-4162-85de-00c197d62ef9</xr:TypeId>
+				<xr:ValueId>3e568538-9375-4721-8a9d-c54f3fa54e05</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.КлассификаторТНВЭД" category="List">
+				<xr:TypeId>d7f089c3-e7c2-4cad-b5e1-a5a41205a304</xr:TypeId>
+				<xr:ValueId>72ff1017-4d67-4bc1-a456-de61e8349ee0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.КлассификаторТНВЭД" category="Manager">
+				<xr:TypeId>4ecdb4ba-2dea-4acd-94ac-0bacd0794dd3</xr:TypeId>
+				<xr:ValueId>dea9298a-c3c5-4ae0-ae53-f4d6bf09c7fa</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КлассификаторТНВЭД</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>057c748b-921d-4744-82bc-4af2971b38ab</ExtendedConfigurationObject>
+			<DescriptionLength>150</DescriptionLength>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

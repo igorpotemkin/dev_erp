@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="7ffb7a52-bef7-48f5-9366-3a0c4a13d12d">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ОбъектыКалькуляции" category="Ref">
+				<xr:TypeId>fa08a0e1-8cf2-4ab4-86b8-a0646f95e9db</xr:TypeId>
+				<xr:ValueId>9c431424-3514-4f87-b89e-818d027058a0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ОбъектыКалькуляции" category="Manager">
+				<xr:TypeId>6f55203d-3875-4ae2-a5cb-0a92dee82945</xr:TypeId>
+				<xr:ValueId>6ce20956-e48b-4d29-b11c-d546f95ce26e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ОбъектыКалькуляции" category="List">
+				<xr:TypeId>413a07e8-29b7-4caa-9731-b35bf82d2357</xr:TypeId>
+				<xr:ValueId>fe28dd8b-6c6a-438f-8309-48dd7a7f74f0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОбъектыКалькуляции</Name>
+			<Comment/>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

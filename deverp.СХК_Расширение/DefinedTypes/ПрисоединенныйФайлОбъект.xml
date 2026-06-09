@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<DefinedType uuid="9b1a93c2-7542-4b4b-8d1c-a5a5534a7bec">
+		<InternalInfo>
+			<xr:GeneratedType name="DefinedType.ПрисоединенныйФайлОбъект" category="DefinedType">
+				<xr:TypeId>44aa3c6c-5b95-4f19-9623-489ebb9f712f</xr:TypeId>
+				<xr:ValueId>f7d8d1c2-d9d4-44fc-a7ee-6369f73298bc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>Type</xr:Property>
+				<xr:State>MultiState</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПрисоединенныйФайлОбъект</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>9b67bfd5-ef23-4205-b7ba-9466517e9999</ExtendedConfigurationObject>
+			<Type xsi:type="xr:ExtendedProperty">
+				<xr:ExtendValue xsi:type="v8:TypeDescription">
+					<v8:Type>cfg:CatalogObject.СписаниеНедостачТоваровПрисоединенныеФайлы</v8:Type>
+					<v8:Type>cfg:CatalogObject.ОприходованиеИзлишковТоваровПрисоединенныеФайлы</v8:Type>
+					<v8:Type>cfg:CatalogObject.ПересчетТоваровПрисоединенныеФайлы</v8:Type>
+					<v8:Type>cfg:CatalogObject.ПересортицаТоваровПрисоединенныеФайлы</v8:Type>
+				</xr:ExtendValue>
+			</Type>
+		</Properties>
+	</DefinedType>
+</MetaDataObject>

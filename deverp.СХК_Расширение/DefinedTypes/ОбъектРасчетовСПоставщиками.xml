@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<DefinedType uuid="261d1e7f-4043-48a2-a7e6-e1e3c20893df">
+		<InternalInfo>
+			<xr:GeneratedType name="DefinedType.ОбъектРасчетовСПоставщиками" category="DefinedType">
+				<xr:TypeId>5ff8735f-9c7a-4dd4-8516-c77711069fde</xr:TypeId>
+				<xr:ValueId>2c045e9e-eb2e-4633-8756-9af2bac67cc3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОбъектРасчетовСПоставщиками</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>5ee6276c-7294-49ca-b64a-3683cef3daf4</ExtendedConfigurationObject>
+		</Properties>
+	</DefinedType>
+</MetaDataObject>

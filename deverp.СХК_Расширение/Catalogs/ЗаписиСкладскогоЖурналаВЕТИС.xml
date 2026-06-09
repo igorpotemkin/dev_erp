@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="a21b1ca8-ce89-4008-917c-12f500e1dc30">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ЗаписиСкладскогоЖурналаВЕТИС" category="Object">
+				<xr:TypeId>8f32fb02-5430-4ba3-9d76-6041725ca91a</xr:TypeId>
+				<xr:ValueId>d66ac879-708d-4c7f-bb32-a57f8bd01e68</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ЗаписиСкладскогоЖурналаВЕТИС" category="Ref">
+				<xr:TypeId>140a32db-3149-48de-81a7-f8f814351ed1</xr:TypeId>
+				<xr:ValueId>a5e2867a-f90a-4107-bba8-36d550a1517a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ЗаписиСкладскогоЖурналаВЕТИС" category="Selection">
+				<xr:TypeId>4e221342-900c-4c44-b76f-e221c7c33d03</xr:TypeId>
+				<xr:ValueId>3bcc45fa-2acb-44a5-8b4d-3fc4f0d2879f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ЗаписиСкладскогоЖурналаВЕТИС" category="List">
+				<xr:TypeId>3cd6dfae-e79d-4a7d-8272-3c42b6597983</xr:TypeId>
+				<xr:ValueId>62f98865-3fe4-4abf-88e7-efafaf386b20</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ЗаписиСкладскогоЖурналаВЕТИС" category="Manager">
+				<xr:TypeId>351fed16-a77e-4605-bf7f-f63e110a9813</xr:TypeId>
+				<xr:ValueId>1930ae1b-aa34-4872-9ac9-ffada961983b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЗаписиСкладскогоЖурналаВЕТИС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>a00a1f0e-68f1-4126-9017-aad4c957a834</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

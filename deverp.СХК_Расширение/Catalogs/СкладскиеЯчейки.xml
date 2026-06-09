@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="7cbb51ab-3c52-452c-a6dd-21dc33c433e0">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СкладскиеЯчейки" category="Object">
+				<xr:TypeId>a07f6c7e-cbce-4b05-adea-4aed6f594e17</xr:TypeId>
+				<xr:ValueId>7a629f72-d1b3-4a57-a501-a0030939e27f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СкладскиеЯчейки" category="Ref">
+				<xr:TypeId>391ad921-4ff3-4168-b419-80863d9076f9</xr:TypeId>
+				<xr:ValueId>528d40b8-99cf-41e7-925e-a02900a72ed2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СкладскиеЯчейки" category="Selection">
+				<xr:TypeId>5a805b0a-ca5a-40bf-80ff-ab34d4d3599e</xr:TypeId>
+				<xr:ValueId>70345dab-02b8-4e5a-9633-ca0328d34fa6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СкладскиеЯчейки" category="List">
+				<xr:TypeId>d1bde20d-538c-422b-8441-012b83d744cf</xr:TypeId>
+				<xr:ValueId>efefaf51-0717-43b8-a87a-eb0e9621bc7d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СкладскиеЯчейки" category="Manager">
+				<xr:TypeId>3cf09d7c-1a14-42e2-8f89-ffccecbe24b3</xr:TypeId>
+				<xr:ValueId>0e4ab86c-5769-476b-a17f-490fb7894b83</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СкладскиеЯчейки</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>45fc64e2-aecd-481a-bcbe-307fcba05f97</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

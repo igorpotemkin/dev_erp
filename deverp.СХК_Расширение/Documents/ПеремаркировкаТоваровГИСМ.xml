@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="fc0ff291-3264-492b-bd69-830683827f35">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПеремаркировкаТоваровГИСМ" category="Object">
+				<xr:TypeId>b186af68-e168-4000-a06f-85c3ab4c853a</xr:TypeId>
+				<xr:ValueId>85a27cf5-b061-48c3-9bd7-d7e927992a78</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПеремаркировкаТоваровГИСМ" category="Ref">
+				<xr:TypeId>10c04c50-f39f-4c61-91c9-331b1eadfc85</xr:TypeId>
+				<xr:ValueId>d77c77a4-5af8-4e27-9ade-ba07760c9a59</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПеремаркировкаТоваровГИСМ" category="Selection">
+				<xr:TypeId>3ec8f857-0e07-45cf-b9d8-fb65e07a093a</xr:TypeId>
+				<xr:ValueId>b30fc044-0634-4c9a-b599-b7b7f17f4ca5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПеремаркировкаТоваровГИСМ" category="List">
+				<xr:TypeId>4c05a9ed-7334-4c0d-b6ed-dec640550912</xr:TypeId>
+				<xr:ValueId>a9ffd2e2-fc69-4459-9c65-55fa1d641ef8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПеремаркировкаТоваровГИСМ" category="Manager">
+				<xr:TypeId>859567ce-7588-46e0-97b1-056cb62fb8df</xr:TypeId>
+				<xr:ValueId>5f0b3553-18d3-4b08-bee8-58ae7dcb685e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПеремаркировкаТоваровГИСМ</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>db8c07bb-61d7-4026-a20f-811bed0a743a</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="df81e89f-c941-482a-8293-a8a033db838c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НазначениеКиЗ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>723c13ed-eed0-4aee-b4ea-14b557cdfd2c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Назначения</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="fcceb041-efd6-4233-acde-0809d6b15d8e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>АналитикаРасходов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4d7314c1-e484-44e9-86fe-68a8bcf826c6</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:Characteristic.СтатьиРасходов</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

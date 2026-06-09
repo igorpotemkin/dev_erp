@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<ChartOfCharacteristicTypes uuid="ccbb64e4-958a-4fa1-a604-ae0e3800cf7a">
+		<InternalInfo>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesObject.ДополнительныеРеквизитыИСведения" category="Object">
+				<xr:TypeId>13d90c88-30af-46a9-a0fa-ac49680bdaa8</xr:TypeId>
+				<xr:ValueId>747ac958-cc73-49e0-9f14-842dd75491a1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения" category="Ref">
+				<xr:TypeId>6f7471dc-2c5f-4f53-8ba4-2d4b43b1056d</xr:TypeId>
+				<xr:ValueId>c1f71014-9c73-4d6b-80ae-4562aa46878e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesSelection.ДополнительныеРеквизитыИСведения" category="Selection">
+				<xr:TypeId>eb54b488-7f21-4795-82fe-180446bb5206</xr:TypeId>
+				<xr:ValueId>9f1d1dab-5474-49b1-b0e4-d0bb0c91d8a9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesList.ДополнительныеРеквизитыИСведения" category="List">
+				<xr:TypeId>e5c8ccaa-dd9c-4fa1-80f9-67c17a741d46</xr:TypeId>
+				<xr:ValueId>ab78f58a-9c23-4c37-835d-74437d0585f8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="Characteristic.ДополнительныеРеквизитыИСведения" category="Characteristic">
+				<xr:TypeId>520d74f7-ff6c-4428-8059-a698457df879</xr:TypeId>
+				<xr:ValueId>3f39a609-400a-4be8-9c73-2a7769723452</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ChartOfCharacteristicTypesManager.ДополнительныеРеквизитыИСведения" category="Manager">
+				<xr:TypeId>0b5b0d2c-3260-4fe1-bb19-e73b102b5c99</xr:TypeId>
+				<xr:ValueId>5c1bd240-2285-4902-8d37-7a4e3e6c492e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>Type</xr:Property>
+				<xr:State>MultiState</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ДополнительныеРеквизитыИСведения</Name>
+			<Comment/>
+			<Type xsi:type="xr:ExtendedProperty">
+				<xr:ExtendValue xsi:type="v8:TypeDescription">
+					<v8:Type>cfg:CatalogRef.БанковскиеСчетаОрганизаций</v8:Type>
+				</xr:ExtendValue>
+			</Type>
+		</Properties>
+		<ChildObjects/>
+	</ChartOfCharacteristicTypes>
+</MetaDataObject>

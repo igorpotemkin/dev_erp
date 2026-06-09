@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="6aa973fb-1b68-4773-98ff-33814d8d76c3">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.НаборыУпаковок" category="Object">
+				<xr:TypeId>5b407c98-36e9-421a-9370-380a22e2be7d</xr:TypeId>
+				<xr:ValueId>e3fdcbe6-6f0f-4fcb-b8f7-7543c06cdb84</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.НаборыУпаковок" category="Ref">
+				<xr:TypeId>2505d62b-df7e-4401-9d8f-30a92c6fbba6</xr:TypeId>
+				<xr:ValueId>7f34e607-97f2-4699-8219-9665571c930b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.НаборыУпаковок" category="Selection">
+				<xr:TypeId>36a41af0-ea8c-4717-bdb1-6ff621a212c3</xr:TypeId>
+				<xr:ValueId>1566c386-1fad-440c-b57e-5084fcf51f9f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.НаборыУпаковок" category="List">
+				<xr:TypeId>e488d411-9b63-4c23-b58f-ecd2c063ed9b</xr:TypeId>
+				<xr:ValueId>b443f8fd-0878-4862-acdc-b29fe65d1b46</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.НаборыУпаковок" category="Manager">
+				<xr:TypeId>828749b1-6836-4443-a433-380bacd8e4f8</xr:TypeId>
+				<xr:ValueId>64f1f55b-fca9-4ea7-92d1-00c3260ad56b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НаборыУпаковок</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>f1d6c7cd-7eba-4e2f-b881-f9d5227cbcd0</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

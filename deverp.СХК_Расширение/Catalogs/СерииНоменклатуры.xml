@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="cf149ac5-cc91-4433-b027-515e0a182da5">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СерииНоменклатуры" category="Object">
+				<xr:TypeId>6afb5098-d91b-4c70-96dc-65173f68fe74</xr:TypeId>
+				<xr:ValueId>ec9dd18c-a696-4ea7-86de-f26fb3f42a1d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СерииНоменклатуры" category="Ref">
+				<xr:TypeId>5c57de37-99f7-442c-9c9f-d6fc72520409</xr:TypeId>
+				<xr:ValueId>111d21e6-b784-4e39-9565-d97c0aea621b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СерииНоменклатуры" category="Selection">
+				<xr:TypeId>95632b9c-1c71-4cc1-873c-eb8aedc484da</xr:TypeId>
+				<xr:ValueId>b4f81170-8e87-4a17-aa08-971f5bcf5298</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СерииНоменклатуры" category="List">
+				<xr:TypeId>547cba06-0022-4d03-aa9e-e141b5f28373</xr:TypeId>
+				<xr:ValueId>b7a86a6c-0d9b-4762-8105-3d50d324e632</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СерииНоменклатуры" category="Manager">
+				<xr:TypeId>968c37ba-8db9-454c-8840-db1a385ca650</xr:TypeId>
+				<xr:ValueId>e10d199b-de72-4eb4-97d7-d7311a4d6ec4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ObjectModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СерииНоменклатуры</Name>
+			<Comment/>
+			<DescriptionLength>150</DescriptionLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="ad8df218-2d3b-4adb-a1e8-33b85f4e3e5c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ГоденДо</Name>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8ed62118-cb72-4608-8798-5ea3b3ec1d99">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаПроизводства</Name>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="69471dfb-ba29-43c4-850e-bd874cc400e9">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВидНоменклатуры</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>cb25b6bc-7f7a-447b-8658-e8893ac87128</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыНоменклатуры</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7291453d-6ff5-4c77-a9ef-e2f9bf342ac2">
+				<Properties>
+					<Name>СХК_Упаковка</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>СХК упаковка</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>cfg:CatalogRef.УпаковкиЕдиницыИзмерения</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="27b563e1-23c4-48df-8c27-c3b70e495a51">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Номер</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>43c7d80b-bd8e-4151-b0e1-084444292845</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.НомерСерии</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="10853057-a550-4d74-9994-c21239cd46ec">
+				<Properties>
+					<Name>СХК_СрокГодности</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>СрокГодности</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="d01331ec-3405-45df-81b5-06ac2a970c9f">
+				<Properties>
+					<Name>СХК_Префикс</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>СХК префикс</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>3</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:nil="true"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="fd86e81e-00b1-4c38-8b6a-cdacbf0bd4f5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПроизводительВЕТИС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>448beea5-fe0e-4558-b386-88fdde891a35</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПредприятияВЕТИС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="44f29216-a33e-43ce-8f61-a85fa9a4ffe7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>RFIDUser</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>811ed59d-1e61-4b9f-b4fb-3b5dc1e65b8c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>30</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="dbfb24dc-740a-49a3-bf4c-f7eb1ec2fdb0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СерияНоменклатурыДляЦенообразования</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>dbf11029-162c-49c8-b54b-767bda8ca180</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СерииНоменклатурыДляЦенообразования</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="20764d04-7aab-4ecb-8c19-5b2a3e314384">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>RFIDTID</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>80a89a7f-1fed-4811-b40c-3a5ab50662a9</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.RFIDTID</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="89be79e9-34c2-49f4-bea4-1bccc1aa958f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>RFIDEPC</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e0c1efe6-bb2e-4ed3-80a8-cab3c7e1b456</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.RFIDEPC</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="b2b28f94-4ef5-497d-884c-41f0bd4dee1d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>EPCGTIN</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6dd6eb6e-b1b8-4da9-9b97-35f41594d1d6</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.GTIN</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="951b1dad-f0e3-4b64-9510-653b42c4d315">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>RFIDМеткаНеЧитаемая</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>50ccfd5f-e7cd-4e00-a6ee-2b31c3198df5</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="cd9b604e-a940-4336-9446-21a909c04351">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НомерКиЗГИСМ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>28ebda52-1b95-4474-a953-08ea8d771161</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.НомерКиЗГИСМ</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="784c9316-27ee-447a-a15c-109d8e208d7e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПроизводительЕГАИС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b41bc339-8059-4e1b-a18e-9b2d19e4c2e1</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.КлассификаторОрганизацийЕГАИС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="0977c2cf-b39f-400f-a984-71f2fd8757c1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ИдентификаторПартииВЕТИС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0031dd3e-8675-47e2-ae98-c7e7a9b2060a</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.СтрокаВЕТИС</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="47c280fd-38ca-4b1b-b8b6-5a6d650851b0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Справка2ЕГАИС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f266e93e-196b-4c32-867c-1eb7dcc148b4</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Справки2ЕГАИС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e7648011-a64c-4023-afd1-884842cb92f6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЗаписьСкладскогоЖурналаВЕТИС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>888c0446-d41f-43e2-9d71-c2abeb77ef11</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ЗаписиСкладскогоЖурналаВЕТИС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="db9219f9-e350-4fc9-8686-3beb090f2403">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>МаксимальнаяРозничнаяЦенаМОТП</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ff2d5643-26e8-40ec-b266-8fb17cd78983</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаНеотрицательная</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаЭлемента</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

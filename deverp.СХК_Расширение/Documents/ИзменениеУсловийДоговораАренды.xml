@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="21322b2d-ee0a-44b1-a96d-1a0af758b2c7">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ИзменениеУсловийДоговораАренды" category="Object">
+				<xr:TypeId>384ae8e1-b4c3-4019-8a24-9a50c20e14af</xr:TypeId>
+				<xr:ValueId>584ea241-3b85-4230-babc-3298822bdfbd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ИзменениеУсловийДоговораАренды" category="Ref">
+				<xr:TypeId>50b89b00-7ac7-480f-ac7b-0b79010a1da5</xr:TypeId>
+				<xr:ValueId>7a964d4b-9aa6-4a97-bba8-68b7accb4ed8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ИзменениеУсловийДоговораАренды" category="Selection">
+				<xr:TypeId>9060410e-e1ca-4dcc-b700-e36e1e7c72a2</xr:TypeId>
+				<xr:ValueId>eef640d4-4f74-40e1-9966-b5eccfaf509c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ИзменениеУсловийДоговораАренды" category="List">
+				<xr:TypeId>507c3d52-c5d4-4d48-9b09-e72c78d56682</xr:TypeId>
+				<xr:ValueId>9192f6a9-5c46-4ce0-9331-6336dea97de5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ИзменениеУсловийДоговораАренды" category="Manager">
+				<xr:TypeId>990ae4d0-1d56-43fe-91b4-8eefe81bbe2c</xr:TypeId>
+				<xr:ValueId>73ee5f2c-9bb7-4289-9777-c4ddda6959c5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИзменениеУсловийДоговораАренды</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>38704ecc-0815-4eee-87ba-389be2a9dd47</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="3676ec39-01f0-47ba-938c-83cbbc69683b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>АналитикаРасходов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0485020d-dbb4-4ee4-b7ab-c51ba367db4f</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:Characteristic.СтатьиРасходов</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

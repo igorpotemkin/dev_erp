@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="71823a60-fa70-4b80-b9f3-73944034dc97">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ДниНедели" category="Ref">
+				<xr:TypeId>20765159-2fa6-4d35-8936-43ebad1606ff</xr:TypeId>
+				<xr:ValueId>bc2e43f2-b422-4a99-9dd3-b2278cde5180</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ДниНедели" category="Manager">
+				<xr:TypeId>e3206649-ce0d-4289-88ea-de2a9d682ba0</xr:TypeId>
+				<xr:ValueId>883c9044-1fd4-4d81-b438-b86bb0693208</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ДниНедели" category="List">
+				<xr:TypeId>4f473795-fddc-4fb2-9dd9-25f6fadb631d</xr:TypeId>
+				<xr:ValueId>2cf11c8f-bade-4392-be57-d13fe2cd6598</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ДниНедели</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>0239e138-50fe-4297-85fd-9c4c31d623ca</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="1292c7c9-6e81-46c1-b414-abd58e1b5569">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Вторник</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4fab0911-9876-4ed0-8a86-4126b5fb84de</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="55ed2db2-39d7-449a-8dd4-88d4cd9dcf58">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Понедельник</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2eb88c92-394c-4ec3-a8dc-6b82092de3f0</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="fdaba71b-6617-4f85-86c8-67e6d1828a95">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Среда</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e595132e-9766-4802-97a2-e886a7621fbe</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7d439764-a496-4244-a3ce-3a4b992e6771">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Четверг</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>41a88de3-21f7-4e17-bc9e-d395b2153b90</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7313f34d-85a8-4572-821c-1e99a65ec818">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Пятница</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>fd06affc-71a3-4698-8baa-3a07080af7fb</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="dcbe2c90-04e9-4ce9-8459-7b197d7c9793">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Суббота</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ebec9bda-a1c9-40b7-b30f-24eb3e513913</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d5858b25-fbec-4511-98f1-707e2baa7628">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Воскресенье</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>aff8e037-dd79-426e-8d9b-b149710992d0</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

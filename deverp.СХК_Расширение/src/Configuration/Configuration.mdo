@@ -850,7 +850,6 @@
   <dataProcessors>DataProcessor.СХК_ЖурналПром</dataProcessors>
   <dataProcessors>DataProcessor.СХК_ЗаполнитьСписание</dataProcessors>
   <dataProcessors>DataProcessor.СХК_ИмпортТаб</dataProcessors>
-  <dataProcessors>DataProcessor.СХК_МобильныйСклад</dataProcessors>
   <dataProcessors>DataProcessor.СХК_ОтправкаОтчетов</dataProcessors>
   <dataProcessors>DataProcessor.СХК_Помощник</dataProcessors>
   <dataProcessors>DataProcessor.СХК_СМФОтчет</dataProcessors>
@@ -859,6 +858,7 @@
   <dataProcessors>DataProcessor.УправлениеОтгрузкой</dataProcessors>
   <dataProcessors>DataProcessor.РаботаСФайлами</dataProcessors>
   <dataProcessors>DataProcessor.СХК_КорректировкаЯчеек</dataProcessors>
+  <dataProcessors>DataProcessor.СХК_МобильныйСклад</dataProcessors>
   <dataProcessors>DataProcessor.СХК_МобильныйСкладСырье</dataProcessors>
   <informationRegisters>InformationRegister.АналитикаУчетаПоПартнерам</informationRegisters>
   <informationRegisters>InformationRegister.ВерсииОбъектов</informationRegisters>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="6fd858fc-18fe-42b7-805c-064d6e11082a">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.МодернизацияОС2_4" category="Object">
+				<xr:TypeId>2e9dde52-cc46-4937-b3f4-d38c1f30e911</xr:TypeId>
+				<xr:ValueId>cdf48491-e26a-445a-a298-aa9c6f0895ee</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.МодернизацияОС2_4" category="Ref">
+				<xr:TypeId>2a896ff8-ccf0-49ba-bbfe-038342abdefd</xr:TypeId>
+				<xr:ValueId>5ed166ed-2636-420e-9544-a03186962a44</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.МодернизацияОС2_4" category="Selection">
+				<xr:TypeId>199122de-fb42-4b60-a9e7-9a33fd00c03f</xr:TypeId>
+				<xr:ValueId>d7b25436-3799-4b12-b631-5f9b87c5b99a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.МодернизацияОС2_4" category="List">
+				<xr:TypeId>6387aa21-67ba-4105-beae-da41bb2f7cfd</xr:TypeId>
+				<xr:ValueId>a8b9feaf-dec0-4a2a-bb4a-df32018f6779</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.МодернизацияОС2_4" category="Manager">
+				<xr:TypeId>edcf9fad-2195-45cd-bc5f-af39935be95b</xr:TypeId>
+				<xr:ValueId>4d3752e4-0b59-4668-a9b7-f050a785f8e3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>МодернизацияОС2_4</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>31b3b0dd-3153-45a5-a24d-7c0e5386d3f9</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="8ca7e0fe-f4a9-41d5-b7da-67d1ed57046b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументВДругомУчете</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>46da2b78-d98c-4c63-ba00-1fdc47be9948</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.МодернизацияОС2_4</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

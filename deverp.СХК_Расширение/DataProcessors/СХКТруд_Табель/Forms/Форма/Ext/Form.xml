@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<CommandBarLocation>None</CommandBarLocation>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаШапка" id="124">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="125"/>
+			<ChildItems>
+				<InputField name="Дата" id="23">
+					<DataPath>ПериодРаботы</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="25"/>
+					<Events>
+						<Event name="OnChange">ДатаПриИзменении</Event>
+					</Events>
+				</InputField>
+				<Button name="Обновить" id="116">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.Обновить</CommandName>
+					<ExtendedTooltip name="ОбновитьРасширеннаяПодсказка" id="117"/>
+				</Button>
+				<CheckBoxField name="Линия1" id="126">
+					<DataPath>Линия1</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="Линия1КонтекстноеМеню" id="127"/>
+					<ExtendedTooltip name="Линия1РасширеннаяПодсказка" id="128"/>
+					<Events>
+						<Event name="OnChange">Линия1ПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+				<CheckBoxField name="Линия2" id="129">
+					<DataPath>Линия2</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="Линия2КонтекстноеМеню" id="130"/>
+					<ExtendedTooltip name="Линия2РасширеннаяПодсказка" id="131"/>
+					<Events>
+						<Event name="OnChange">Линия2ПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+				<CheckBoxField name="Линия3" id="132">
+					<DataPath>Линия3</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="Линия3КонтекстноеМеню" id="133"/>
+					<ExtendedTooltip name="Линия3РасширеннаяПодсказка" id="134"/>
+					<Events>
+						<Event name="OnChange">Линия3ПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+				<Button name="Тест" id="135">
+					<Type>UsualButton</Type>
+					<Visible>false</Visible>
+					<CommandName>Form.Command.Тест</CommandName>
+					<ExtendedTooltip name="ТестРасширеннаяПодсказка" id="136"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<Pages name="ГруппаТабель" id="137">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа табель</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа табель</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаТабельРасширеннаяПодсказка" id="138"/>
+			<Events>
+				<Event name="OnCurrentPageChange">ГруппаТабельПриСменеСтраницы</Event>
+			</Events>
+			<ChildItems>
+				<Page name="СтраницаСкуд" id="139">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ТАБЕЛЬ СКУД</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страница скуд</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СтраницаСкудРасширеннаяПодсказка" id="140"/>
+					<ChildItems>
+						<Table name="ТЧТабель" id="58">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ТЧТабель</DataPath>
+							<CommandSet>
+								<ExcludedCommand>Add</ExcludedCommand>
+								<ExcludedCommand>CancelSearch</ExcludedCommand>
+								<ExcludedCommand>Change</ExcludedCommand>
+								<ExcludedCommand>Copy</ExcludedCommand>
+								<ExcludedCommand>CopyToClipboard</ExcludedCommand>
+								<ExcludedCommand>Delete</ExcludedCommand>
+								<ExcludedCommand>EndEdit</ExcludedCommand>
+								<ExcludedCommand>Find</ExcludedCommand>
+								<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
+								<ExcludedCommand>MoveDown</ExcludedCommand>
+								<ExcludedCommand>MoveUp</ExcludedCommand>
+								<ExcludedCommand>SearchEverywhere</ExcludedCommand>
+								<ExcludedCommand>SearchHistory</ExcludedCommand>
+								<ExcludedCommand>SelectAll</ExcludedCommand>
+								<ExcludedCommand>ShowMultipleSelection</ExcludedCommand>
+								<ExcludedCommand>ShowRowRearrangement</ExcludedCommand>
+							</CommandSet>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ТЧТабельКонтекстноеМеню" id="59"/>
+							<AutoCommandBar name="ТЧТабельКоманднаяПанель" id="60"/>
+							<ExtendedTooltip name="ТЧТабельРасширеннаяПодсказка" id="61"/>
+							<SearchStringAddition name="ТЧТабельСтрокаПоиска" id="62">
+								<AdditionSource>
+									<Item>ТЧТабель</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ТЧТабельСтрокаПоискаКонтекстноеМеню" id="63"/>
+								<ExtendedTooltip name="ТЧТабельСтрокаПоискаРасширеннаяПодсказка" id="64"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ТЧТабельСостояниеПросмотра" id="65">
+								<AdditionSource>
+									<Item>ТЧТабель</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ТЧТабельСостояниеПросмотраКонтекстноеМеню" id="66"/>
+								<ExtendedTooltip name="ТЧТабельСостояниеПросмотраРасширеннаяПодсказка" id="67"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ТЧТабельУправлениеПоиском" id="68">
+								<AdditionSource>
+									<Item>ТЧТабель</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ТЧТабельУправлениеПоискомКонтекстноеМеню" id="69"/>
+								<ExtendedTooltip name="ТЧТабельУправлениеПоискомРасширеннаяПодсказка" id="70"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<CheckBoxField name="ТЧТабельСкуд" id="141">
+									<DataPath>Объект.ТЧТабель.Скуд</DataPath>
+									<Visible>false</Visible>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ТЧТабельСкудКонтекстноеМеню" id="142"/>
+									<ExtendedTooltip name="ТЧТабельСкудРасширеннаяПодсказка" id="143"/>
+								</CheckBoxField>
+								<InputField name="ТЧТабельТабНомер" id="107">
+									<DataPath>Объект.ТЧТабель.ТабНомер</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТЧТабельТабНомерКонтекстноеМеню" id="108"/>
+									<ExtendedTooltip name="ТЧТабельТабНомерРасширеннаяПодсказка" id="109"/>
+								</InputField>
+								<InputField name="ТЧТабельДолжность" id="77">
+									<DataPath>Объект.ТЧТабель.Должность</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТЧТабельДолжностьКонтекстноеМеню" id="78"/>
+									<ExtendedTooltip name="ТЧТабельДолжностьРасширеннаяПодсказка" id="79"/>
+								</InputField>
+								<InputField name="ТЧТабельСотрудник" id="74">
+									<DataPath>Объект.ТЧТабель.Сотрудник</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТЧТабельСотрудникКонтекстноеМеню" id="75"/>
+									<ExtendedTooltip name="ТЧТабельСотрудникРасширеннаяПодсказка" id="76"/>
+								</InputField>
+								<InputField name="ТЧТабельЧасыСКУД" id="113">
+									<DataPath>Объект.ТЧТабель.ЧасыСКУД</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>10</Width>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТЧТабельЧасыСКУДКонтекстноеМеню" id="114"/>
+									<ExtendedTooltip name="ТЧТабельЧасыСКУДРасширеннаяПодсказка" id="115"/>
+								</InputField>
+								<InputField name="ТЧТабельНормаЧасов" id="110">
+									<DataPath>Объект.ТЧТабель.НормаЧасов</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>10</Width>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТЧТабельНормаЧасовКонтекстноеМеню" id="111"/>
+									<ExtendedTooltip name="ТЧТабельНормаЧасовРасширеннаяПодсказка" id="112"/>
+									<Events>
+										<Event name="OnChange">ТЧТабельНормаЧасовПриИзменении</Event>
+									</Events>
+								</InputField>
+								<InputField name="ТЧТабельЧасыФакт" id="118">
+									<DataPath>Объект.ТЧТабель.ЧасыФакт</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<Width>10</Width>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="ТЧТабельЧасыФактКонтекстноеМеню" id="119"/>
+									<ExtendedTooltip name="ТЧТабельЧасыФактРасширеннаяПодсказка" id="120"/>
+								</InputField>
+								<CheckBoxField name="ТЧТабельОшибка" id="121">
+									<DataPath>Объект.ТЧТабель.Ошибка</DataPath>
+									<Visible>false</Visible>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ТЧТабельОшибкаКонтекстноеМеню" id="122"/>
+									<ExtendedTooltip name="ТЧТабельОшибкаРасширеннаяПодсказка" id="123"/>
+								</CheckBoxField>
+							</ChildItems>
+						</Table>
+						<Table name="КроссПериод" id="42">
+							<Representation>List</Representation>
+							<Visible>false</Visible>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>КроссПериод</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="КроссПериодКонтекстноеМеню" id="43"/>
+							<AutoCommandBar name="КроссПериодКоманднаяПанель" id="44"/>
+							<ExtendedTooltip name="КроссПериодРасширеннаяПодсказка" id="45"/>
+							<SearchStringAddition name="КроссПериодСтрокаПоиска" id="46">
+								<AdditionSource>
+									<Item>КроссПериод</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КроссПериодСтрокаПоискаКонтекстноеМеню" id="47"/>
+								<ExtendedTooltip name="КроссПериодСтрокаПоискаРасширеннаяПодсказка" id="48"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="КроссПериодСостояниеПросмотра" id="49">
+								<AdditionSource>
+									<Item>КроссПериод</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="КроссПериодСостояниеПросмотраКонтекстноеМеню" id="50"/>
+								<ExtendedTooltip name="КроссПериодСостояниеПросмотраРасширеннаяПодсказка" id="51"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="КроссПериодУправлениеПоиском" id="52">
+								<AdditionSource>
+									<Item>КроссПериод</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="КроссПериодУправлениеПоискомКонтекстноеМеню" id="53"/>
+								<ExtendedTooltip name="КроссПериодУправлениеПоискомРасширеннаяПодсказка" id="54"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="КроссПериодДень" id="55">
+									<DataPath>КроссПериод.День</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="КроссПериодДеньКонтекстноеМеню" id="56"/>
+									<ExtendedTooltip name="КроссПериодДеньРасширеннаяПодсказка" id="57"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.СХКТруд_Табель</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ПериодРаботы" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Период работы</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:StandardPeriod</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="КроссПериод" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Кросс период</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="День" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>День</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="Линия1" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>1 Этаж</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Линия2" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>2 Этаж</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Линия3" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Комплектация</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ТЧТабельЧасыФакт</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.ТЧТабель.Ошибка</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#FF0000</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
+	</Attributes>
+	<Commands>
+		<Command name="Обновить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Обновить</Action>
+		</Command>
+		<Command name="Тест" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тест</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Тест</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Тест</Action>
+		</Command>
+	</Commands>
+</Form>

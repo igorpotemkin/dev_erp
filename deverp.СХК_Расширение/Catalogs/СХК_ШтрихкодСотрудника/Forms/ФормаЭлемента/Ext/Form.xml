@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаНовыйШК" id="16">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.НовыйШК</CommandName>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Штрихкод</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="ФормаНовыйШКРасширеннаяПодсказка" id="17"/>
+			</Button>
+			<Button name="ФормаПечатьШК" id="18">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ПечатьШК</CommandName>
+				<ExtendedTooltip name="ФормаПечатьШКРасширеннаяПодсказка" id="19"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Код" id="1">
+			<DataPath>Объект.Code</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Сотрудник" id="7">
+			<DataPath>Объект.Сотрудник</DataPath>
+			<DefaultItem>true</DefaultItem>
+			<EditMode>EnterOnInput</EditMode>
+			<SpinButton>false</SpinButton>
+			<OpenButton>false</OpenButton>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="СотрудникКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="СотрудникРасширеннаяПодсказка" id="9"/>
+			<Events>
+				<Event name="OnChange">СотрудникПриИзменении</Event>
+			</Events>
+		</InputField>
+		<InputField name="ШтрихКод" id="10">
+			<DataPath>Объект.ШтрихКод</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ШтрихКодКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ШтрихКодРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<CheckBoxField name="Блокировка" id="13">
+			<DataPath>Объект.Блокировка</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="БлокировкаКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="БлокировкаРасширеннаяПодсказка" id="15"/>
+		</CheckBoxField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.СХК_ШтрихкодСотрудника</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="НовыйШК" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Новый ШК</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Новый ШК</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>НовыйШК</Action>
+		</Command>
+		<Command name="ПечатьШК" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Печать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Печать ШК</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПечатьШК</Action>
+		</Command>
+	</Commands>
+</Form>

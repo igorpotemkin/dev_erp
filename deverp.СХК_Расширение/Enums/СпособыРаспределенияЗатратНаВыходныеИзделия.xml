@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="e6d4497c-1707-45ca-80bd-7f4342ce2b6f">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособыРаспределенияЗатратНаВыходныеИзделия" category="Ref">
+				<xr:TypeId>1f380afe-3d42-4393-b33a-f87a1885412c</xr:TypeId>
+				<xr:ValueId>efd19f64-80fa-4514-9281-45a0e2055691</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыРаспределенияЗатратНаВыходныеИзделия" category="Manager">
+				<xr:TypeId>2826c347-2b67-4a5b-bd4a-841a56f005fd</xr:TypeId>
+				<xr:ValueId>7d3cae1f-bc99-4683-ab2b-8f71a0b5330c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыРаспределенияЗатратНаВыходныеИзделия" category="List">
+				<xr:TypeId>719dc9e2-bae2-4065-9c9e-2b1be5c0ccf2</xr:TypeId>
+				<xr:ValueId>529be6c0-54b4-4c67-a99f-a2bc80942bd6</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СпособыРаспределенияЗатратНаВыходныеИзделия</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>923b8966-f26b-4345-a0a4-ccd0aae8c068</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

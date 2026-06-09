@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="f9179247-6bf7-4a9c-873e-145c70080fdb">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.КлючиАналитикиУчетаПартий" category="Object">
+				<xr:TypeId>dba73b75-ac74-4d80-be4a-abc0f4e1c79c</xr:TypeId>
+				<xr:ValueId>70793788-88c0-4dd8-aff8-30403ac7ada4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.КлючиАналитикиУчетаПартий" category="Ref">
+				<xr:TypeId>3265038e-810e-42c7-988b-291425f65a19</xr:TypeId>
+				<xr:ValueId>db3493cd-f6f5-4129-8fbb-4718e3e52cd2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.КлючиАналитикиУчетаПартий" category="Selection">
+				<xr:TypeId>471fb4cb-2dcd-49f6-abb1-8045416da512</xr:TypeId>
+				<xr:ValueId>22fc6271-d273-4142-b809-efb478cdb5e2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.КлючиАналитикиУчетаПартий" category="List">
+				<xr:TypeId>963750ed-7137-4e87-a8b3-5570eb8489df</xr:TypeId>
+				<xr:ValueId>1f25ec84-ee16-4c3e-a0eb-e19d1d65b694</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.КлючиАналитикиУчетаПартий" category="Manager">
+				<xr:TypeId>a8c9fff2-f7f1-4aea-bc39-196f29c481e6</xr:TypeId>
+				<xr:ValueId>2fdd68aa-be41-45b6-afbb-5ffa0fb438be</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КлючиАналитикиУчетаПартий</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>131935a8-3658-4855-867d-6b40325430d7</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="157479bd-1eb6-4d21-bfea-079090a08132">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СтавкаНДС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>36533ab5-187f-48fd-9e45-fa5ae706dc4d</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СтавкиНДС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="069e1e0f-cc99-4411-af68-4dcead9333df">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Контрагент</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0c8f4ada-dec4-422f-a3c2-1b2f7aa02695</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7096d3f0-ec90-4ed9-bdc0-f43dd3ae50c5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Поставщик</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d403b9af-1ae3-4be5-b072-c4adb74e5af7</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Партнеры</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

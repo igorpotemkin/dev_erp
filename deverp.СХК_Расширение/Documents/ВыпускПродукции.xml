@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="b36da98c-316f-4ac6-898e-40bfb7883948">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ВыпускПродукции" category="Object">
+				<xr:TypeId>e065bdff-5bdf-4c8a-a41b-e752aeb646f7</xr:TypeId>
+				<xr:ValueId>bc7071cc-09a8-4bcc-9bda-715780da38cc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ВыпускПродукции" category="Ref">
+				<xr:TypeId>324d5e67-d86a-4ae5-afec-ee55ba1a8634</xr:TypeId>
+				<xr:ValueId>906adb65-fa0e-47ba-81f5-5cbfca2c7ea2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ВыпускПродукции" category="Selection">
+				<xr:TypeId>bc2e36a4-7039-4deb-bdb3-68d6078fe952</xr:TypeId>
+				<xr:ValueId>4051a886-7b12-49f7-8d2d-f37a5320b666</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ВыпускПродукции" category="List">
+				<xr:TypeId>727ccd3f-fee6-4df2-96e8-bfc1b7f204ca</xr:TypeId>
+				<xr:ValueId>1e73dbd9-29b4-4b22-935c-248e9c7b522a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ВыпускПродукции" category="Manager">
+				<xr:TypeId>5fcf42d6-84aa-44fa-8721-93140e1bf603</xr:TypeId>
+				<xr:ValueId>fb507e44-2cec-42f0-8eb0-71e6db132126</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВыпускПродукции</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>05872603-77e1-4a65-9640-5c837cae0d4b</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="0c721fee-60d4-4d61-84ed-c833a7e0fed8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Распоряжение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>1432ebad-0512-4bf0-9084-70f108bd1420</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.МаршрутныйЛистПроизводства</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="437a172b-3c7b-42f9-9efe-5ca150f38977">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>323a9cd4-308a-4174-89c3-859201c84774</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="a743f29d-d49f-4916-932e-54f0fbd00738">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ВыпускПродукции.Товары" category="TabularSection">
+						<xr:TypeId>0716d9f1-c311-4e71-9445-99d06645c76d</xr:TypeId>
+						<xr:ValueId>b81be1e6-e9d8-4282-9e87-291e99e09f42</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ВыпускПродукции.Товары" category="TabularSectionRow">
+						<xr:TypeId>f8c4594f-df18-4499-a3ea-aefed8e509be</xr:TypeId>
+						<xr:ValueId>6b39abe3-9f05-4930-81f2-5055041ecff4</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Товары</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>32a8ad5a-7bb0-4e1f-9757-0e453c0b4e81</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="dd38e260-fd9d-474d-9307-acd0bc9e46eb">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Назначение</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>d57bb551-19ad-4917-8420-67041271717c</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Назначения</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="434128c3-276b-4fd9-a608-a12961c0bde3">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Распоряжение</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>f066de91-eb28-425d-a1b7-5c42c8dbdb5c</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:DocumentRef.МаршрутныйЛистПроизводства</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

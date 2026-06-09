@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="d340f884-878a-4370-b184-35138b3640f3">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ИнойДокументПодтвержденияНДС" category="Object">
+				<xr:TypeId>08bcd4fd-8418-4a2a-90da-33ad8d5a95de</xr:TypeId>
+				<xr:ValueId>a432b079-371c-4408-b9b8-3b6d6ea3f3ab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ИнойДокументПодтвержденияНДС" category="Ref">
+				<xr:TypeId>577bd085-b962-4b8d-b1df-1b52ca5f227a</xr:TypeId>
+				<xr:ValueId>3da0da2c-a045-4d46-a736-baa50bc49a16</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ИнойДокументПодтвержденияНДС" category="Selection">
+				<xr:TypeId>d36d9db6-de85-4b2c-8aa1-c411442409e9</xr:TypeId>
+				<xr:ValueId>ac805697-9d71-45c8-be58-1f3e64c122a7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ИнойДокументПодтвержденияНДС" category="List">
+				<xr:TypeId>bca2fd41-6062-4e0b-b992-98f389cf45b3</xr:TypeId>
+				<xr:ValueId>e9dea64e-493a-4502-875e-b52d023ada3e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ИнойДокументПодтвержденияНДС" category="Manager">
+				<xr:TypeId>7083ea6a-b4d2-4887-93c1-3ea118a76213</xr:TypeId>
+				<xr:ValueId>c598e481-051f-412f-87f6-92f8bc1f084c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИнойДокументПодтвержденияНДС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>660198c9-5454-4438-b85d-f7ad1abcc4bd</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="bbed86dd-4c98-43ab-930c-8c2c8225d12d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>9114ff68-34cf-42f7-ba96-a75083fc52e8</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyIBRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -785,7 +785,7 @@
           </title>
           <extendedTooltip>
             <name>ИнформацияШапкаЛевоРасширеннаяПодсказка</name>
-            <id>913</id>
+            <id>915</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -987,7 +987,7 @@
           </title>
           <extendedTooltip>
             <name>ИнформацияШапкаПравоРасширеннаяПодсказка</name>
-            <id>914</id>
+            <id>916</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -1018,7 +1018,7 @@
         </title>
         <extendedTooltip>
           <name>ИнформацияШапкаРасширеннаяПодсказка</name>
-          <id>912</id>
+          <id>914</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1148,7 +1148,7 @@
       <id>150</id>
       <items xsi:type="form:FormGroup">
         <name>ГруппаТоварыЗаголовок</name>
-        <id>934</id>
+        <id>917</id>
         <items xsi:type="form:FormGroup">
           <name>ГруппаРежимПросмотраНавигация</name>
           <id>696</id>
@@ -1265,7 +1265,7 @@
                 </presentation>
                 <presentation>
                   <key>en</key>
-                  <value>By colli</value>
+                  <value>By cargo</value>
                 </presentation>
                 <value xsi:type="core:NumberValue">
                   <value>0</value>
@@ -1324,7 +1324,7 @@
         </userVisible>
         <extendedTooltip>
           <name>ГруппаТоварыЗаголовокРасширеннаяПодсказка</name>
-          <id>937</id>
+          <id>918</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1419,6 +1419,9 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Товары.ПризнакКартинкиУпаковочногоЛиста</segments>
+            </dataPath>
             <extendedTooltip>
               <name>ТоварыКартинкаУпаковочногоЛистаРасширеннаяПодсказка</name>
               <id>738</id>
@@ -1461,6 +1464,9 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Товары.НомерСтрокиОтображаемый</segments>
+            </dataPath>
             <extendedTooltip>
               <name>ТоварыНомерСтрокиОтображаемыйРасширеннаяПодсказка</name>
               <id>735</id>
@@ -1578,6 +1584,9 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Товары.УпаковочныйЛистРодительКод</segments>
+          </dataPath>
           <skipOnInput>true</skipOnInput>
           <extendedTooltip>
             <name>ТоварыУпаковочныйЛистРодительРасширеннаяПодсказка</name>
@@ -1628,6 +1637,9 @@
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible/>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Товары.ТипНоменклатуры</segments>
+          </dataPath>
           <extendedTooltip>
             <name>ТоварыНоменклатураТипНоменклатурыExtendedTooltip</name>
             <id>403</id>
@@ -1769,6 +1781,9 @@
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible/>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Товары.Артикул</segments>
+          </dataPath>
           <extendedTooltip>
             <name>ТоварыНоменклатураАртикулExtendedTooltip</name>
             <id>405</id>
@@ -1859,6 +1874,9 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Объект.Товары.ДополнительнаяИнформация</segments>
+              </dataPath>
               <extendedTooltip>
                 <name>ТоварыДопИнфоНоменклатураРасширеннаяПодсказка</name>
                 <id>730</id>
@@ -1981,6 +1999,9 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <dataPath xsi:type="form:DataPath">
+                <segments>Объект.Товары.ДополнительнаяИнформация</segments>
+              </dataPath>
               <extendedTooltip>
                 <name>ТоварыДопИнфоУпаковочныйЛистРасширеннаяПодсказка</name>
                 <id>786</id>
@@ -2471,6 +2492,9 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Товары.Вес</segments>
+            </dataPath>
             <skipOnInput>true</skipOnInput>
             <extendedTooltip>
               <name>ТоварыВесРасширеннаяПодсказка</name>
@@ -2510,6 +2534,9 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Товары.ЕдиницаИзмеренияВеса</segments>
+            </dataPath>
             <extendedTooltip>
               <name>ТоварыЕдиницаИзмеренияВесаРасширеннаяПодсказка</name>
               <id>872</id>
@@ -2575,6 +2602,9 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Товары.Объем</segments>
+            </dataPath>
             <skipOnInput>true</skipOnInput>
             <extendedTooltip>
               <name>ТоварыОбъемРасширеннаяПодсказка</name>
@@ -2614,6 +2644,9 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.Товары.ЕдиницаИзмеренияОбъема</segments>
+            </dataPath>
             <extendedTooltip>
               <name>ТоварыЕдиницаИзмеренияОбъемаРасширеннаяПодсказка</name>
               <id>880</id>
@@ -2673,7 +2706,7 @@
           <id>925</id>
           <items xsi:type="form:FormField">
             <name>ТоварыПроконтролироватьКачество</name>
-            <id>936</id>
+            <id>919</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible/>
@@ -3264,7 +3297,7 @@
           </items>
           <items xsi:type="form:Button">
             <name>ТоварыСоздатьСерии</name>
-            <id>918</id>
+            <id>934</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -3272,7 +3305,7 @@
             </userVisible>
             <extendedTooltip>
               <name>ТоварыСоздатьСерииРасширеннаяПодсказка</name>
-              <id>919</id>
+              <id>935</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -4571,6 +4604,8 @@
                 <common>true</common>
               </userVisible>
               <titleLocation>None</titleLocation>
+              <excludedCommands>Change</excludedCommands>
+              <excludedCommands>Create</excludedCommands>
               <items xsi:type="form:FormField">
                 <name>СписокШтрихКодовШтрихкод</name>
                 <id>220</id>
@@ -5822,6 +5857,9 @@
       <extInfo xsi:type="form:PageGroupExtInfo">
         <group>Vertical</group>
         <showTitle>true</showTitle>
+        <titleDataPath xsi:type="form:DataPath">
+          <segments>МаксимальныйНомерСтроки</segments>
+        </titleDataPath>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -6109,7 +6147,7 @@
     </items>
     <items xsi:type="form:Button">
       <name>ФормаУстановитьПометкуУдаленияДокумента</name>
-      <id>915</id>
+      <id>912</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -6117,7 +6155,7 @@
       </userVisible>
       <extendedTooltip>
         <name>ФормаУстановитьПометкуУдаленияДокументаРасширеннаяПодсказка</name>
-        <id>917</id>
+        <id>913</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -6215,6 +6253,7 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
+      <commandName>0</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>

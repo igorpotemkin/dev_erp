@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="5c530a1b-0626-48fb-a0d2-ee719b5dc29c">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.КлючиАналитикиУчетаНоменклатуры" category="Object">
+				<xr:TypeId>2d473e85-3707-4296-bb4e-49e539962181</xr:TypeId>
+				<xr:ValueId>462db752-d49d-48ad-a966-7b01b4e9ae86</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.КлючиАналитикиУчетаНоменклатуры" category="Ref">
+				<xr:TypeId>30384cae-ad96-4ce7-a936-20ae893f6e2b</xr:TypeId>
+				<xr:ValueId>602783ee-92ac-44d4-8606-563e8a5493a8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.КлючиАналитикиУчетаНоменклатуры" category="Selection">
+				<xr:TypeId>b07e5f83-f9bb-4ddc-99a2-7677adc68777</xr:TypeId>
+				<xr:ValueId>6f8fdf6a-484a-45f4-9a23-5d31f675cf71</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.КлючиАналитикиУчетаНоменклатуры" category="List">
+				<xr:TypeId>014bf646-0d9e-46aa-a2e6-6b0792e6fde8</xr:TypeId>
+				<xr:ValueId>e670d266-ac18-44af-b18c-aba76e0edb17</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.КлючиАналитикиУчетаНоменклатуры" category="Manager">
+				<xr:TypeId>7e0d114b-0e0c-4189-a0db-2061162bb073</xr:TypeId>
+				<xr:ValueId>c6adeea9-770b-4e4e-98af-31d17f47ce26</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>КлючиАналитикиУчетаНоменклатуры</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>16147cb5-b2fd-4e31-b481-8cc3e96b4ae0</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="861398f3-4158-45fd-b1ea-5b4f49e14c5c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Номенклатура</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f131cbbf-0763-47e8-83ff-577359b8e229</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="021c7584-59ee-434d-81f5-b3d131603909">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Характеристика</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>45f5ce5c-cc40-4274-8912-e399b396e413</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e079e4ea-1d79-403b-b311-2f55994642e4">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Серия</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>64669833-0a4a-4126-8a2c-1eef55e03e66</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СерииНоменклатуры</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="db3ee68b-6c51-4d3e-8613-912cf4d0db7e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Назначение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c1bed3a5-069e-4274-8fb3-24ef0fa88d21</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Назначения</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

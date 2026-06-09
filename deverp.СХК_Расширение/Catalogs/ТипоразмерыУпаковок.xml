@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="3474b8f3-0f1d-4053-bade-fefc456698cf">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ТипоразмерыУпаковок" category="Object">
+				<xr:TypeId>9d2062a1-9505-437b-9c0c-042ef2dc53b5</xr:TypeId>
+				<xr:ValueId>502eafd3-6d5c-47f0-942d-e2824b36bfe1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ТипоразмерыУпаковок" category="Ref">
+				<xr:TypeId>6818a6e0-b51d-45ad-b046-6db60e10d044</xr:TypeId>
+				<xr:ValueId>3fc8c0eb-5b01-467d-a1ae-2b53562a5d48</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ТипоразмерыУпаковок" category="Selection">
+				<xr:TypeId>8d19742d-5c99-4b6d-8ca9-9e0d1c0316c9</xr:TypeId>
+				<xr:ValueId>55a58780-3a8d-48fe-a206-d4eebca849d8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ТипоразмерыУпаковок" category="List">
+				<xr:TypeId>77b9c3ec-7b9c-4fde-b901-711f00ac05bb</xr:TypeId>
+				<xr:ValueId>0d97b858-8010-44ff-ab33-6b156b8ef193</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ТипоразмерыУпаковок" category="Manager">
+				<xr:TypeId>72db284a-114d-4304-b47e-fadb217afb4a</xr:TypeId>
+				<xr:ValueId>c7b2762a-f615-4760-8a9e-883dccb00b8d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТипоразмерыУпаковок</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>76fe4702-b416-41df-9f95-83983dc0166d</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

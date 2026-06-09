@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Constant uuid="b71d1114-0cca-4ded-a312-48114a4c1388">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ИспользоватьНесколькоСкладов" category="Manager">
+				<xr:TypeId>21b8e978-0af2-488b-9dbc-0e87330de2ff</xr:TypeId>
+				<xr:ValueId>245aa824-1fb4-4c5d-8e1b-17efde055f34</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ИспользоватьНесколькоСкладов" category="ValueManager">
+				<xr:TypeId>054013ff-bc08-4230-87cb-1d2ca5713470</xr:TypeId>
+				<xr:ValueId>6e8241a6-4732-422f-a186-0d2c911549f7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ИспользоватьНесколькоСкладов" category="ValueKey">
+				<xr:TypeId>defdf276-8fe2-5534-92c5-0d01db1c7c91</xr:TypeId>
+				<xr:ValueId>d545061c-69f7-5a74-9418-98e6a83e5bea</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИспользоватьНесколькоСкладов</Name>
+			<Comment/>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

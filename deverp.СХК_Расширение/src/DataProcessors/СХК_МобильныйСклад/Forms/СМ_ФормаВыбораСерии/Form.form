@@ -471,12 +471,13 @@
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
 	ТоварыНаСкладахОстатки.Серия КАК Серия,
-	ТоварыНаСкладахОстатки.ВНаличииОстаток КАК ДоступныйОстаток
+	ТоварыНаСкладахОстатки.ВНаличииОстаток КАК ДоступныйОстаток,
+	ТоварыНаСкладахОстатки.КОтгрузкеОстаток КАК КОтгрузкеОстаток
 ИЗ
-	РегистрНакопления.ТоварыНаСкладах.Остатки КАК ТоварыНаСкладахОстатки
-ГДЕ
-	ТоварыНаСкладахОстатки.Склад = &amp;Склад
-	И ТоварыНаСкладахОстатки.Номенклатура = &amp;Номенклатура</queryText>
+	РегистрНакопления.ТоварыНаСкладах.Остатки(
+			&amp;ТекДата,
+			Склад = &amp;Склад
+				И Номенклатура = &amp;Номенклатура) КАК ТоварыНаСкладахОстатки</queryText>
       <mainTable>AccumulationRegister.ТоварыНаСкладах.Balance</mainTable>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
@@ -530,6 +531,10 @@
         <dataPath>КОтгрузкеОстаток</dataPath>
         <field>КОтгрузкеОстаток</field>
       </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>КонтролируемаяПартия</dataPath>
+        <field>КонтролируемаяПартия</field>
+      </fields>
       <parameters>
         <name>Период</name>
         <title>
@@ -576,6 +581,25 @@
           <types>CatalogRef.Склады</types>
         </valueType>
         <values xsi:type="core:UndefinedValue"/>
+        <useRestriction>true</useRestriction>
+      </parameters>
+      <parameters>
+        <name>ТекДата</name>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Тек дата</value>
+            </content>
+          </localValue>
+        </title>
+        <valueType>
+          <types>Date</types>
+          <dateQualifiers/>
+        </valueType>
+        <values xsi:type="core:DateValue">
+          <value>0001-01-01T00:00:00</value>
+        </values>
         <useRestriction>true</useRestriction>
       </parameters>
     </extInfo>

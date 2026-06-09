@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="f91a55bc-7d62-498b-934c-4166a4b5c250">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЗапросКоммерческихПредложенийПоставщиков" category="Object">
+				<xr:TypeId>bce11afa-8568-49a1-b66b-56b882b30996</xr:TypeId>
+				<xr:ValueId>8f18ca03-ec7f-448e-8710-7fca186a2846</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЗапросКоммерческихПредложенийПоставщиков" category="Ref">
+				<xr:TypeId>284ec9b1-c449-4c89-9108-e27eb6037309</xr:TypeId>
+				<xr:ValueId>0c6e6f14-87fe-47c7-92e1-61af0eaa1cfd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЗапросКоммерческихПредложенийПоставщиков" category="Selection">
+				<xr:TypeId>f0e6ec68-05e2-4083-a817-fe747054f3ac</xr:TypeId>
+				<xr:ValueId>0ea004a1-4c4a-478b-b7eb-cadafec20b01</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЗапросКоммерческихПредложенийПоставщиков" category="List">
+				<xr:TypeId>b9f5925f-3845-4835-9a88-7518bfffe1b1</xr:TypeId>
+				<xr:ValueId>af579894-0d1c-4511-9c8d-902e0a14e1e3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЗапросКоммерческихПредложенийПоставщиков" category="Manager">
+				<xr:TypeId>3274768a-49e6-4e14-b5d5-374d2534bebf</xr:TypeId>
+				<xr:ValueId>e5b11839-0010-4c3f-ae0d-c648916a271d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЗапросКоммерческихПредложенийПоставщиков</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>4f2e38fd-c163-40bb-81e7-de89a4541409</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="9a5724d7-02f5-4021-b34e-34e76170c6e9">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>37d8ff9a-1051-4c02-a771-1ca75ce35633</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ОснованияЗапросаКоммерческихПредложенийПоставщиков</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

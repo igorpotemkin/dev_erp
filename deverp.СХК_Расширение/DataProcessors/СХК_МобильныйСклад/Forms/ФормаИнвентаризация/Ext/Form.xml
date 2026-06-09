@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Инвентаризация</v8:content>
+		</v8:item>
+	</Title>
+	<CommandBarLocation>None</CommandBarLocation>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<LabelField name="Ячейка" id="13">
+			<DataPath>Ячейка</DataPath>
+			<ContextMenu name="ЯчейкаКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ЯчейкаРасширеннаяПодсказка" id="15"/>
+		</LabelField>
+		<UsualGroup name="ГруппаИнформация" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа информация</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа информация</v8:content>
+				</v8:item>
+			</ToolTip>
+			<VerticalStretch>false</VerticalStretch>
+			<Group>Vertical</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаИнформацияРасширеннаяПодсказка" id="9"/>
+			<ChildItems>
+				<InputField name="СканЯчейки" id="1">
+					<DataPath>СканЯчейки</DataPath>
+					<TitleFont ref="style:NormalTextFont" height="16" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+					<HorizontalAlign>Left</HorizontalAlign>
+					<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+					<GroupVerticalAlign>Center</GroupVerticalAlign>
+					<HorizontalStretch>true</HorizontalStretch>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<Font ref="style:NormalTextFont" height="16" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+					<ContextMenu name="СканЯчейкиКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="СканЯчейкиРасширеннаяПодсказка" id="3"/>
+					<Events>
+						<Event name="EditTextChange">СканЯчейкиИзменениеТекстаРедактирования</Event>
+					</Events>
+				</InputField>
+				<LabelDecoration name="Декорация1" id="18">
+					<ContextMenu name="Декорация1КонтекстноеМеню" id="19"/>
+					<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="20"/>
+				</LabelDecoration>
+				<LabelDecoration name="ИнформацияЯчейка" id="10">
+					<HorizontalStretch>true</HorizontalStretch>
+					<VerticalStretch>true</VerticalStretch>
+					<ContextMenu name="ИнформацияЯчейкаКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="ИнформацияЯчейкаРасширеннаяПодсказка" id="12"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаКнопки" id="16">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа кнопки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа кнопки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаКнопкиРасширеннаяПодсказка" id="17"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаОчистить" id="73">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа очистить</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа очистить</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаОчиститьРасширеннаяПодсказка" id="74"/>
+					<ChildItems>
+						<Button name="Очистить" id="4">
+							<Type>UsualButton</Type>
+							<HorizontalStretch>true</HorizontalStretch>
+							<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+							<CommandName>Form.Command.Очистить</CommandName>
+							<Font ref="style:NormalTextFont" height="16" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Очистить ячейку</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="ОчиститьРасширеннаяПодсказка" id="5"/>
+						</Button>
+						<LabelDecoration name="Декорация2" id="21">
+							<ContextMenu name="Декорация2КонтекстноеМеню" id="22"/>
+							<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="23"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаРазместить" id="75">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа разместить</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа разместить</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаРазместитьРасширеннаяПодсказка" id="76"/>
+					<ChildItems>
+						<Button name="Разместить" id="6">
+							<Type>UsualButton</Type>
+							<HorizontalStretch>true</HorizontalStretch>
+							<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+							<CommandName>Form.Command.Разместить</CommandName>
+							<TextColor>style:AccentColor</TextColor>
+							<Font ref="style:NormalTextFont" height="16" bold="true" italic="true" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+							<ExtendedTooltip name="РазместитьРасширеннаяПодсказка" id="7"/>
+						</Button>
+						<LabelDecoration name="Декорация3" id="24">
+							<ContextMenu name="Декорация3КонтекстноеМеню" id="25"/>
+							<ExtendedTooltip name="Декорация3РасширеннаяПодсказка" id="26"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаСервис" id="77">
+			<Visible>false</Visible>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа сервис</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа сервис</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаСервисРасширеннаяПодсказка" id="78"/>
+			<ChildItems>
+				<InputField name="Сотрудник" id="79">
+					<DataPath>Сотрудник</DataPath>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="СотрудникКонтекстноеМеню" id="80"/>
+					<ExtendedTooltip name="СотрудникРасширеннаяПодсказка" id="81"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.СХК_МобильныйСклад</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="СканЯчейки" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Скан ячейки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Ячейка" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Ячейка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.СХК_СкладЯчейки</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="QRКод" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>QRКод</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Сотрудник" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сотрудник</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Очистить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Очистить</Action>
+		</Command>
+		<Command name="Разместить" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Разместить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Разместить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Разместить</Action>
+		</Command>
+	</Commands>
+</Form>

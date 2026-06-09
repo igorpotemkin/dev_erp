@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="c4e540ec-1123-4edb-98ae-048dcb371c4e">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.РегистрацияПрочихКонтролируемыхСделок" category="Object">
+				<xr:TypeId>91d1eeeb-a6a1-4478-b10c-b849b01a04b0</xr:TypeId>
+				<xr:ValueId>5017e8fb-a041-48ea-a3b7-219fe6114429</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.РегистрацияПрочихКонтролируемыхСделок" category="Ref">
+				<xr:TypeId>2bdaf879-bba5-46ec-bdb6-3e9abce8bc15</xr:TypeId>
+				<xr:ValueId>e22a19b2-b108-4421-8e14-dd4c5da5d21c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.РегистрацияПрочихКонтролируемыхСделок" category="Selection">
+				<xr:TypeId>b46c1cf9-db1b-426d-b8ea-93f4044e304f</xr:TypeId>
+				<xr:ValueId>8b273d75-2900-49e8-b2c6-0073fa3df52a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.РегистрацияПрочихКонтролируемыхСделок" category="List">
+				<xr:TypeId>58ab1fd1-c669-4d30-a3c1-d6f3c1cb2357</xr:TypeId>
+				<xr:ValueId>cbce51d2-24cc-44fc-aeda-8fc441ed3383</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.РегистрацияПрочихКонтролируемыхСделок" category="Manager">
+				<xr:TypeId>8eff811a-9a8d-4490-9375-0cf6cac4d44d</xr:TypeId>
+				<xr:ValueId>8b5ba3c4-2159-4e12-971f-9dbd3312e719</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РегистрацияПрочихКонтролируемыхСделок</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>12bb22aa-1116-42cb-9a3e-2b5db18d14b1</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="af5cf1fd-f923-46ad-9fe6-0b34931267b5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>УведомлениеОКонтролируемойСделке</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>0c5cfbd2-a42f-46b8-96d5-85468f4b91df</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.УведомлениеОКонтролируемыхСделках</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>
