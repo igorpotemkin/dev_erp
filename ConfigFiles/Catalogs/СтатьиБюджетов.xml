@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="bd08608d-06b2-4ccb-85c5-e4b74f1c07a7">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СтатьиБюджетов" category="Object">
+				<xr:TypeId>18632aaf-d1ee-410d-b6fd-601024aa8f11</xr:TypeId>
+				<xr:ValueId>fb1b34f4-4e1b-4c04-be56-26b3ec51c85f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СтатьиБюджетов" category="Ref">
+				<xr:TypeId>409615a6-16a0-43b9-9761-6831a0b64a23</xr:TypeId>
+				<xr:ValueId>2c852735-99eb-4270-8b0b-f3bb0a547c0d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СтатьиБюджетов" category="Selection">
+				<xr:TypeId>5185e858-882a-41fd-92a9-41ef3c033869</xr:TypeId>
+				<xr:ValueId>f6e8553f-e232-423b-ab5f-861418c46632</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СтатьиБюджетов" category="List">
+				<xr:TypeId>883967ae-82e0-4a7b-a317-c7cf3a11144c</xr:TypeId>
+				<xr:ValueId>6d1963a0-ab37-47ab-8d30-80d852e931d4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СтатьиБюджетов" category="Manager">
+				<xr:TypeId>06dde116-7c01-4508-b401-054904473076</xr:TypeId>
+				<xr:ValueId>9d55f3bf-b8e3-407e-925d-1fd37d0b7fc0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтатьиБюджетов</Name>
+			<Comment/>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

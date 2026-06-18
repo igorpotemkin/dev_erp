@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="b1d356a9-dc35-41a6-8efb-d2f548a287a2">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СостоянияЗаполненияМногооборотнойТары" category="Ref">
+				<xr:TypeId>3c1123c2-6386-4b41-819e-044a7264c350</xr:TypeId>
+				<xr:ValueId>01d7be43-f030-4b12-a1b1-95d4976ed83d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СостоянияЗаполненияМногооборотнойТары" category="Manager">
+				<xr:TypeId>27602a6e-9e11-41a9-8b62-3a2b487f3c7d</xr:TypeId>
+				<xr:ValueId>63e3b996-8ef1-43b0-9990-6f1b450e6dfe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СостоянияЗаполненияМногооборотнойТары" category="List">
+				<xr:TypeId>c2b1b07a-e5af-4328-8e0a-47f5dc81daaf</xr:TypeId>
+				<xr:ValueId>6843ea24-198c-4367-9155-7a3ba334d688</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СостоянияЗаполненияМногооборотнойТары</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>86194457-bf80-4b3a-9163-f2eb62ecf7ba</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

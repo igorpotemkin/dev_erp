@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AccumulationRegister uuid="4cdc0e95-d452-4c5e-91ab-56f6963ea83a">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.ЗаказыНаПеремещение" category="Record">
+				<xr:TypeId>2ba18dfd-0b28-4067-ae45-d6c234254cde</xr:TypeId>
+				<xr:ValueId>97cab81a-2797-41d5-9256-7b4d12958869</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.ЗаказыНаПеремещение" category="Manager">
+				<xr:TypeId>a9276133-7b6e-4607-8968-fe9fe37ad877</xr:TypeId>
+				<xr:ValueId>c969d290-f24c-4bc4-999b-11fcf96b23a2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.ЗаказыНаПеремещение" category="Selection">
+				<xr:TypeId>c937aef0-d68b-486c-a71a-d8addb0991c2</xr:TypeId>
+				<xr:ValueId>c93169f2-660e-4d66-993b-ff99383b63f8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.ЗаказыНаПеремещение" category="List">
+				<xr:TypeId>48f08714-5459-49bb-b102-65829d2a5a1e</xr:TypeId>
+				<xr:ValueId>8651fcaa-9a95-4a73-80b9-3bed7d710551</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.ЗаказыНаПеремещение" category="RecordSet">
+				<xr:TypeId>3e8bc502-39de-4807-9fcf-20e05d21a880</xr:TypeId>
+				<xr:ValueId>27d457d3-0bd5-4a19-93b5-1bfc84c54cae</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.ЗаказыНаПеремещение" category="RecordKey">
+				<xr:TypeId>05d52224-3bed-4ac2-bda8-30e28b961f64</xr:TypeId>
+				<xr:ValueId>d1f1d026-69e3-479a-a44d-7df0561d415b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЗаказыНаПеремещение</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>7f7b6a96-cbde-4d89-9c93-ad807b2f3c5c</ExtendedConfigurationObject>
+			<RegisterType>Balance</RegisterType>
+		</Properties>
+		<ChildObjects/>
+	</AccumulationRegister>
+</MetaDataObject>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="3c5072e9-cf98-43e5-952a-10fc52ef5852">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыРаботСотрудников" category="Object">
+				<xr:TypeId>a335fa46-7320-4f92-ad54-e689aae84c87</xr:TypeId>
+				<xr:ValueId>ba47230a-b6cb-48d6-9e20-563f2660959a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыРаботСотрудников" category="Ref">
+				<xr:TypeId>f6ef2fb2-cb97-4275-ba97-8e40d127afeb</xr:TypeId>
+				<xr:ValueId>aa027479-3434-4823-b223-68cfd077d448</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыРаботСотрудников" category="Selection">
+				<xr:TypeId>e8baf93d-a0a5-4fd4-b336-8ef0484d196e</xr:TypeId>
+				<xr:ValueId>08c91031-3337-4edd-9fe1-6ace369fe453</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыРаботСотрудников" category="List">
+				<xr:TypeId>08df33a1-77f0-4b6c-a13f-835d7084ab74</xr:TypeId>
+				<xr:ValueId>fe70062e-0ea3-4595-8855-3b9b2ec485a4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыРаботСотрудников" category="Manager">
+				<xr:TypeId>a4ca7384-d422-46f4-892f-51f4c8e431cd</xr:TypeId>
+				<xr:ValueId>f07ee82a-1f62-4ca4-972f-feabdc2acf22</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыРаботСотрудников</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>8e7414a0-5f25-4f08-9ab1-0f79bfd7777e</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="1d6e66cf-d938-4fad-b12b-d1c8ae29b2c1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ЕдиницаИзмерения</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c7bf35cc-66d1-40cf-abba-009c3628f444</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.УпаковкиЕдиницыИзмерения</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="ee2ddb80-9580-407c-ba06-c09624a3fde4">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусыСверокВзаиморасчетов" category="Ref">
+				<xr:TypeId>9e0dca50-1e20-47db-8e64-9c7f1f93e9a8</xr:TypeId>
+				<xr:ValueId>55f42654-cc60-4c29-a6b1-fc42aeb977f0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусыСверокВзаиморасчетов" category="Manager">
+				<xr:TypeId>cc6ee648-cfbf-4ce9-91dc-0e094cc255a3</xr:TypeId>
+				<xr:ValueId>dbed5028-9fb1-4136-97d7-78c017df9734</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусыСверокВзаиморасчетов" category="List">
+				<xr:TypeId>c5fc1f7d-7319-46c9-af64-725171b582d7</xr:TypeId>
+				<xr:ValueId>84361f06-2fbb-42e2-9e10-318efd35b37c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтатусыСверокВзаиморасчетов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>86c20b22-798e-4f74-8803-5f2c25adeaab</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="09357a5e-ff86-4f33-9b1c-5d6b8614feb9">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НаСверке</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>18ae8f18-a35e-43e7-af54-546ed6b42814</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d91b3340-613a-4ae4-b761-61ff448959c0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Создана</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d01b690a-9889-4f3b-bd59-254a1d915aa0</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="dc98123d-b9d8-4a54-afe6-2515130e56b7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Сверена</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c2865165-7ffb-47ee-8435-fe2e9538e51c</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="6082bce2-7393-4a9c-997f-a821ecaba7c4">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыПлатежейПоАренде" category="Ref">
+				<xr:TypeId>ce092fd7-e8be-411d-8905-b18ef53d98cd</xr:TypeId>
+				<xr:ValueId>197cdd4f-d1a4-4429-8a33-79e12f3b49d9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыПлатежейПоАренде" category="Manager">
+				<xr:TypeId>0086acbf-7e4a-4e76-9657-51754974d0bb</xr:TypeId>
+				<xr:ValueId>b1cb2c9e-cd05-4e00-9009-044f9f1a6aa9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыПлатежейПоАренде" category="List">
+				<xr:TypeId>45476f92-5ce0-4fb6-a7d9-09a0bbb47098</xr:TypeId>
+				<xr:ValueId>f3a8f983-9dcd-472c-bcc7-cc2efe7a1cd8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ТипыПлатежейПоАренде</Name>
+			<Comment/>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="353b61b6-1d3e-4480-88d7-bffbdc7e2f34">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>УслугаПоАренде</Name>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

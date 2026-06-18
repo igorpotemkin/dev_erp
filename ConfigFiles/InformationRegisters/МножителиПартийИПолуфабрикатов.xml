@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<InformationRegister uuid="0101d67d-1416-403d-a20d-9f70be7da1ee">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.МножителиПартийИПолуфабрикатов" category="Record">
+				<xr:TypeId>9e2c66de-888f-4dd5-a829-0b70e1504248</xr:TypeId>
+				<xr:ValueId>b1334216-8969-4d71-84fe-3cc162fbdd87</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.МножителиПартийИПолуфабрикатов" category="Manager">
+				<xr:TypeId>0f1218b2-0754-484a-a438-9b7dbb29ba69</xr:TypeId>
+				<xr:ValueId>6988265b-23c6-494e-8fab-a30eae3a5afe</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.МножителиПартийИПолуфабрикатов" category="Selection">
+				<xr:TypeId>caebb3f9-f005-469b-9217-737478e0500a</xr:TypeId>
+				<xr:ValueId>78dba7dc-886b-4831-bd3d-677c5a10bf20</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.МножителиПартийИПолуфабрикатов" category="List">
+				<xr:TypeId>2d0d5419-2a75-4914-b63f-fa4388752b2d</xr:TypeId>
+				<xr:ValueId>b6cc1278-ff10-49c6-94bf-3d5a0660c074</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.МножителиПартийИПолуфабрикатов" category="RecordSet">
+				<xr:TypeId>c5455f6c-b965-4b4d-a633-3c6711531124</xr:TypeId>
+				<xr:ValueId>7361930b-09d3-4bcf-bb7d-fb00a8c6096a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.МножителиПартийИПолуфабрикатов" category="RecordKey">
+				<xr:TypeId>bdb9f903-c65d-4e6f-a690-af424abbc11b</xr:TypeId>
+				<xr:ValueId>b9e1161c-38a3-47a9-9c72-b349c85b6e1d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.МножителиПартийИПолуфабрикатов" category="RecordManager">
+				<xr:TypeId>c0769227-4669-4a27-9b7c-1859694375de</xr:TypeId>
+				<xr:ValueId>19ae619e-1216-43ef-87c3-bb256c94cc7c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>ManagerModule</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>МножителиПартийИПолуфабрикатов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>1e9f2b6e-7bbd-45dd-b76a-494274983fb5</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Day</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

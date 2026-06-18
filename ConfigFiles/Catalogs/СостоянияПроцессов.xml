@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="c879bb2d-c92c-4f9b-95be-f828c2f36cf5">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СостоянияПроцессов" category="Object">
+				<xr:TypeId>6a7a77bc-1188-456e-bd64-02a22323c7dd</xr:TypeId>
+				<xr:ValueId>6d6b9c25-b472-40a8-952e-d6c27a8dcd38</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СостоянияПроцессов" category="Ref">
+				<xr:TypeId>145c5e30-42a7-42a2-b10c-f69b474993ab</xr:TypeId>
+				<xr:ValueId>bde4b3f5-f767-430e-926f-5d786e8dd3e6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СостоянияПроцессов" category="Selection">
+				<xr:TypeId>5db0c805-8b8f-41b9-80e3-ff6b996fa7d0</xr:TypeId>
+				<xr:ValueId>71fd6e39-0eba-4a58-a623-0d0745586223</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СостоянияПроцессов" category="List">
+				<xr:TypeId>ace5acda-8481-4ff9-92a2-70a899a07089</xr:TypeId>
+				<xr:ValueId>55ae94fd-9133-4933-ade0-45e2e99fb2e6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СостоянияПроцессов" category="Manager">
+				<xr:TypeId>2ea4dce5-c559-4efe-9603-69eae71c06c8</xr:TypeId>
+				<xr:ValueId>3e755cf3-3164-4c5f-bd69-5356e2ea61ee</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СостоянияПроцессов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>2f173263-ef09-43f0-86d2-3eb136428505</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

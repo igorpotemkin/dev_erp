@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="f254b115-7fcd-4de4-9e9e-9ee396856060">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.НачальныеОстаткиНЗППоПодразделениям" category="Object">
+				<xr:TypeId>69948682-8e3d-47e3-ab73-9957ea01cff0</xr:TypeId>
+				<xr:ValueId>001f0296-b959-4ccb-b828-53883f8cb617</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.НачальныеОстаткиНЗППоПодразделениям" category="Ref">
+				<xr:TypeId>8d2d8a60-ac26-4e61-b34d-39823ba6caf8</xr:TypeId>
+				<xr:ValueId>f0c008e0-4ff0-4b69-8a70-f0aa27a5e2d1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.НачальныеОстаткиНЗППоПодразделениям" category="Selection">
+				<xr:TypeId>c87392c8-0d6d-48a8-bd2b-c6f342b1ae35</xr:TypeId>
+				<xr:ValueId>a1945dbe-65e0-44c9-b4db-3548d5124a9f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.НачальныеОстаткиНЗППоПодразделениям" category="List">
+				<xr:TypeId>6d77a548-5cc1-48a5-abc5-7857813d3348</xr:TypeId>
+				<xr:ValueId>3855fd1c-0881-4fb3-a3b9-17404df79b77</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.НачальныеОстаткиНЗППоПодразделениям" category="Manager">
+				<xr:TypeId>c9e23cb8-2a09-4e54-856d-813171b9ff8c</xr:TypeId>
+				<xr:ValueId>ccff81df-66ff-46dc-9644-f8c0ab83d117</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>НачальныеОстаткиНЗППоПодразделениям</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>d07cddd1-9fe9-48de-b100-acd4c9fc525f</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

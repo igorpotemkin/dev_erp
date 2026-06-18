@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="cbd65f75-ee17-445e-953e-aac8f24605d0">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.РегистраторРасчетаСебестоимости" category="Object">
+				<xr:TypeId>7e3ae3c2-8faf-4897-820b-5b7a5b627d87</xr:TypeId>
+				<xr:ValueId>ef7fea4b-9183-466c-91c5-baacd1966a76</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.РегистраторРасчетаСебестоимости" category="Ref">
+				<xr:TypeId>ebeaec69-21e9-4cd5-91b9-8b68a356dd04</xr:TypeId>
+				<xr:ValueId>904ecc7b-a149-4a12-b408-cb6e64f84281</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.РегистраторРасчетаСебестоимости" category="Selection">
+				<xr:TypeId>a96887c2-df09-4584-8719-3bab690f3231</xr:TypeId>
+				<xr:ValueId>7c1805a4-24ac-4543-9bc6-d5e8ce3dd517</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.РегистраторРасчетаСебестоимости" category="List">
+				<xr:TypeId>e27d59f0-418d-4ba2-b0b0-2c31c9f699ae</xr:TypeId>
+				<xr:ValueId>844194d4-a3a8-428f-874a-e27867acaad0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.РегистраторРасчетаСебестоимости" category="Manager">
+				<xr:TypeId>d567030f-4185-425e-86fc-daccfd571593</xr:TypeId>
+				<xr:ValueId>a7012184-29e5-483b-aebd-52c0e21af05f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>РегистраторРасчетаСебестоимости</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>8a9b68eb-ca02-42c3-ab29-561ecaced3c1</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

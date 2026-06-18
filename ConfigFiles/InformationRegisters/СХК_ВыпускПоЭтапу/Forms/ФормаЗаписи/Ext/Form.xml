@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<LabelDecoration name="Декорация1" id="33">
+			<TextColor>#FF0000</TextColor>
+			<Font ref="style:NormalTextFont" height="12" bold="true" italic="true" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
+			<ContextMenu name="Декорация1КонтекстноеМеню" id="34"/>
+			<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="35"/>
+		</LabelDecoration>
+		<InputField name="Период" id="1">
+			<DataPath>Запись.Period</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ПериодКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ПериодРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="ЭтапПроизводства" id="4">
+			<DataPath>Запись.ЭтапПроизводства</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ЭтапПроизводстваКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ЭтапПроизводстваРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Помещение" id="18">
+			<DataPath>Запись.Помещение</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ПомещениеКонтекстноеМеню" id="19"/>
+			<ExtendedTooltip name="ПомещениеРасширеннаяПодсказка" id="20"/>
+		</InputField>
+		<InputField name="СкладПолучатель" id="21">
+			<DataPath>Запись.СкладПолучатель</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="СкладПолучательКонтекстноеМеню" id="22"/>
+			<ExtendedTooltip name="СкладПолучательРасширеннаяПодсказка" id="23"/>
+		</InputField>
+		<InputField name="Упаковка" id="15">
+			<DataPath>Запись.Упаковка</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="УпаковкаКонтекстноеМеню" id="16"/>
+			<ExtendedTooltip name="УпаковкаРасширеннаяПодсказка" id="17"/>
+		</InputField>
+		<InputField name="Количество" id="7">
+			<DataPath>Запись.Количество</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КоличествоКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="КоличествоРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="ДопКоличество" id="27">
+			<DataPath>Запись.ДопКоличество</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДопКоличествоКонтекстноеМеню" id="28"/>
+			<ExtendedTooltip name="ДопКоличествоРасширеннаяПодсказка" id="29"/>
+		</InputField>
+		<CheckBoxField name="ДопВыпуск" id="36">
+			<DataPath>Запись.ДопВыпуск</DataPath>
+			<CheckBoxType>Auto</CheckBoxType>
+			<ContextMenu name="ДопВыпускКонтекстноеМеню" id="37"/>
+			<ExtendedTooltip name="ДопВыпускРасширеннаяПодсказка" id="38"/>
+		</CheckBoxField>
+		<InputField name="ДопУпаковка" id="30">
+			<DataPath>Запись.ДопУпаковка</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДопУпаковкаКонтекстноеМеню" id="31"/>
+			<ExtendedTooltip name="ДопУпаковкаРасширеннаяПодсказка" id="32"/>
+			<Events>
+				<Event name="EditTextChange">ДопУпаковкаИзменениеТекстаРедактирования</Event>
+			</Events>
+		</InputField>
+		<InputField name="Статус" id="10">
+			<DataPath>Запись.Статус</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="СтатусКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="СерииНоменклатуры" id="42">
+			<DataPath>Запись.СерииНоменклатуры</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="СерииНоменклатурыКонтекстноеМеню" id="43"/>
+			<ExtendedTooltip name="СерииНоменклатурыРасширеннаяПодсказка" id="44"/>
+		</InputField>
+		<InputField name="Линия" id="39">
+			<DataPath>Запись.Линия</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ЛинияКонтекстноеМеню" id="40"/>
+			<ExtendedTooltip name="ЛинияРасширеннаяПодсказка" id="41"/>
+		</InputField>
+		<Button name="Печать" id="13">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.Печать</CommandName>
+			<ExtendedTooltip name="ПечатьРасширеннаяПодсказка" id="14"/>
+		</Button>
+		<InputField name="НомерСтрокиДок" id="24">
+			<DataPath>Запись.НомерСтрокиДок</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НомерСтрокиДокКонтекстноеМеню" id="25"/>
+			<ExtendedTooltip name="НомерСтрокиДокРасширеннаяПодсказка" id="26"/>
+		</InputField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Запись" id="1">
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.СХК_ВыпускПоЭтапу</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Печать" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Печать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Печать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Печать</Action>
+		</Command>
+	</Commands>
+</Form>

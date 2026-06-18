@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="1f4ae6a7-1100-449d-b20a-74eb11b15f54">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПередачаТоваровМеждуОрганизациями" category="Object">
+				<xr:TypeId>17c8c333-c427-4991-809b-8182944c227c</xr:TypeId>
+				<xr:ValueId>f77ba88e-3fc0-4387-b03b-9bd0657e18c0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПередачаТоваровМеждуОрганизациями" category="Ref">
+				<xr:TypeId>16bb0111-9fdb-473d-bbdf-9f5460da9c6f</xr:TypeId>
+				<xr:ValueId>e36d4676-7b1f-4dbd-9c6a-e8553b7955a9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПередачаТоваровМеждуОрганизациями" category="Selection">
+				<xr:TypeId>c6ecc5f0-7bdd-41eb-9eb4-40cd93bca0be</xr:TypeId>
+				<xr:ValueId>fa9fb8a6-acc0-4f04-8a74-dfdb6f0a5ccc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПередачаТоваровМеждуОрганизациями" category="List">
+				<xr:TypeId>1ebc24a5-b416-40d4-801d-caf468303030</xr:TypeId>
+				<xr:ValueId>27bde2e0-662d-49c7-834d-42d04f93c62d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПередачаТоваровМеждуОрганизациями" category="Manager">
+				<xr:TypeId>fdcc62d0-33bb-440f-8e89-b527fde7c9c3</xr:TypeId>
+				<xr:ValueId>8ecd321f-6a18-498f-81ca-ad3085d89c1e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПередачаТоваровМеждуОрганизациями</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>72b83c8f-0045-4910-bcc8-b09974e023b3</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="9da59b18-3658-4946-af75-d422e7060bb7">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ПередачаТоваровМеждуОрганизациями.Товары" category="TabularSection">
+						<xr:TypeId>99ffe5db-3c9f-456f-8c9a-88ddabfc0cef</xr:TypeId>
+						<xr:ValueId>326fbe36-fa91-4b3b-aa0a-824c699c853f</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ПередачаТоваровМеждуОрганизациями.Товары" category="TabularSectionRow">
+						<xr:TypeId>7e22a880-62a7-4e1a-ac0b-07b92e592ce7</xr:TypeId>
+						<xr:ValueId>ec13db2b-da19-4ea9-8677-35834c9a1367</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Товары</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6d792ce9-c6d5-42f4-803a-61bf9897408b</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="1e27eb7a-9750-47a4-9433-a8abe167b3b0">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>АналитикаРасходов</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>458eee07-0718-47cb-9089-8d9ebccaa208</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:Characteristic.СтатьиРасходов</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="5f929526-f53a-4ac0-b657-6a39e2898f80">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>Назначение</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>4f4da467-c7a0-4a9f-835e-c6c35ea5129d</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Назначения</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="b9313597-8566-433e-971e-726f9ec8f028">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ПередачаТоваровМеждуОрганизациями.РасшифровкаПлатежаСКлиентом" category="TabularSection">
+						<xr:TypeId>cffd7504-3c4a-45a0-9251-ab76274aa4b6</xr:TypeId>
+						<xr:ValueId>0acdc37a-5cac-4300-865f-bedf5845da0c</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ПередачаТоваровМеждуОрганизациями.РасшифровкаПлатежаСКлиентом" category="TabularSectionRow">
+						<xr:TypeId>e0262e43-a1a9-4c5e-9201-2a97b15643d9</xr:TypeId>
+						<xr:ValueId>b6d313ff-d00b-47ef-9a9f-15cfcdc1ddba</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасшифровкаПлатежаСКлиентом</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>93f240c9-b622-4083-9ceb-29d9949f4337</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="355a62b5-8934-47bf-b344-8896cb17b933">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ОбъектРасчетов</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>0b65da2b-9e13-4e31-949b-c298afc4ae33</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ОбъектыРасчетов</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="207afe38-e67d-4540-91cc-55fecf7e18db">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ПередачаТоваровМеждуОрганизациями.РасшифровкаПлатежаСПоставщиком" category="TabularSection">
+						<xr:TypeId>e18c218b-5986-4b64-a0f2-44e5f7aba223</xr:TypeId>
+						<xr:ValueId>8f34b463-3ec5-4e17-b635-a7ab17bdd6c2</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ПередачаТоваровМеждуОрганизациями.РасшифровкаПлатежаСПоставщиком" category="TabularSectionRow">
+						<xr:TypeId>8402ea0c-9e80-4235-8d7c-fe711243a514</xr:TypeId>
+						<xr:ValueId>bec65246-bbff-4b7b-976c-3d4d96c2164b</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РасшифровкаПлатежаСПоставщиком</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>48e6cf96-ca0f-42c0-abdf-d7b9f53cc096</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="0cf70846-a0c1-440f-b365-021135683cf5">
+						<InternalInfo/>
+						<Properties>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Name>ОбъектРасчетов</Name>
+							<Comment/>
+							<ExtendedConfigurationObject>bb9920b0-ffdb-411f-a36b-26abf9e2ed5a</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ОбъектыРасчетов</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<CommandBarLocation>None</CommandBarLocation>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ГруппаШапка" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="5"/>
+			<ChildItems>
+				<LabelDecoration name="Декорация1" id="6">
+					<HorizontalStretch>true</HorizontalStretch>
+					<ContextMenu name="Декорация1КонтекстноеМеню" id="7"/>
+					<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="8"/>
+				</LabelDecoration>
+				<InputField name="ДатаСписка" id="1">
+					<DataPath>ДатаСписка</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата</v8:content>
+						</v8:item>
+					</Title>
+					<TitleLocation>Left</TitleLocation>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<HorizontalStretch>true</HorizontalStretch>
+					<ContextMenu name="ДатаСпискаКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="ДатаСпискаРасширеннаяПодсказка" id="3"/>
+					<Events>
+						<Event name="OnChange">ДатаСпискаПриИзменении</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="СписокЗаказПоставщику" id="9">
+			<CommandBarLocation>None</CommandBarLocation>
+			<RowSelectionMode>Row</RowSelectionMode>
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<EnableStartDrag>true</EnableStartDrag>
+			<DataPath>СписокЗаказПоставщику</DataPath>
+			<RowPictureDataPath>~СписокЗаказПоставщику.DefaultPicture</RowPictureDataPath>
+			<AutoRefresh>false</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<TopLevelParent xsi:nil="true"/>
+			<ShowRoot>true</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+			<ContextMenu name="СписокЗаказПоставщикуКонтекстноеМеню" id="10"/>
+			<AutoCommandBar name="СписокЗаказПоставщикуКоманднаяПанель" id="11"/>
+			<ExtendedTooltip name="СписокЗаказПоставщикуРасширеннаяПодсказка" id="12"/>
+			<SearchStringAddition name="СписокЗаказПоставщикуСтрокаПоиска" id="13">
+				<AdditionSource>
+					<Item>СписокЗаказПоставщику</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокЗаказПоставщикуСтрокаПоискаКонтекстноеМеню" id="14"/>
+				<ExtendedTooltip name="СписокЗаказПоставщикуСтрокаПоискаРасширеннаяПодсказка" id="15"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СписокЗаказПоставщикуСостояниеПросмотра" id="16">
+				<AdditionSource>
+					<Item>СписокЗаказПоставщику</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокЗаказПоставщикуСостояниеПросмотраКонтекстноеМеню" id="17"/>
+				<ExtendedTooltip name="СписокЗаказПоставщикуСостояниеПросмотраРасширеннаяПодсказка" id="18"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СписокЗаказПоставщикуУправлениеПоиском" id="19">
+				<AdditionSource>
+					<Item>СписокЗаказПоставщику</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокЗаказПоставщикуУправлениеПоискомКонтекстноеМеню" id="20"/>
+				<ExtendedTooltip name="СписокЗаказПоставщикуУправлениеПоискомРасширеннаяПодсказка" id="21"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="Selection">СписокЗаказПоставщикуВыбор</Event>
+			</Events>
+			<ChildItems>
+				<ColumnGroup name="СписокЗаказПоставщикуГруппа1" id="31">
+					<ExtendedTooltip name="СписокЗаказПоставщикуГруппа1РасширеннаяПодсказка" id="32"/>
+					<ChildItems>
+						<LabelField name="СписокЗаказПоставщикуДата" id="22">
+							<DataPath>СписокЗаказПоставщику.СсылкаДата</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Дата</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="СписокЗаказПоставщикуДатаКонтекстноеМеню" id="23"/>
+							<ExtendedTooltip name="СписокЗаказПоставщикуДатаРасширеннаяПодсказка" id="24"/>
+						</LabelField>
+						<LabelField name="СписокЗаказПоставщикуПартнер" id="25">
+							<DataPath>СписокЗаказПоставщику.СсылкаПартнер</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Партнер</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="СписокЗаказПоставщикуПартнерКонтекстноеМеню" id="26"/>
+							<ExtendedTooltip name="СписокЗаказПоставщикуПартнерРасширеннаяПодсказка" id="27"/>
+						</LabelField>
+					</ChildItems>
+				</ColumnGroup>
+				<LabelField name="СписокЗаказПоставщикуСсылка" id="28">
+					<DataPath>СписокЗаказПоставщику.Ссылка</DataPath>
+					<AutoCellHeight>true</AutoCellHeight>
+					<HorizontalStretch>true</HorizontalStretch>
+					<VerticalStretch>true</VerticalStretch>
+					<ContextMenu name="СписокЗаказПоставщикуСсылкаКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="СписокЗаказПоставщикуСсылкаРасширеннаяПодсказка" id="30"/>
+				</LabelField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="СписокЗаказПоставщику" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список заказ поставщику</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>true</ManualQuery>
+				<DynamicDataRead>false</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ РАЗЛИЧНЫЕ
+	ЗаказПоставщикуДок.Ссылка КАК Ссылка,
+	СУММА(ЗаказПоставщикуДок.КоличествоУпаковок) КАК ЗаказПоставщикуКоличествоУпаковок,
+	ЗаказПоставщикуДок.Номенклатура КАК Номенклатура
+ПОМЕСТИТЬ ВТЗ
+ИЗ
+	Документ.ЗаказПоставщику.Товары КАК ЗаказПоставщикуДок
+ГДЕ
+	ЗаказПоставщикуДок.Ссылка.Проведен = ИСТИНА
+	И ЗаказПоставщикуДок.Ссылка.ПометкаУдаления = ЛОЖЬ
+	И ЗаказПоставщикуДок.Ссылка.ЖелаемаяДатаПоступления МЕЖДУ &amp;ДатаНачала И &amp;ДатаОкончания
+	И ЗаказПоставщикуДок.Ссылка.Склад = &amp;Склад
+
+СГРУППИРОВАТЬ ПО
+	ЗаказПоставщикуДок.Ссылка,
+	ЗаказПоставщикуДок.Номенклатура
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗЛИЧНЫЕ
+	ЗаказПоставщикуДок.Ссылка КАК СсылкаЗаказ,
+	СУММА(ВЫБОР
+			КОГДА ЗаказПоставщикуДок.Номенклатура = ПриобретениеТоваровУслуг.Номенклатура
+				ТОГДА ПриобретениеТоваровУслуг.КоличествоУпаковок
+			ИНАЧЕ 0
+		КОНЕЦ) КАК ПриобретениеКоличествоУпаковок,
+	ЗаказПоставщикуДок.Номенклатура КАК Номенклатура
+ПОМЕСТИТЬ ВТПоступление
+ИЗ
+	Документ.ЗаказПоставщику.Товары КАК ЗаказПоставщикуДок
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.ПриобретениеТоваровУслуг.Товары КАК ПриобретениеТоваровУслуг
+		ПО ЗаказПоставщикуДок.Ссылка = ПриобретениеТоваровУслуг.ЗаказПоставщику
+ГДЕ
+	ЗаказПоставщикуДок.Ссылка.Проведен = ИСТИНА
+	И ЗаказПоставщикуДок.Ссылка.ПометкаУдаления = ЛОЖЬ
+	И ЗаказПоставщикуДок.Ссылка.ЖелаемаяДатаПоступления МЕЖДУ &amp;ДатаНачала И &amp;ДатаОкончания
+	И ЗаказПоставщикуДок.Ссылка.Склад = &amp;Склад
+	И ПриобретениеТоваровУслуг.Ссылка.ПометкаУдаления = ЛОЖЬ
+	И ПриобретениеТоваровУслуг.Ссылка.Проведен = ИСТИНА
+
+СГРУППИРОВАТЬ ПО
+	ЗаказПоставщикуДок.Ссылка,
+	ЗаказПоставщикуДок.Номенклатура
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТЗ.Ссылка КАК Ссылка,
+	ВТЗ.ЗаказПоставщикуКоличествоУпаковок КАК ЗаказПоставщикуКоличествоУпаковок,
+	ВТЗ.Номенклатура КАК Номенклатура,
+	0 КАК ПриобретениеКоличествоУпаковок
+ПОМЕСТИТЬ ВТОтборДок
+ИЗ
+	ВТЗ КАК ВТЗ
+
+ОБЪЕДИНИТЬ ВСЕ
+
+ВЫБРАТЬ
+	ВТПоступление.СсылкаЗаказ,
+	0,
+	ВТПоступление.Номенклатура,
+	ВТПоступление.ПриобретениеКоличествоУпаковок
+ИЗ
+	ВТПоступление КАК ВТПоступление
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ
+	ВТОтборДок.Ссылка КАК Ссылка,
+	ВТОтборДок.Ссылка.Дата КАК СсылкаДата,
+	ВТОтборДок.Ссылка.Партнер КАК СсылкаПартнер
+ИЗ
+	ВТОтборДок КАК ВТОтборДок
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СостоянияЗаказовПоставщикам КАК СостоянияЗаказовПоставщикам
+		ПО (СостоянияЗаказовПоставщикам.Заказ = ВТОтборДок.Ссылка)
+ГДЕ
+	СостоянияЗаказовПоставщикам.Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияЗаказовПоставщикам.ОжидаетсяПоступление)
+
+СГРУППИРОВАТЬ ПО
+	ВТОтборДок.Ссылка,
+	ВТОтборДок.Ссылка.Дата,
+	ВТОтборДок.Ссылка.Партнер</QueryText>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Ссылка</dcssch:dataPath>
+					<dcssch:field>Ссылка</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>СсылкаДата</dcssch:dataPath>
+					<dcssch:field>СсылкаДата</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>СсылкаПартнер</dcssch:dataPath>
+					<dcssch:field>СсылкаПартнер</dcssch:field>
+				</Field>
+				<Parameter>
+					<dcssch:name>ДатаОкончания</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата окончания</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:value xsi:nil="true"/>
+					<dcssch:useRestriction>true</dcssch:useRestriction>
+				</Parameter>
+				<Parameter>
+					<dcssch:name>ДатаНачала</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата начала</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:value xsi:nil="true"/>
+					<dcssch:useRestriction>true</dcssch:useRestriction>
+				</Parameter>
+				<Parameter>
+					<dcssch:name>Склад</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Склад</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:value xsi:nil="true"/>
+					<dcssch:useRestriction>true</dcssch:useRestriction>
+				</Parameter>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="ДатаСписка" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата списка</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+</Form>

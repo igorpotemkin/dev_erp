@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<DataProcessor uuid="962145f7-03df-4b5d-ad08-9c989a5c511b">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.ЖурналДокументовБезналичныеПлатежи" category="Object">
+				<xr:TypeId>28b7a9f2-b5ac-46e3-b505-a5cf72f38064</xr:TypeId>
+				<xr:ValueId>dce1db95-2e30-43ce-a716-0e873185a2d2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.ЖурналДокументовБезналичныеПлатежи" category="Manager">
+				<xr:TypeId>76152391-1628-4ee8-8c45-19dee94395a6</xr:TypeId>
+				<xr:ValueId>0ee21661-8301-4eb2-98a6-8b680a5ed1ca</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЖурналДокументовБезналичныеПлатежи</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>bbc3fccc-9b9c-417b-969c-7c0eff0e005e</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="8a71df8d-22be-400d-abee-ae97af65f339">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ПеремаркировкаТоваровИСМП" category="Object">
+				<xr:TypeId>ac5d46dc-0780-4c21-8535-bc5b4cc05e29</xr:TypeId>
+				<xr:ValueId>3d9775ea-0e14-44ca-aa7e-8dec9962f581</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ПеремаркировкаТоваровИСМП" category="Ref">
+				<xr:TypeId>8d265062-14ed-49a9-994b-fc0a00f7b229</xr:TypeId>
+				<xr:ValueId>9e6a4378-42ec-4079-84af-febce03bff35</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ПеремаркировкаТоваровИСМП" category="Selection">
+				<xr:TypeId>95a83116-f4e3-4ad0-9b86-556511a63875</xr:TypeId>
+				<xr:ValueId>8ba0cc28-16a2-40bf-9e71-b752bd9e77e2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ПеремаркировкаТоваровИСМП" category="List">
+				<xr:TypeId>613f98da-a3ee-4e88-903d-0d1b3580c17d</xr:TypeId>
+				<xr:ValueId>72e5a3c6-a41d-4c43-bbfb-ad321a858dab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ПеремаркировкаТоваровИСМП" category="Manager">
+				<xr:TypeId>9d2c3f93-6488-4388-b342-1ea7a39dbbd5</xr:TypeId>
+				<xr:ValueId>e083e46f-4653-4b88-911d-6a106e1e24ee</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПеремаркировкаТоваровИСМП</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>8ee14ec2-ccd5-40a4-9865-39e13d6790d5</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="08e174d7-fe5c-464c-8d8a-c1e7301697c7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>2753ef65-b157-43af-bcb7-fe58d7ca16f8</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ОснованиеПеремаркировкиТоваровИСМП</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Document uuid="cfb927fd-bbae-4713-a43c-a72a6e016af9">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ЧекЕГАИС" category="Object">
+				<xr:TypeId>b96c58eb-d4c1-466e-8ec5-4f2b7c609925</xr:TypeId>
+				<xr:ValueId>691f8a75-82d1-45d4-8682-b93800b34f47</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ЧекЕГАИС" category="Ref">
+				<xr:TypeId>6abb4912-fee5-4f41-bc7b-ddfff306bf31</xr:TypeId>
+				<xr:ValueId>6ee50c0c-7623-454a-8634-2657f222d815</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ЧекЕГАИС" category="Selection">
+				<xr:TypeId>b38b0c96-8ffc-4cac-8af1-b01a4a8b9c3e</xr:TypeId>
+				<xr:ValueId>10db8ec8-9a07-4390-8295-983e8263532d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ЧекЕГАИС" category="List">
+				<xr:TypeId>ca3a07bc-d55c-4427-9777-31f64e406ae6</xr:TypeId>
+				<xr:ValueId>603332fa-9b9f-487f-978e-0c3624729fed</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ЧекЕГАИС" category="Manager">
+				<xr:TypeId>ea42bfdc-fa58-43a5-bbe9-52fef99bd012</xr:TypeId>
+				<xr:ValueId>edb789ae-8890-4e1d-8cea-46982ef21217</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ЧекЕГАИС</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>b16eb2c0-ae09-4aaa-9fe2-8a277bdd3158</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="9f7a90b4-e4c2-4b86-b6d5-a2991fe2d498">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>10e5dddc-ecd6-441e-ae14-97d2e7110fc4</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:DefinedType.ОснованиеЧекаЕГАИС</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

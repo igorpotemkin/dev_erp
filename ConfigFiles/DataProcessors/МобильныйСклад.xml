@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<DataProcessor uuid="8ed1f517-c35d-4b19-88e8-3fe3f9959d1d">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.МобильныйСклад" category="Object">
+				<xr:TypeId>dd5650c7-910b-439d-9722-c1507ea492ff</xr:TypeId>
+				<xr:ValueId>6ffb4e27-2138-4836-a66a-013753b57823</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.МобильныйСклад" category="Manager">
+				<xr:TypeId>a92b2539-b14b-42d7-895a-a47946707bd8</xr:TypeId>
+				<xr:ValueId>f5ea3bae-15e8-446e-9eec-06e3ecf2be83</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>МобильныйСклад</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Мобильный склад</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultForm>DataProcessor.МобильныйСклад.Form.Форма</DefaultForm>
+			<AuxiliaryForm/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ExtendedPresentation/>
+			<Explanation/>
+		</Properties>
+		<ChildObjects>
+			<Form>Форма</Form>
+			<Form>ФормаОстатки</Form>
+			<Form>ФормаПересчет</Form>
+			<Form>ФормаОтгрузки</Form>
+			<Form>Ордер</Form>
+			<Form>ФормаПоступление</Form>
+			<Form>ФормаПоступления</Form>
+			<Form>ФормаПеремещение</Form>
+			<Form>Тест</Form>
+			<Form>ОрдерВыбор</Form>
+			<Template>МакетСклад</Template>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

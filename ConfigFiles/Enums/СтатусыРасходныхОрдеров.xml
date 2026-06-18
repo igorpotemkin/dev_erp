@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="7bffef6b-1aa9-4f93-a1d2-e02c92b92c94">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусыРасходныхОрдеров" category="Ref">
+				<xr:TypeId>4727c354-0ddb-41d9-9728-77c8e11c3a17</xr:TypeId>
+				<xr:ValueId>3fc0d536-d327-4a87-9b24-ccf2bc99a580</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусыРасходныхОрдеров" category="Manager">
+				<xr:TypeId>2ae7185a-b283-472f-beb5-95a01dae138a</xr:TypeId>
+				<xr:ValueId>e2bba08a-e9a3-435e-b1ab-4b81762764fd</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусыРасходныхОрдеров" category="List">
+				<xr:TypeId>f6e8b606-3dec-4fac-939f-9f912abbb39a</xr:TypeId>
+				<xr:ValueId>5deafac6-f8bc-456e-b268-c2a6919afac1</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СтатусыРасходныхОрдеров</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>d873fb7c-bffd-4ee5-9885-25af6032a41f</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="efe4eacd-967e-45f7-ac20-2dc6e258882c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Отгружен</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>bdc2dd3b-b02c-4815-af56-2538b334fbf4</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
