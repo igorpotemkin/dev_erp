@@ -8,84 +8,7 @@
     <name>ГруппаСМ</name>
     <id>27</id>
     <items xsi:type="form:Decoration">
-      <name>Декорация2</name>
-      <id>8</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <extendedTooltip>
-        <name>Декорация2РасширеннаяПодсказка</name>
-        <id>10</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>Декорация2КонтекстноеМеню</name>
-        <id>9</id>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </items>
-    <items xsi:type="form:Button">
-      <name>Приемка</name>
-      <id>11</id>
-      <title>
-        <key>ru</key>
-        <value>ПРИЕМКА СМ</value>
-      </title>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <extendedTooltip>
-        <name>ПриемкаРасширеннаяПодсказка</name>
-        <id>12</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <type>UsualButton</type>
-      <commandName>Form.Command.Приемка</commandName>
-      <representation>Auto</representation>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <horizontalStretch>true</horizontalStretch>
-      <groupHorizontalAlign>Center</groupHorizontalAlign>
-      <placementArea>UserCmds</placementArea>
-      <textColor xsi:type="core:ColorRef">
-        <color>Style.FormBackColor</color>
-      </textColor>
-      <backColor xsi:type="core:ColorRef">
-        <color>Style.ButtonTextColor</color>
-      </backColor>
-      <font xsi:type="core:FontRef">
-        <font>Style.NormalTextFont</font>
-        <height>16.0</height>
-        <bold>true</bold>
-        <italic>false</italic>
-        <underline>false</underline>
-        <strikeout>false</strikeout>
-        <scale>100</scale>
-      </font>
-      <representationInContextMenu>Auto</representationInContextMenu>
-    </items>
-    <items xsi:type="form:Decoration">
-      <name>Декорация6</name>
+      <name>Декорация4</name>
       <id>38</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -93,7 +16,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>Декорация6РасширеннаяПодсказка</name>
+        <name>Декорация4РасширеннаяПодсказка</name>
         <id>40</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -103,7 +26,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>Декорация6КонтекстноеМеню</name>
+        <name>Декорация4КонтекстноеМеню</name>
         <id>39</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -115,11 +38,11 @@
       </extInfo>
     </items>
     <items xsi:type="form:Button">
-      <name>Перемещение</name>
-      <id>16</id>
+      <name>ПриемкаЦех</name>
+      <id>23</id>
       <title>
         <key>ru</key>
-        <value>Передача в ЦЕХ</value>
+        <value>Прием ЦЕХ</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -127,8 +50,8 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ПеремещениеРасширеннаяПодсказка</name>
-        <id>17</id>
+        <name>ПриемкаЦехРасширеннаяПодсказка</name>
+        <id>24</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -137,15 +60,18 @@
         </extInfo>
       </extendedTooltip>
       <type>UsualButton</type>
-      <commandName>Form.Command.Перемещение</commandName>
+      <commandName>Form.Command.ПриемкаЦех</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <horizontalStretch>true</horizontalStretch>
       <groupHorizontalAlign>Center</groupHorizontalAlign>
       <placementArea>UserCmds</placementArea>
+      <textColor xsi:type="core:ColorRef">
+        <color>Style.FormBackColor</color>
+      </textColor>
       <backColor xsi:type="core:ColorRef">
-        <color>Style.ToolTipBackColor</color>
+        <color>Style.FieldSelectionBackColor</color>
       </backColor>
       <font xsi:type="core:FontRef">
         <font>Style.NormalTextFont</font>
@@ -189,14 +115,19 @@
       </extInfo>
     </items>
     <items xsi:type="form:Button">
-      <name>Брак</name>
+      <name>Возврат</name>
       <id>36</id>
+      <title>
+        <key>ru</key>
+        <value>Возврат СМ</value>
+      </title>
+      <visible>true</visible>
       <enabled>false</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>БракРасширеннаяПодсказка</name>
+        <name>ВозвратРасширеннаяПодсказка</name>
         <id>37</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -206,58 +137,12 @@
         </extInfo>
       </extendedTooltip>
       <type>UsualButton</type>
-      <commandName>Form.Command.Брак</commandName>
+      <commandName>Form.Command.ВозвратМатериалов</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <horizontalStretch>true</horizontalStretch>
       <placementArea>UserCmds</placementArea>
-      <font xsi:type="core:FontRef">
-        <font>Style.NormalTextFont</font>
-        <height>16.0</height>
-        <bold>true</bold>
-        <italic>false</italic>
-        <underline>false</underline>
-        <strikeout>false</strikeout>
-        <scale>100</scale>
-      </font>
-      <representationInContextMenu>Auto</representationInContextMenu>
-    </items>
-    <items xsi:type="form:Button">
-      <name>ПриемкаЦех</name>
-      <id>23</id>
-      <title>
-        <key>ru</key>
-        <value>Прием ЦЕХ</value>
-      </title>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <extendedTooltip>
-        <name>ПриемкаЦехРасширеннаяПодсказка</name>
-        <id>24</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <type>UsualButton</type>
-      <commandName>Form.Command.ПриемкаЦех</commandName>
-      <representation>Auto</representation>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <horizontalStretch>true</horizontalStretch>
-      <groupHorizontalAlign>Center</groupHorizontalAlign>
-      <placementArea>UserCmds</placementArea>
-      <textColor xsi:type="core:ColorRef">
-        <color>Style.FormBackColor</color>
-      </textColor>
-      <backColor xsi:type="core:ColorRef">
-        <color>Style.FieldSelectionBackColor</color>
-      </backColor>
       <font xsi:type="core:FontRef">
         <font>Style.NormalTextFont</font>
         <height>16.0</height>

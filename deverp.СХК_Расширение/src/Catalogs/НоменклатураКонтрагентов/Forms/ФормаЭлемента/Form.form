@@ -309,9 +309,6 @@ Invalid cards are hidden from all the lists when picking or filtering in documen
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:PictureDecorationExtInfo">
-            <picture xsi:type="core:PictureRef">
-              <picture>StdPicture.InputFieldOpen</picture>
-            </picture>
             <hyperlink>true</hyperlink>
             <fileDragMode>AsFileRef</fileDragMode>
           </extInfo>
@@ -516,7 +513,7 @@ Invalid cards are hidden from all the lists when picking or filtering in documen
       </toolTip>
       <toolTip>
         <key>en</key>
-        <value>Item variant name</value>
+        <value>Variant name</value>
       </toolTip>
       <toolTipRepresentation>Button</toolTipRepresentation>
       <extendedTooltip>
@@ -1230,9 +1227,6 @@ Invalid cards are hidden from all the lists when picking or filtering in documen
               <autoMaxHeight>true</autoMaxHeight>
               <groupVerticalAlign>Center</groupVerticalAlign>
               <extInfo xsi:type="form:PictureDecorationExtInfo">
-                <picture xsi:type="core:PictureRef">
-                  <picture>StdPicture.Change</picture>
-                </picture>
                 <hyperlink>true</hyperlink>
                 <fileDragMode>AsFileRef</fileDragMode>
               </extInfo>
@@ -1414,9 +1408,6 @@ Invalid cards are hidden from all the lists when picking or filtering in documen
             <autoMaxHeight>true</autoMaxHeight>
             <groupVerticalAlign>Center</groupVerticalAlign>
             <extInfo xsi:type="form:PictureDecorationExtInfo">
-              <picture xsi:type="core:PictureRef">
-                <picture>StdPicture.Change</picture>
-              </picture>
               <hyperlink>true</hyperlink>
               <fileDragMode>AsFileRef</fileDragMode>
             </extInfo>
@@ -1521,7 +1512,7 @@ Invalid cards are hidden from all the lists when picking or filtering in documen
       </title>
       <title>
         <key>en</key>
-        <value>ID</value>
+        <value>OKEI code</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1885,7 +1876,7 @@ Invalid cards are hidden from all the lists when picking or filtering in documen
         </toolTip>
         <toolTip>
           <key>en</key>
-          <value>Partner product ID.</value>
+          <value>Product cross reference ID.</value>
         </toolTip>
         <toolTipRepresentation>Button</toolTipRepresentation>
         <extendedTooltip>

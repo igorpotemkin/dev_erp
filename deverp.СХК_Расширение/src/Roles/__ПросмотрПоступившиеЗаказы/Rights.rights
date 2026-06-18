@@ -1428,6 +1428,17 @@
 		</right>
 	</object>
 	<object>
+		<name>DataProcessor.СХК_МобильныйСкладСырье.TabularSection.ТабПриемка.Attribute.Номенклатура</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.Расш1_ОтгрузкаФакт.TabularSection.Движение.Attribute.КонечноеПоложение</name>
 		<right>
 			<name>View</name>
@@ -1473,6 +1484,17 @@
 	</object>
 	<object>
 		<name>Document.Расш1_ОтгрузкаФакт.Attribute.Заезд</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.СХК_МобильныйСкладСырье.TabularSection.ТабПриемка.Attribute.Серия</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -2572,6 +2594,17 @@
 		</right>
 	</object>
 	<object>
+		<name>DataProcessor.СХК_МобильныйСкладСырье.TabularSection.ТабПриемка</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.ПланПродаж.TabularSection.СЗНоменклатура</name>
 		<right>
 			<name>View</name>
@@ -3320,6 +3353,17 @@
 		</right>
 	</object>
 	<object>
+		<name>DataProcessor.СХК_МобильныйСкладСырье.TabularSection.ТабПриемка.Attribute.Упаковка</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.СХК_Промо.TabularSection.Согласовать</name>
 		<right>
 			<name>View</name>
@@ -3398,6 +3442,17 @@
 	</object>
 	<object>
 		<name>InformationRegister.Расш1_НастройкаЗагрузкиОтчетовКомиссионеров.StandardAttribute.Period</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.СХК_МобильныйСкладСырье.TabularSection.ТабПриемка.Attribute.Количество</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -5949,6 +6004,17 @@
 		</right>
 	</object>
 	<object>
+		<name>DataProcessor.СХК_МобильныйСкладСырье.TabularSection.ТабПриемка.Attribute.Характеристика</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.Расш1_ОтгрузкаФакт.TabularSection.ТЧОрдер.Attribute.КоличествоПалет</name>
 		<right>
 			<name>View</name>
@@ -6005,6 +6071,17 @@
 	</object>
 	<object>
 		<name>Catalog.СписаниеНедостачТоваровПрисоединенныеФайлы.Attribute.ТекстХранилище</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.СХК_МобильныйСкладСырье.Attribute.СрокГодности</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -6104,6 +6181,17 @@
 	</object>
 	<object>
 		<name>Document.СХК_ПромоЕком.Attribute.РентабельностьБезМаркетинг</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.СХК_МобильныйСкладСырье.TabularSection.ТабПриемка.Attribute.ШтихКод</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -6566,6 +6654,17 @@
 	</object>
 	<object>
 		<name>InformationRegister.СХК_ПланПроизводства.Resource.Количество</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.СХК_МобильныйСкладСырье.TabularSection.ТабПриемка.Attribute.Цена</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -8083,6 +8182,17 @@
 		</right>
 	</object>
 	<object>
+		<name>DataProcessor.СХК_МобильныйСкладСырье.Attribute.Склад</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>DataProcessor.Расш1_ЗаполнениеПланЕком.Attribute.Партнер</name>
 		<right>
 			<name>View</name>
@@ -8205,6 +8315,17 @@
 	</object>
 	<object>
 		<name>Document.Расш1_ОтгрузкаФакт.TabularSection.ТЧОрдер.Attribute.Количество</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.СХК_МобильныйСкладСырье.TabularSection.ТабПриемка.Attribute.КоличествоСобрано</name>
 		<right>
 			<name>View</name>
 			<value>false</value>

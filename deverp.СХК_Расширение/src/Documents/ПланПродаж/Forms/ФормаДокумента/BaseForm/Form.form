@@ -1117,9 +1117,6 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:DataPath">
-                <segments>1000001/0:868f0f22-1726-4350-bad5-ffa6124d7be4</segments>
-              </dataPath>
               <titleLocation>Left</titleLocation>
               <extendedTooltip>
                 <name>СтатьяБюджетовРасширеннаяПодсказка</name>
@@ -1169,9 +1166,6 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:DataPath">
-                <segments>1000001/0:4cdd9143-bbf0-4988-b1fb-e037030b4816</segments>
-              </dataPath>
               <titleLocation>Left</titleLocation>
               <extendedTooltip>
                 <name>СтатьяБюджетовОплатыДоОтгрузкиРасширеннаяПодсказка</name>
@@ -1221,9 +1215,6 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:DataPath">
-                <segments>1000001/0:d64d6017-8721-4606-b978-912722fd2ce4</segments>
-              </dataPath>
               <titleLocation>Left</titleLocation>
               <extendedTooltip>
                 <name>СтатьяБюджетовОплатыПослеОтгрузкиРасширеннаяПодсказка</name>
@@ -3689,12 +3680,6 @@
                   <typeDomainEnabled>true</typeDomainEnabled>
                   <textEdit>true</textEdit>
                   <choiceForm>Catalog.ХарактеристикиНоменклатуры.Form.ФормаВыбора</choiceForm>
-                  <choiceParameterLinks>
-                    <name>Номенклатура</name>
-                    <datapath xsi:type="form:DataPath">
-                      <segments>104:02023637-7868-4a5f-8576-835a76e0c9ba/1</segments>
-                    </datapath>
-                  </choiceParameterLinks>
                 </extInfo>
               </items>
               <items xsi:type="form:FormField">
@@ -3732,40 +3717,6 @@
                   <chooseType>true</chooseType>
                   <typeDomainEnabled>true</typeDomainEnabled>
                   <textEdit>true</textEdit>
-                  <choiceParameterLinks>
-                    <name>Подразделение</name>
-                    <changeMode>DontChange</changeMode>
-                    <datapath xsi:type="form:DataPath">
-                      <segments>1</segments>
-                    </datapath>
-                  </choiceParameterLinks>
-                  <choiceParameterLinks>
-                    <name>Источник</name>
-                    <datapath xsi:type="form:DataPath">
-                      <segments>1</segments>
-                    </datapath>
-                  </choiceParameterLinks>
-                  <choiceParameterLinks>
-                    <name>Номенклатура</name>
-                    <changeMode>DontChange</changeMode>
-                    <datapath xsi:type="form:DataPath">
-                      <segments>104:02023637-7868-4a5f-8576-835a76e0c9ba/1</segments>
-                    </datapath>
-                  </choiceParameterLinks>
-                  <choiceParameterLinks>
-                    <name>Склад</name>
-                    <changeMode>DontChange</changeMode>
-                    <datapath xsi:type="form:DataPath">
-                      <segments>104:02023637-7868-4a5f-8576-835a76e0c9ba/6</segments>
-                    </datapath>
-                  </choiceParameterLinks>
-                  <choiceParameterLinks>
-                    <name>Характеристика</name>
-                    <changeMode>DontChange</changeMode>
-                    <datapath xsi:type="form:DataPath">
-                      <segments>104:02023637-7868-4a5f-8576-835a76e0c9ba/2</segments>
-                    </datapath>
-                  </choiceParameterLinks>
                   <choiceParameters>
                     <name>РежимВыбораНазначений</name>
                     <value xsi:type="form:FormChoiceListDesTimeValue">
@@ -3814,12 +3765,6 @@
                     <chooseType>true</chooseType>
                     <typeDomainEnabled>true</typeDomainEnabled>
                     <textEdit>true</textEdit>
-                    <choiceParameterLinks>
-                      <name>Номенклатура</name>
-                      <datapath xsi:type="form:DataPath">
-                        <segments>104:02023637-7868-4a5f-8576-835a76e0c9ba/1</segments>
-                      </datapath>
-                    </choiceParameterLinks>
                   </extInfo>
                 </items>
                 <items xsi:type="form:FormField">
@@ -4058,12 +4003,6 @@
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
-                <choiceParameterLinks>
-                  <name>Отбор.Партнер</name>
-                  <datapath xsi:type="form:DataPath">
-                    <segments>104:02023637-7868-4a5f-8576-835a76e0c9ba/7</segments>
-                  </datapath>
-                </choiceParameterLinks>
               </extInfo>
             </items>
             <items xsi:type="form:FormField">

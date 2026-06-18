@@ -303,12 +303,6 @@
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
-                <choiceParameterLinks>
-                  <name>Номенклатура</name>
-                  <datapath xsi:type="form:DataPath">
-                    <segments>1</segments>
-                  </datapath>
-                </choiceParameterLinks>
               </extInfo>
             </items>
             <items xsi:type="form:FormField">

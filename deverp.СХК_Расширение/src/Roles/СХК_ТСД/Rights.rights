@@ -1139,6 +1139,17 @@
 		</right>
 	</object>
 	<object>
+		<name>DataProcessor.СХК_МобильныйСкладСырье</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ШаблоныЭтикетокИЦенников</name>
 		<right>
 			<name>Read</name>

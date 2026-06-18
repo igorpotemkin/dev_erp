@@ -21,7 +21,7 @@
         <value>Warehouse</value>
       </toolTip>
       <extendedTooltip>
-        <name>СкладРасширеннаяПодсказка</name>
+        <name>СкладExtendedTooltip</name>
         <id>502</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -84,10 +84,10 @@
       </toolTip>
       <toolTip>
         <key>en</key>
-        <value>Wareroom</value>
+        <value>Put</value>
       </toolTip>
       <extendedTooltip>
-        <name>ПомещениеРасширеннаяПодсказка</name>
+        <name>ПомещениеExtendedTooltip</name>
         <id>503</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -115,12 +115,6 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
-        <choiceParameterLinks>
-          <name>Отбор.Владелец</name>
-          <datapath xsi:type="form:DataPath">
-            <segments>Склад</segments>
-          </datapath>
-        </choiceParameterLinks>
         <inputHint>
           <key>ru</key>
           <value>Выберите помещение</value>
@@ -205,12 +199,12 @@
           <title>
             <key>ru</key>
             <value>&lt;img 0:188d8f0e-94da-44bb-8ed3-21aa01e973b9/>Есть проблемы с автоформированием ордеров. 
-&lt;link ЗапуститьФормированиеОрдеров>Запустить формирование&lt;/>.</value>
+&lt;link ЗапуститьФормированиеОрдеров>Запустить формирование&lt;/></value>
           </title>
           <title>
             <key>en</key>
             <value>&lt;img 0:188d8f0e-94da-44bb-8ed3-21aa01e973b9/>There are issues with automatic note generation. 
-&lt;link ЗапуститьФормированиеОрдеров>Start generation&lt;/>.</value>
+&lt;link ЗапуститьФормированиеОрдеров>Start generation&lt;/></value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -234,6 +228,7 @@
           </contextMenu>
           <formatted>true</formatted>
           <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
             <horizontalAlign>Left</horizontalAlign>
@@ -279,7 +274,7 @@
       </title>
       <title>
         <key>en</key>
-        <value>Automatically create goods issues</value>
+        <value>Automatically create goods issue notes</value>
       </title>
       <extendedTooltip>
         <name>АвтоматическоеФормированиеРасходныхОрдеровРасширеннаяПодсказка</name>
@@ -308,7 +303,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ОбновитьСпискиОтбораРасширеннаяПодсказка</name>
+          <name>ОбновитьСпискиОтбораExtendedTooltip</name>
           <id>566</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -369,7 +364,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>СправкаРасширеннаяПодсказка</name>
+          <name>СправкаExtendedTooltip</name>
           <id>508</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -438,7 +433,6 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <verticalAlign>Center</verticalAlign>
       <representation>WeakSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
@@ -469,7 +463,7 @@
           <value>Shipment header</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаШапкаОтгрузкиРасширеннаяПодсказка</name>
+          <name>ГруппаШапкаОтгрузкиExtendedTooltip</name>
           <id>501</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -546,7 +540,7 @@
             <value>Deadline for shipment the goods from the warehouse</value>
           </toolTip>
           <extendedTooltip>
-            <name>ДатаОтгрузкиРасширеннаяПодсказка</name>
+            <name>ДатаОтгрузкиExtendedTooltip</name>
             <id>504</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -586,7 +580,7 @@
             </title>
             <title>
               <key>en</key>
-              <value>Create goods issues</value>
+              <value>Create notes</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -595,7 +589,7 @@
             </userVisible>
             <skipOnInput>false</skipOnInput>
             <extendedTooltip>
-              <name>СоздатьОрдераРасширеннаяПодсказка</name>
+              <name>СоздатьОрдераExtendedTooltip</name>
               <id>511</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -717,7 +711,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>РаспоряженияНаОтгрузкуОтчетПоСостояниюСборкиРасширеннаяПодсказка</name>
+              <name>РаспоряженияНаОтгрузкуОтчетПоСостояниюСборкиExtendedTooltip</name>
               <id>512</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -741,7 +735,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ИзменитьФормуРасширеннаяПодсказка</name>
+              <name>ИзменитьФормуExtendedTooltip</name>
               <id>509</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -838,14 +832,6 @@
             <common>true</common>
           </userVisible>
           <titleLocation>None</titleLocation>
-          <excludedCommands>Add</excludedCommands>
-          <excludedCommands>Change</excludedCommands>
-          <excludedCommands>Copy</excludedCommands>
-          <excludedCommands>CopyToClipboard</excludedCommands>
-          <excludedCommands>Delete</excludedCommands>
-          <excludedCommands>EndEdit</excludedCommands>
-          <excludedCommands>MoveDown</excludedCommands>
-          <excludedCommands>MoveUp</excludedCommands>
           <items xsi:type="form:FormField">
             <name>РаспоряженияНаОтгрузкуПолучатель</name>
             <id>631</id>
@@ -1277,7 +1263,7 @@
           <value>Shipment references</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаРаспоряженияНаОтгрузкуРасширеннаяПодсказка</name>
+          <name>ГруппаРаспоряженияНаОтгрузкуExtendedTooltip</name>
           <id>510</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -1482,7 +1468,7 @@
             </userVisible>
             <titleLocation>Left</titleLocation>
             <extendedTooltip>
-              <name>ФильтрОрдеровРасширеннаяПодсказка</name>
+              <name>ФильтрОрдеровExtendedTooltip</name>
               <id>532</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -1565,7 +1551,7 @@
                 </title>
                 <title>
                   <key>en</key>
-                  <value>Internal stock transfer</value>
+                  <value>Transfer note</value>
                 </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1573,7 +1559,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>СоздатьОрдерНаПеремещениеРасширеннаяПодсказка</name>
+                  <name>СоздатьОрдерНаПеремещениеExtendedTooltip</name>
                   <id>535</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -1603,7 +1589,7 @@
                 <value>Create</value>
               </title>
               <extendedTooltip>
-                <name>ОрдераВРаботеГруппаКоманднаяПанельСоздатьРасширеннаяПодсказка</name>
+                <name>ОрдераВРаботеГруппаКоманднаяПанельСоздатьExtendedTooltip</name>
                 <id>534</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -1733,7 +1719,7 @@
                 <value>Notes in progress group command bar standard commands</value>
               </title>
               <extendedTooltip>
-                <name>ОрдераВРаботеГруппаКоманднаяПанельСтандартныеКомандыРасширеннаяПодсказка</name>
+                <name>ОрдераВРаботеГруппаКоманднаяПанельСтандартныеКомандыExtendedTooltip</name>
                 <id>536</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -1756,7 +1742,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>ПроверитьКоличествоРасширеннаяПодсказка</name>
+                  <name>ПроверитьКоличествоExtendedTooltip</name>
                   <id>737</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -1780,7 +1766,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>ИсправитьКоличествоРасширеннаяПодсказка</name>
+                  <name>ИсправитьКоличествоExtendedTooltip</name>
                   <id>739</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -1839,7 +1825,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>ОрдераКПроверкеРасширеннаяПодсказка</name>
+                    <name>ОрдераКПроверкеExtendedTooltip</name>
                     <id>743</id>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -1863,7 +1849,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>ОрдераКОтгрузкеРасширеннаяПодсказка</name>
+                    <name>ОрдераКОтгрузкеExtendedTooltip</name>
                     <id>745</id>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -1895,7 +1881,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>ОрдераОтгрузитьРасширеннаяПодсказка</name>
+                    <name>ОрдераОтгрузитьExtendedTooltip</name>
                     <id>747</id>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -1924,7 +1910,7 @@
                   <value>Set status</value>
                 </title>
                 <extendedTooltip>
-                  <name>ОрдераВРаботеУстановитьСтатусРасширеннаяПодсказка</name>
+                  <name>ОрдераВРаботеУстановитьСтатусExtendedTooltip</name>
                   <id>741</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -1948,7 +1934,7 @@
                   </userVisible>
                   <skipOnInput>false</skipOnInput>
                   <extendedTooltip>
-                    <name>ОрдераВРаботеНазначитьЗонуОтгрузкиРасширеннаяПодсказка</name>
+                    <name>ОрдераВРаботеНазначитьЗонуОтгрузкиExtendedTooltip</name>
                     <id>751</id>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -1973,7 +1959,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>НазначитьПриоритетОтгрузкиРасширеннаяПодсказка</name>
+                    <name>НазначитьПриоритетОтгрузкиExtendedTooltip</name>
                     <id>753</id>
                     <type>Label</type>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -2026,7 +2012,7 @@
                   <value>Assign</value>
                 </title>
                 <extendedTooltip>
-                  <name>ОрдераВРаботеГруппаКоманднаяПанельНазначитьРасширеннаяПодсказка</name>
+                  <name>ОрдераВРаботеГруппаКоманднаяПанельНазначитьExtendedTooltip</name>
                   <id>749</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -2145,7 +2131,7 @@
               <value>Notes in progress group command bar</value>
             </title>
             <extendedTooltip>
-              <name>ОрдераВРаботеГруппаКоманднаяПанельРасширеннаяПодсказка</name>
+              <name>ОрдераВРаботеГруппаКоманднаяПанельExtendedTooltip</name>
               <id>533</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -2173,7 +2159,7 @@
             <value>Notes in progress header tables</value>
           </title>
           <extendedTooltip>
-            <name>ОрдераВРаботеШапкаТаблицыРасширеннаяПодсказка</name>
+            <name>ОрдераВРаботеШапкаТаблицыExtendedTooltip</name>
             <id>531</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -2208,12 +2194,6 @@
           </userVisible>
           <skipOnInput>false</skipOnInput>
           <titleLocation>None</titleLocation>
-          <excludedCommands>Copy</excludedCommands>
-          <excludedCommands>CopyToClipboard</excludedCommands>
-          <excludedCommands>Create</excludedCommands>
-          <excludedCommands>CreateByParameter</excludedCommands>
-          <excludedCommands>Delete</excludedCommands>
-          <excludedCommands>SetDateInterval</excludedCommands>
           <items xsi:type="form:FormGroup">
             <name>ОрдераВРаботеГруппаНомерТип</name>
             <id>768</id>
@@ -2266,7 +2246,7 @@
               </title>
               <title>
                 <key>en</key>
-                <value>Goods issue</value>
+                <value>Goods issue note</value>
               </title>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2274,7 +2254,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>ОрдераВРаботеТипРасширеннаяПодсказка</name>
+                <name>ОрдераВРаботеТипExtendedTooltip</name>
                 <id>554</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -2345,7 +2325,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ОрдераВРаботеНомерРасширеннаяПодсказка</name>
+              <name>ОрдераВРаботеНомерExtendedTooltip</name>
               <id>553</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -2380,7 +2360,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ОрдераВРаботеПриоритетРасширеннаяПодсказка</name>
+              <name>ОрдераВРаботеПриоритетExtendedTooltip</name>
               <id>552</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -2414,7 +2394,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ОрдераВРаботеСтатусРасширеннаяПодсказка</name>
+              <name>ОрдераВРаботеСтатусExtendedTooltip</name>
               <id>555</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -2489,7 +2469,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ОрдераВРаботеДатаОтгрузкиРасширеннаяПодсказка</name>
+              <name>ОрдераВРаботеДатаОтгрузкиExtendedTooltip</name>
               <id>551</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -2569,7 +2549,7 @@
               </toolTip>
               <toolTip>
                 <key>en</key>
-                <value>Vehicle number, itinerary number</value>
+                <value>Vehicle number, transportation job number</value>
               </toolTip>
               <extendedTooltip>
                 <name>ОрдераВРаботеЗаданиеНаПеревозкуТранспортноеСредствоРасширеннаяПодсказка</name>
@@ -2641,7 +2621,7 @@
             </title>
             <title>
               <key>en</key>
-              <value>Notes in progress group itinerary</value>
+              <value>Notes in progress group transportation job</value>
             </title>
             <toolTip>
               <key>ru</key>
@@ -2649,7 +2629,7 @@
             </toolTip>
             <toolTip>
               <key>en</key>
-              <value>Vehicle number, itinerary number</value>
+              <value>Vehicle number, transportation job number</value>
             </toolTip>
             <extendedTooltip>
               <name>ОрдераВРаботеГруппаЗаданиеНаПеревозкуРасширеннаяПодсказка</name>
@@ -2719,7 +2699,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ОрдераВРаботеПомещениеРасширеннаяПодсказка</name>
+              <name>ОрдераВРаботеПомещениеExtendedTooltip</name>
               <id>557</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -2752,7 +2732,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ОрдераВРаботеЗонаОтгрузкиРасширеннаяПодсказка</name>
+              <name>ОрдераВРаботеЗонаОтгрузкиExtendedTooltip</name>
               <id>558</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -2785,7 +2765,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ОрдераВРаботеКомментарийРасширеннаяПодсказка</name>
+              <name>ОрдераВРаботеКомментарийExtendedTooltip</name>
               <id>559</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -2816,7 +2796,7 @@
             <enabled>true</enabled>
             <userVisible/>
             <extendedTooltip>
-              <name>ОрдераВРаботеСсылкаРасширеннаяПодсказка</name>
+              <name>ОрдераВРаботеСсылкаExtendedTooltip</name>
               <id>560</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -2918,7 +2898,7 @@
             </extInfo>
           </searchControlAddition>
           <extendedTooltip>
-            <name>ОрдераВРаботеРасширеннаяПодсказка</name>
+            <name>ОрдераВРаботеExtendedTooltip</name>
             <id>550</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -2978,7 +2958,7 @@
           <value>Goods issue notes</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаРасходныеОрдераРасширеннаяПодсказка</name>
+          <name>ГруппаРасходныеОрдераExtendedTooltip</name>
           <id>530</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -3011,7 +2991,7 @@
         <value>Shipment</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаОтгрузкаРасширеннаяПодсказка</name>
+        <name>ГруппаОтгрузкаExtendedTooltip</name>
         <id>500</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -3197,7 +3177,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>РаспоряженияНаОтборСоздатьЗаданияНаОтборРасширеннаяПодсказка</name>
+                <name>РаспоряженияНаОтборСоздатьЗаданияНаОтборExtendedTooltip</name>
                 <id>571</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -3229,7 +3209,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>РаспоряженияНаОтборСоздатьЗаданияНаПереупаковкуРасширеннаяПодсказка</name>
+                <name>РаспоряженияНаОтборСоздатьЗаданияНаПереупаковкуExtendedTooltip</name>
                 <id>572</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -3258,7 +3238,7 @@
               <value>Create</value>
             </title>
             <extendedTooltip>
-              <name>РаспоряженияНаОтборСоздатьЗаданияРасширеннаяПодсказка</name>
+              <name>РаспоряженияНаОтборСоздатьЗаданияExtendedTooltip</name>
               <id>570</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -3332,7 +3312,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ИзменитьФорму1РасширеннаяПодсказка</name>
+              <name>ИзменитьФорму1ExtendedTooltip</name>
               <id>568</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -3357,7 +3337,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>РаспоряженияНаОтборЗаполнитьОрдераОтобраннымиТоварамиРасширеннаяПодсказка</name>
+              <name>РаспоряженияНаОтборЗаполнитьОрдераОтобраннымиТоварамиExtendedTooltip</name>
               <id>576</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -3392,7 +3372,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>РаспоряженияНаОтборОрдераКПроверкеРасширеннаяПодсказка</name>
+                <name>РаспоряженияНаОтборОрдераКПроверкеExtendedTooltip</name>
                 <id>574</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -3424,7 +3404,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>РаспоряженияНаОтборОрдераКОтгрузкеРасширеннаяПодсказка</name>
+                <name>РаспоряженияНаОтборОрдераКОтгрузкеExtendedTooltip</name>
                 <id>575</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -3453,7 +3433,7 @@
               <value>Set status</value>
             </title>
             <extendedTooltip>
-              <name>РаспоряженияНаОтборУстановитьСтатусРасширеннаяПодсказка</name>
+              <name>РаспоряженияНаОтборУстановитьСтатусExtendedTooltip</name>
               <id>573</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -3509,7 +3489,7 @@
           <value>Filter header</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаШапкаОтбораРасширеннаяПодсказка</name>
+          <name>ГруппаШапкаОтбораExtendedTooltip</name>
           <id>562</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -3546,15 +3526,6 @@
             <common>true</common>
           </userVisible>
           <titleLocation>None</titleLocation>
-          <excludedCommands>Add</excludedCommands>
-          <excludedCommands>Change</excludedCommands>
-          <excludedCommands>Copy</excludedCommands>
-          <excludedCommands>Delete</excludedCommands>
-          <excludedCommands>EndEdit</excludedCommands>
-          <excludedCommands>MoveDown</excludedCommands>
-          <excludedCommands>MoveUp</excludedCommands>
-          <excludedCommands>SortListAsc</excludedCommands>
-          <excludedCommands>SortListDesc</excludedCommands>
           <items xsi:type="form:FormGroup">
             <name>РаспоряженияНаОтборГруппаРаспоряжение</name>
             <id>486</id>
@@ -3567,7 +3538,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>РаспоряженияНаОтборИндексКартинкиРасширеннаяПодсказка</name>
+                <name>РаспоряженияНаОтборИндексКартинкиExtendedTooltip</name>
                 <id>579</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -3608,7 +3579,7 @@
               </title>
               <title>
                 <key>en</key>
-                <value>Goods issue</value>
+                <value>Goods issue note</value>
               </title>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -3616,7 +3587,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>РаспоряженияНаОтборТипДокументаРасширеннаяПодсказка</name>
+                <name>РаспоряженияНаОтборТипДокументаExtendedTooltip</name>
                 <id>580</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -3659,7 +3630,7 @@
               <value>Picking references reference group</value>
             </title>
             <extendedTooltip>
-              <name>РаспоряженияНаОтборГруппаРаспоряжениеРасширеннаяПодсказка</name>
+              <name>РаспоряженияНаОтборГруппаРаспоряжениеExtendedTooltip</name>
               <id>578</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -3683,7 +3654,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>РаспоряженияНаОтборНомерРасширеннаяПодсказка</name>
+              <name>РаспоряженияНаОтборНомерExtendedTooltip</name>
               <id>581</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -3718,7 +3689,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>РаспоряженияНаОтборДатаОтгрузкиРасширеннаяПодсказка</name>
+              <name>РаспоряженияНаОтборДатаОтгрузкиExtendedTooltip</name>
               <id>582</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -3752,7 +3723,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>РаспоряженияНаОтборПриоритетРасширеннаяПодсказка</name>
+              <name>РаспоряженияНаОтборПриоритетExtendedTooltip</name>
               <id>583</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -3790,7 +3761,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>РаспоряженияНаОтборСостояниеРасширеннаяПодсказка</name>
+              <name>РаспоряженияНаОтборСостояниеExtendedTooltip</name>
               <id>584</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -3828,7 +3799,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>РаспоряженияНаОтборЗонаОтгрузкиРасширеннаяПодсказка</name>
+              <name>РаспоряженияНаОтборЗонаОтгрузкиExtendedTooltip</name>
               <id>585</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -3861,7 +3832,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>РаспоряженияНаОтборКомментарийРасширеннаяПодсказка</name>
+              <name>РаспоряженияНаОтборКомментарийExtendedTooltip</name>
               <id>586</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -3900,7 +3871,7 @@
             <enabled>true</enabled>
             <userVisible/>
             <extendedTooltip>
-              <name>РаспоряженияНаОтборРаспоряжениеРасширеннаяПодсказка</name>
+              <name>РаспоряженияНаОтборРаспоряжениеExtendedTooltip</name>
               <id>587</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -4002,7 +3973,7 @@
             </extInfo>
           </searchControlAddition>
           <extendedTooltip>
-            <name>РаспоряженияНаОтборРасширеннаяПодсказка</name>
+            <name>РаспоряженияНаОтборExtendedTooltip</name>
             <id>577</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -4054,7 +4025,7 @@
           <value>Goods issue notes</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаРаспоряженияНаОтборРасширеннаяПодсказка</name>
+          <name>ГруппаРаспоряженияНаОтборExtendedTooltip</name>
           <id>569</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -4096,7 +4067,7 @@
             </userVisible>
             <titleLocation>Left</titleLocation>
             <extendedTooltip>
-              <name>ФильтрЗаданийРасширеннаяПодсказка</name>
+              <name>ФильтрЗаданийExtendedTooltip</name>
               <id>601</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -4228,7 +4199,7 @@
                 </userVisible>
                 <skipOnInput>false</skipOnInput>
                 <extendedTooltip>
-                  <name>ЗаданияВРаботеВзятьЗаданияВРаботуРасширеннаяПодсказка</name>
+                  <name>ЗаданияВРаботеВзятьЗаданияВРаботуExtendedTooltip</name>
                   <id>604</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -4253,7 +4224,7 @@
                 </userVisible>
                 <skipOnInput>false</skipOnInput>
                 <extendedTooltip>
-                  <name>ЗаданияВРаботеВыполнитьЗаданияРасширеннаяПодсказка</name>
+                  <name>ЗаданияВРаботеВыполнитьЗаданияExtendedTooltip</name>
                   <id>605</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -4282,7 +4253,7 @@
                 <value>Set status</value>
               </title>
               <extendedTooltip>
-                <name>ЗаданияВРаботеГруппаУстановитьСтатусРасширеннаяПодсказка</name>
+                <name>ЗаданияВРаботеГруппаУстановитьСтатусExtendedTooltip</name>
                 <id>603</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -4310,7 +4281,7 @@
               <value>Jobs in progress group command bar</value>
             </title>
             <extendedTooltip>
-              <name>ЗаданияВРаботеГруппаКоманднаяПанельРасширеннаяПодсказка</name>
+              <name>ЗаданияВРаботеГруппаКоманднаяПанельExtendedTooltip</name>
               <id>602</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -4339,7 +4310,7 @@
             <value>Jobs in progress table header</value>
           </title>
           <extendedTooltip>
-            <name>ЗаданияВРаботеШапкаТаблицыРасширеннаяПодсказка</name>
+            <name>ЗаданияВРаботеШапкаТаблицыExtendedTooltip</name>
             <id>600</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -4374,9 +4345,6 @@
           </userVisible>
           <skipOnInput>false</skipOnInput>
           <titleLocation>None</titleLocation>
-          <excludedCommands>Copy</excludedCommands>
-          <excludedCommands>Create</excludedCommands>
-          <excludedCommands>Delete</excludedCommands>
           <items xsi:type="form:FormField">
             <name>ЗаданияВРаботеВидОперации</name>
             <id>409</id>
@@ -4394,7 +4362,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ЗаданияВРаботеВидОперацииРасширеннаяПодсказка</name>
+              <name>ЗаданияВРаботеВидОперацииExtendedTooltip</name>
               <id>609</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -4435,7 +4403,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ПеремещенияВРаботеНомерРасширеннаяПодсказка</name>
+              <name>ПеремещенияВРаботеНомерExtendedTooltip</name>
               <id>607</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -4470,7 +4438,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ПеремещенияВРаботеДатаРасширеннаяПодсказка</name>
+              <name>ПеремещенияВРаботеДатаExtendedTooltip</name>
               <id>608</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -4505,7 +4473,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ПеремещенияВРаботеСтатусРасширеннаяПодсказка</name>
+              <name>ПеремещенияВРаботеСтатусExtendedTooltip</name>
               <id>610</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -4538,7 +4506,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ПеремещенияВРаботеИсполнительРасширеннаяПодсказка</name>
+              <name>ПеремещенияВРаботеИсполнительExtendedTooltip</name>
               <id>611</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -4571,7 +4539,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ПеремещенияВРаботеРабочийУчастокРасширеннаяПодсказка</name>
+              <name>ПеремещенияВРаботеРабочийУчастокExtendedTooltip</name>
               <id>612</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -4612,7 +4580,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ПеремещенияВРаботеВесОтборРасширеннаяПодсказка</name>
+              <name>ПеремещенияВРаботеВесОтборExtendedTooltip</name>
               <id>613</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -4653,7 +4621,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ПеремещенияВРаботеОбъемОтборРасширеннаяПодсказка</name>
+              <name>ПеремещенияВРаботеОбъемОтборExtendedTooltip</name>
               <id>614</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -4686,7 +4654,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ПеремещенияВРаботеЗонаОтгрузкиРасширеннаяПодсказка</name>
+              <name>ПеремещенияВРаботеЗонаОтгрузкиExtendedTooltip</name>
               <id>615</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -4719,7 +4687,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ПеремещенияВРаботеРаспоряжениеРасширеннаяПодсказка</name>
+              <name>ПеремещенияВРаботеРаспоряжениеExtendedTooltip</name>
               <id>616</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -4750,7 +4718,7 @@
             <enabled>true</enabled>
             <userVisible/>
             <extendedTooltip>
-              <name>ЗаданияВРаботеСсылкаРасширеннаяПодсказка</name>
+              <name>ЗаданияВРаботеСсылкаExtendedTooltip</name>
               <id>617</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -4852,7 +4820,7 @@
             </extInfo>
           </searchControlAddition>
           <extendedTooltip>
-            <name>ЗаданияВРаботеРасширеннаяПодсказка</name>
+            <name>ЗаданияВРаботеExtendedTooltip</name>
             <id>606</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -4909,10 +4877,10 @@
         </title>
         <title>
           <key>en</key>
-          <value>Tasks for picking and goods transfer</value>
+          <value>Jobs for picking and goods transfer</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаЗаданияНаОтборРасширеннаяПодсказка</name>
+          <name>ГруппаЗаданияНаОтборExtendedTooltip</name>
           <id>599</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -4945,7 +4913,7 @@
         <value>Picking from storage bins</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаОтборРасширеннаяПодсказка</name>
+        <name>ГруппаОтборExtendedTooltip</name>
         <id>561</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -4974,7 +4942,7 @@
       <value>Pages</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаСтраницыРасширеннаяПодсказка</name>
+      <name>ГруппаСтраницыExtendedTooltip</name>
       <id>499</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -5016,18 +4984,6 @@
     <edit>
       <common>true</common>
     </edit>
-    <settingsSavedData xsi:type="form:DataPath">
-      <segments>1000001/0:437ff112-d78f-4db4-b539-ce182c533bf6</segments>
-    </settingsSavedData>
-    <settingsSavedData xsi:type="form:DataPath">
-      <segments>1000001/0:63dfdcd6-4a6f-413b-98e4-5fc37dde7430</segments>
-    </settingsSavedData>
-    <settingsSavedData xsi:type="form:DataPath">
-      <segments>1000001/0:9c20babc-55fb-42b5-8b7a-ff36e50b7f0f</segments>
-    </settingsSavedData>
-    <settingsSavedData xsi:type="form:DataPath">
-      <segments>1000001/0:b2858e2c-efef-4914-b809-24711c83c4ba</segments>
-    </settingsSavedData>
     <main>true</main>
   </attributes>
   <commandInterface>

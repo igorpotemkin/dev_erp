@@ -1957,9 +1957,7 @@
                   </value>
                 </choiceList>
                 <choiceList>
-                  <value xsi:type="core:ReferenceValue">
-                    <value>e415ab57-bc46-4271-9a42-7057de9f17fb.c055fc9f-fc66-40cb-826b-aee1eff759fe</value>
-                  </value>
+                  <value xsi:type="core:ReferenceValue"/>
                 </choiceList>
                 <backColor xsi:type="core:ColorRef">
                   <color>Style.ЦветФонаВыделения</color>
@@ -4005,36 +4003,6 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
-            <choiceParameterLinks>
-              <name>Отбор.ЦенаВключаетНДС</name>
-              <datapath xsi:type="form:DataPath">
-                <segments>1</segments>
-              </datapath>
-            </choiceParameterLinks>
-            <choiceParameterLinks>
-              <name>Партнер</name>
-              <datapath xsi:type="form:DataPath">
-                <segments>1</segments>
-              </datapath>
-            </choiceParameterLinks>
-            <choiceParameterLinks>
-              <name>Соглашение</name>
-              <datapath xsi:type="form:DataPath">
-                <segments>1</segments>
-              </datapath>
-            </choiceParameterLinks>
-            <choiceParameterLinks>
-              <name>ИспользоватьСоглашенияСКлиентами</name>
-              <datapath xsi:type="form:DataPath">
-                <segments>44</segments>
-              </datapath>
-            </choiceParameterLinks>
-            <choiceParameterLinks>
-              <name>ИспользуетсяЦенообразование25</name>
-              <datapath xsi:type="form:DataPath">
-                <segments>122</segments>
-              </datapath>
-            </choiceParameterLinks>
             <choiceParameters>
               <name>ВыводитьПроизвольныйВидЦен</name>
               <value xsi:type="form:FormChoiceListDesTimeValue">
@@ -9132,12 +9100,6 @@ details</value>
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
-              <choiceParameterLinks>
-                <name>Отбор.Владелец</name>
-                <datapath xsi:type="form:DataPath">
-                  <segments>1</segments>
-                </datapath>
-              </choiceParameterLinks>
             </extInfo>
           </items>
           <items xsi:type="form:FormField">

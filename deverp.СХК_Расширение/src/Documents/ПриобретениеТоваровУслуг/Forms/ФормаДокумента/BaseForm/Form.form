@@ -1593,43 +1593,6 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
-              <choiceParameterLinks>
-                <name>Отбор.ВалютаВзаиморасчетов</name>
-                <datapath xsi:type="form:DataPath">
-                  <segments>1/0:ddb3a008-56c0-405b-b7a0-5dd0bffdc061</segments>
-                </datapath>
-              </choiceParameterLinks>
-              <choiceParameterLinks>
-                <name>Отбор.Контрагент</name>
-                <datapath xsi:type="form:DataPath">
-                  <segments>1/0:3a5aaded-4c45-495d-b4fb-7037984d0f05</segments>
-                </datapath>
-              </choiceParameterLinks>
-              <choiceParameterLinks>
-                <name>Отбор.Организация</name>
-                <datapath xsi:type="form:DataPath">
-                  <segments>1/0:207653db-8f5a-4a6f-a083-453f30cfdbd7</segments>
-                </datapath>
-              </choiceParameterLinks>
-              <choiceParameterLinks>
-                <name>Отбор.Партнер</name>
-                <datapath xsi:type="form:DataPath">
-                  <segments>1/0:5290731f-624a-4cf6-acc4-fbae69309b60</segments>
-                </datapath>
-              </choiceParameterLinks>
-              <choiceParameterLinks>
-                <name>Соглашение</name>
-                <changeMode>DontChange</changeMode>
-                <datapath xsi:type="form:DataPath">
-                  <segments>1/0:326f1ef5-3b92-4b73-8cda-af223f90fcc5</segments>
-                </datapath>
-              </choiceParameterLinks>
-              <choiceParameterLinks>
-                <name>Отбор.ХозяйственнаяОперация</name>
-                <datapath xsi:type="form:DataPath">
-                  <segments>34</segments>
-                </datapath>
-              </choiceParameterLinks>
               <choiceParameters>
                 <name>Отбор.Статус</name>
                 <value xsi:type="form:FormChoiceListDesTimeValue">
@@ -3893,26 +3856,6 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
-            <choiceParameterLinks>
-              <name>Номенклатура</name>
-              <changeMode>DontChange</changeMode>
-              <datapath xsi:type="form:DataPath">
-                <segments>35:02023637-7868-4a5f-8576-835a76e0c9ba/0:6b535f05-ac01-4fbe-a57c-0c88609787de</segments>
-              </datapath>
-            </choiceParameterLinks>
-            <choiceParameterLinks>
-              <name>Отбор.СтранаПроисхождения</name>
-              <datapath xsi:type="form:DataPath">
-                <segments>35:02023637-7868-4a5f-8576-835a76e0c9ba/18:5bdad865-f2c5-434b-8041-ba4aad3b6687</segments>
-              </datapath>
-            </choiceParameterLinks>
-            <choiceParameterLinks>
-              <name>Характеристика</name>
-              <changeMode>DontChange</changeMode>
-              <datapath xsi:type="form:DataPath">
-                <segments>35:02023637-7868-4a5f-8576-835a76e0c9ba/0:07770f6f-1b6b-4728-8b1e-5727c63dbf6d</segments>
-              </datapath>
-            </choiceParameterLinks>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">

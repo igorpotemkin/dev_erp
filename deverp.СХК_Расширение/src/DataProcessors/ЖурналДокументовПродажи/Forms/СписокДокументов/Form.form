@@ -239,7 +239,6 @@
       <key>en</key>
       <value>General filters</value>
     </title>
-    <groupHorizontalAlign>Left</groupHorizontalAlign>
     <extendedTooltip>
       <name>ГруппаОбщиеОтборыРасширеннаяПодсказка</name>
       <id>2</id>
@@ -347,10 +346,8 @@
     </dataPath>
     <skipOnInput>false</skipOnInput>
     <titleLocation>None</titleLocation>
-    <excludedCommands>Change</excludedCommands>
     <excludedCommands>Copy</excludedCommands>
     <excludedCommands>Delete</excludedCommands>
-    <excludedCommands>Refresh</excludedCommands>
     <items xsi:type="form:FormField">
       <name>ЕстьОшибкиПроверкиКонтрагентов</name>
       <id>263</id>
@@ -1321,7 +1318,7 @@
     </items>
     <items xsi:type="form:FormField">
       <name>СписокДокументовПродажиМенеджер</name>
-      <id>365</id>
+      <id>361</id>
       <title>
         <key>ru</key>
         <value>Менеджер</value>
@@ -1340,7 +1337,7 @@
       </dataPath>
       <extendedTooltip>
         <name>СписокДокументовПродажиМенеджерРасширеннаяПодсказка</name>
-        <id>367</id>
+        <id>363</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -1350,7 +1347,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>СписокДокументовПродажиМенеджерКонтекстноеМеню</name>
-        <id>366</id>
+        <id>362</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>LabelField</type>
@@ -1637,10 +1634,10 @@
         </items>
         <items xsi:type="form:FormGroup">
           <name>СписокГруппаЗагрузитьИзСкана</name>
-          <id>361</id>
+          <id>373</id>
           <items xsi:type="form:Button">
             <name>СписокДокументыЗакупкиЗагрузитьИзСканаФото</name>
-            <id>363</id>
+            <id>375</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1648,7 +1645,7 @@
             </userVisible>
             <extendedTooltip>
               <name>СписокДокументыЗакупкиЗагрузитьИзСканаФотоРасширеннаяПодсказка</name>
-              <id>364</id>
+              <id>378</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1680,7 +1677,7 @@
           </title>
           <extendedTooltip>
             <name>СписокГруппаЗагрузитьИзСканаРасширеннаяПодсказка</name>
-            <id>362</id>
+            <id>377</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -2420,7 +2417,6 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <commandName>0</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -2475,7 +2471,6 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <commandName>0</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -2799,7 +2794,7 @@
           </userVisible>
           <extendedTooltip>
             <name>СписокДокументыЗакупкиКнопка1РасширеннаяПодсказка</name>
-            <id>381</id>
+            <id>367</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -2854,7 +2849,7 @@
         </title>
         <extendedTooltip>
           <name>СписокДокументыЗакупкиГруппа1РасширеннаяПодсказка</name>
-          <id>379</id>
+          <id>365</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>

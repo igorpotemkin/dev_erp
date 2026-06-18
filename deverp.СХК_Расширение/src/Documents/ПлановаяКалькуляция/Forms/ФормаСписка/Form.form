@@ -66,9 +66,7 @@
           </value>
         </choiceList>
         <choiceList>
-          <value xsi:type="core:ReferenceValue">
-            <value>7daa7dac-600c-45bb-a33c-5d9ae17148b5.5cfcd0d8-d067-4449-ae58-3f3433999817</value>
-          </value>
+          <value xsi:type="core:ReferenceValue"/>
         </choiceList>
       </extInfo>
     </items>

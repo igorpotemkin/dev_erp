@@ -1703,33 +1703,6 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
-              <choiceParameterLinks>
-                <name>Отбор.СтранаПроисхождения</name>
-                <datapath xsi:type="form:DataPath">
-                  <segments>27:02023637-7868-4a5f-8576-835a76e0c9ba/8:5bdad865-f2c5-434b-8041-ba4aad3b6687</segments>
-                </datapath>
-              </choiceParameterLinks>
-              <choiceParameterLinks>
-                <name>Характеристика</name>
-                <changeMode>DontChange</changeMode>
-                <datapath xsi:type="form:DataPath">
-                  <segments>27:02023637-7868-4a5f-8576-835a76e0c9ba/0:b48a732f-d560-40c9-9eff-a72485307839</segments>
-                </datapath>
-              </choiceParameterLinks>
-              <choiceParameterLinks>
-                <name>Дата</name>
-                <changeMode>DontChange</changeMode>
-                <datapath xsi:type="form:DataPath">
-                  <segments>1/-3</segments>
-                </datapath>
-              </choiceParameterLinks>
-              <choiceParameterLinks>
-                <name>Номенклатура</name>
-                <changeMode>DontChange</changeMode>
-                <datapath xsi:type="form:DataPath">
-                  <segments>27:02023637-7868-4a5f-8576-835a76e0c9ba/0:f337b9f0-a2af-443c-93dc-6bb1a1c4beb1</segments>
-                </datapath>
-              </choiceParameterLinks>
             </extInfo>
           </items>
           <items xsi:type="form:FormField">

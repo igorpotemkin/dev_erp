@@ -15,9 +15,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>16</segments>
-      </dataPath>
       <extendedTooltip>
         <name>ИдентификаторПлатежаРасширеннаяПодсказка</name>
         <id>229</id>
@@ -59,9 +56,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>6</segments>
-      </dataPath>
       <titleLocation>Left</titleLocation>
       <extendedTooltip>
         <name>ПартнерExtendedTooltip</name>
@@ -101,9 +95,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>3</segments>
-      </dataPath>
       <titleLocation>Left</titleLocation>
       <extendedTooltip>
         <name>КонтрагентExtendedTooltip</name>
@@ -144,9 +135,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>5</segments>
-      </dataPath>
       <titleLocation>Left</titleLocation>
       <extendedTooltip>
         <name>ОрганизацияExtendedTooltip</name>
@@ -220,9 +208,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>4</segments>
-      </dataPath>
       <skipOnInput>false</skipOnInput>
       <titleLocation>None</titleLocation>
       <items xsi:type="form:FormField">
@@ -876,13 +861,6 @@
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
-          <choiceParameterLinks>
-            <name>Отбор.ХозяйственнаяОперация</name>
-            <changeMode>DontChange</changeMode>
-            <datapath xsi:type="form:DataPath">
-              <segments>9</segments>
-            </datapath>
-          </choiceParameterLinks>
         </extInfo>
       </items>
       <autoCommandBar>
@@ -907,7 +885,6 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -933,7 +910,6 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -959,7 +935,6 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -985,7 +960,6 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1011,7 +985,6 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1037,7 +1010,6 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1237,9 +1209,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>11</segments>
-        </dataPath>
         <extendedTooltip>
           <name>СуммаПлатежейExtendedTooltip</name>
           <id>213</id>
@@ -1323,9 +1292,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>7</segments>
-        </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
           <name>ВалютаExtendedTooltip</name>

@@ -1868,12 +1868,6 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
-            <choiceParameterLinks>
-              <name>Отбор.ЦенаВключаетНДС</name>
-              <datapath xsi:type="form:DataPath">
-                <segments>1/0:9c1c8c75-9ccd-4c8d-aba5-37790ffd3152</segments>
-              </datapath>
-            </choiceParameterLinks>
             <choiceParameters>
               <name>ВыводитьПроизвольныйВидЦен</name>
               <value xsi:type="form:FormChoiceListDesTimeValue">
@@ -2488,26 +2482,6 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
-            <choiceParameterLinks>
-              <name>Номенклатура</name>
-              <changeMode>DontChange</changeMode>
-              <datapath xsi:type="form:DataPath">
-                <segments>45:02023637-7868-4a5f-8576-835a76e0c9ba/0:c35a614b-7cc3-4522-875a-75904695bd16</segments>
-              </datapath>
-            </choiceParameterLinks>
-            <choiceParameterLinks>
-              <name>Отбор.СтранаПроисхождения</name>
-              <datapath xsi:type="form:DataPath">
-                <segments>45:02023637-7868-4a5f-8576-835a76e0c9ba/35:5bdad865-f2c5-434b-8041-ba4aad3b6687</segments>
-              </datapath>
-            </choiceParameterLinks>
-            <choiceParameterLinks>
-              <name>Характеристика</name>
-              <changeMode>DontChange</changeMode>
-              <datapath xsi:type="form:DataPath">
-                <segments>45:02023637-7868-4a5f-8576-835a76e0c9ba/0:01ae5fad-ae0d-4c2b-855f-a47c1a3743f0</segments>
-              </datapath>
-            </choiceParameterLinks>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">

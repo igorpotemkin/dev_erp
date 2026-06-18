@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form" xmlns:schema="http://g5.1c.ru/v8/dt/data-composition-system/schema">
   <title>
-    <key>ru</key>
-    <value>Заказы клиентов</value>
-  </title>
-  <title>
     <key>en</key>
     <value>Sales orders</value>
+  </title>
+  <title>
+    <key>ru</key>
+    <value>Заказы клиентов</value>
   </title>
   <items xsi:type="form:FormGroup">
     <name>ГруппаБыстрыеОтборы</name>
@@ -2064,7 +2064,7 @@
       </items>
       <items xsi:type="form:FormGroup">
         <name>СписокГруппаЗагрузитьИзСкана</name>
-        <id>320</id>
+        <id>329</id>
         <items xsi:type="form:Button">
           <name>СписокДокументыЗакупкиЗагрузитьИзСканаФото</name>
           <id>322</id>
@@ -2075,7 +2075,7 @@
           </userVisible>
           <extendedTooltip>
             <name>СписокДокументыЗакупкиЗагрузитьИзСканаФотоРасширеннаяПодсказка</name>
-            <id>323</id>
+            <id>331</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -2200,7 +2200,7 @@
       </items>
       <items xsi:type="form:FormGroup">
         <name>ГруппаДействия</name>
-        <id>51</id>
+        <id>320</id>
         <items xsi:type="form:Button">
           <name>УстановитьСтатусНаСогласовании</name>
           <id>55</id>
@@ -2312,9 +2312,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Items.Список.CurrentData.Ссылка</segments>
-            </dataPath>
             <extendedTooltip>
               <name>СписокОтгрузитьЗаказРасширеннаяПодсказка</name>
               <id>311</id>
@@ -2339,9 +2336,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Items.Список.CurrentData.Ссылка</segments>
-            </dataPath>
             <extendedTooltip>
               <name>СписокРезервироватьЗаказРасширеннаяПодсказка</name>
               <id>313</id>
@@ -2366,9 +2360,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Items.Список.CurrentData.Ссылка</segments>
-            </dataPath>
             <extendedTooltip>
               <name>СписокРезервироватьПоМереПоступленияЗаказРасширеннаяПодсказка</name>
               <id>319</id>
@@ -2393,12 +2384,9 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Items.Список.CurrentData.Ссылка</segments>
-            </dataPath>
             <extendedTooltip>
               <name>СписокКОбеспечениюЗаказРасширеннаяПодсказка</name>
-              <id>299</id>
+              <id>327</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -2414,15 +2402,12 @@
           </items>
           <items xsi:type="form:Button">
             <name>СписокНеОбеспечиватьЗаказ</name>
-            <id>300</id>
+            <id>323</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Items.Список.CurrentData.Ссылка</segments>
-            </dataPath>
             <extendedTooltip>
               <name>СписокНеОбеспечиватьЗаказРасширеннаяПодсказка</name>
               <id>301</id>
@@ -2469,18 +2454,15 @@
           <id>249</id>
           <items xsi:type="form:Button">
             <name>СписокСостояниеОбеспеченияСпискаЗаказов</name>
-            <id>251</id>
+            <id>324</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Items.Список.CurrentData.Ссылка</segments>
-            </dataPath>
             <extendedTooltip>
               <name>СписокСостояниеОбеспеченияСпискаЗаказовРасширеннаяПодсказка</name>
-              <id>252</id>
+              <id>328</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -2521,21 +2503,18 @@
         </items>
         <items xsi:type="form:FormGroup">
           <name>ГруппаЗачетОплаты</name>
-          <id>314</id>
+          <id>253</id>
           <items xsi:type="form:Button">
             <name>СписокОбработкаПомощникЗачетаОплатЗачетОплаты</name>
-            <id>316</id>
+            <id>255</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Items.Список.CurrentData.Ссылка</segments>
-            </dataPath>
             <extendedTooltip>
               <name>СписокОбработкаПомощникЗачетаОплатЗачетОплатыРасширеннаяПодсказка</name>
-              <id>317</id>
+              <id>256</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -2563,16 +2542,16 @@
             <value>Payment offset</value>
           </title>
           <toolTip>
-            <key>ru</key>
-            <value>Группа зачет оплаты</value>
-          </toolTip>
-          <toolTip>
             <key>en</key>
             <value>Group payment offset</value>
           </toolTip>
+          <toolTip>
+            <key>ru</key>
+            <value>Группа зачет оплаты</value>
+          </toolTip>
           <extendedTooltip>
             <name>ГруппаЗачетОплатыРасширеннаяПодсказка</name>
-            <id>315</id>
+            <id>254</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -2597,7 +2576,7 @@
         </title>
         <extendedTooltip>
           <name>ГруппаДействияРасширеннаяПодсказка</name>
-          <id>171</id>
+          <id>326</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>

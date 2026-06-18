@@ -6,21 +6,13 @@
     <items xsi:type="form:FormField">
       <name>ГлавнаяЗадача</name>
       <id>99</id>
-      <title>
-        <key>ru</key>
-        <value>Главная задача</value>
-      </title>
-      <title>
-        <key>en</key>
-        <value>Master task</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ГлавнаяЗадачаРасширеннаяПодсказка</name>
+        <name>ГлавнаяЗадачаExtendedTooltip</name>
         <id>110</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -57,7 +49,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ДекорацияЗначокРасширеннаяПодсказка</name>
+          <name>ДекорацияЗначокExtendedTooltip</name>
           <id>108</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -74,23 +66,11 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <skipOnInput>false</skipOnInput>
-        <extInfo xsi:type="form:PictureDecorationExtInfo">
-          <picture xsi:type="core:PictureRef">
-            <picture>StdPicture.Information</picture>
-          </picture>
-        </extInfo>
+        <extInfo xsi:type="form:PictureDecorationExtInfo"/>
       </items>
       <items xsi:type="form:FormField">
         <name>ИнфоНадписьЗаголовок</name>
         <id>155</id>
-        <title>
-          <key>ru</key>
-          <value>Инфо надпись заголовок</value>
-        </title>
-        <title>
-          <key>en</key>
-          <value>Info and label and title</value>
-        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -132,11 +112,11 @@
       </title>
       <title>
         <key>en</key>
-        <value>State</value>
+        <value>Status</value>
       </title>
       <verticalStretch>false</verticalStretch>
       <extendedTooltip>
-        <name>ГруппаСостояниеРасширеннаяПодсказка</name>
+        <name>ГруппаСостояниеExtendedTooltip</name>
         <id>107</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -171,7 +151,7 @@
           </userVisible>
           <defaultItem>true</defaultItem>
           <extendedTooltip>
-            <name>ЗаголовокЗаданияРасширеннаяПодсказка</name>
+            <name>ЗаголовокЗаданияExtendedTooltip</name>
             <id>112</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -211,7 +191,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ВажностьРасширеннаяПодсказка</name>
+            <name>ВажностьExtendedTooltip</name>
             <id>113</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -245,7 +225,7 @@
           <enabled>true</enabled>
           <userVisible/>
           <extendedTooltip>
-            <name>НомерРасширеннаяПодсказка</name>
+            <name>НомерExtendedTooltip</name>
             <id>114</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -285,10 +265,10 @@
         </title>
         <title>
           <key>en</key>
-          <value>Period and priority</value>
+          <value>Period and Priority</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаСрокВажностьРасширеннаяПодсказка</name>
+          <name>ГруппаСрокВажностьExtendedTooltip</name>
           <id>111</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -317,7 +297,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ИсполнительРасширеннаяПодсказка</name>
+            <name>ИсполнительExtendedTooltip</name>
             <id>116</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -375,7 +355,7 @@
               <value>The date by which the task should be completed.</value>
             </toolTip>
             <extendedTooltip>
-              <name>СрокИсполненияРасширеннаяПодсказка</name>
+              <name>СрокИсполненияExtendedTooltip</name>
               <id>117</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -438,7 +418,7 @@
               <value>Due time</value>
             </toolTip>
             <extendedTooltip>
-              <name>СрокИсполненияВремяРасширеннаяПодсказка</name>
+              <name>СрокИсполненияВремяExtendedTooltip</name>
               <id>118</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -519,10 +499,10 @@
         </title>
         <title>
           <key>en</key>
-          <value>Execution</value>
+          <value>Assignment</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаИсполнениеРасширеннаяПодсказка</name>
+          <name>ГруппаИсполнениеExtendedTooltip</name>
           <id>115</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -580,21 +560,13 @@
         <items xsi:type="form:FormField">
           <name>Предмет</name>
           <id>86</id>
-          <title>
-            <key>ru</key>
-            <value>Предмет</value>
-          </title>
-          <title>
-            <key>en</key>
-            <value>Topic</value>
-          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ПредметРасширеннаяПодсказка</name>
+            <name>ПредметExtendedTooltip</name>
             <id>120</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -637,7 +609,7 @@
           </userVisible>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
-            <name>СодержаниеРасширеннаяПодсказка</name>
+            <name>СодержаниеExtendedTooltip</name>
             <id>121</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -838,7 +810,7 @@
         <value>Content</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаСодержаниеРасширеннаяПодсказка</name>
+        <name>ГруппаСодержаниеExtendedTooltip</name>
         <id>119</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -878,7 +850,7 @@
         </userVisible>
         <titleLocation>Right</titleLocation>
         <extendedTooltip>
-          <name>НаПроверкеРасширеннаяПодсказка</name>
+          <name>НаПроверкеExtendedTooltip</name>
           <id>123</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -912,7 +884,7 @@
           </userVisible>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
-            <name>ПроверяющийРасширеннаяПодсказка</name>
+            <name>ПроверяющийExtendedTooltip</name>
             <id>125</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -976,7 +948,7 @@
               <value>The date by which the revision should be completed.</value>
             </toolTip>
             <extendedTooltip>
-              <name>СрокПроверкиРасширеннаяПодсказка</name>
+              <name>СрокПроверкиExtendedTooltip</name>
               <id>126</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -1042,7 +1014,7 @@
               <value>The time by which the revision should be completed.</value>
             </toolTip>
             <extendedTooltip>
-              <name>СрокПроверкиВремяРасширеннаяПодсказка</name>
+              <name>СрокПроверкиВремяExtendedTooltip</name>
               <id>127</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
@@ -1129,7 +1101,7 @@
           <value>Supervisor</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаПроверяющийРасширеннаяПодсказка</name>
+          <name>ГруппаПроверяющийExtendedTooltip</name>
           <id>124</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -1160,7 +1132,7 @@
         <value>Revision</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаПроверкаРасширеннаяПодсказка</name>
+        <name>ГруппаПроверкаExtendedTooltip</name>
         <id>122</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1190,7 +1162,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>АвторРасширеннаяПодсказка</name>
+          <name>АвторExtendedTooltip</name>
           <id>129</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -1236,7 +1208,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ДатаРасширеннаяПодсказка</name>
+          <name>ДатаExtendedTooltip</name>
           <id>130</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -1279,7 +1251,7 @@
         <value>Author</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаОбщиеСведенияРасширеннаяПодсказка</name>
+        <name>ГруппаОбщиеСведенияExtendedTooltip</name>
         <id>128</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1363,14 +1335,6 @@
     <items xsi:type="form:Button">
       <name>ФормаЗаписатьИЗакрыть</name>
       <id>141</id>
-      <title>
-        <key>ru</key>
-        <value>Записать и закрыть</value>
-      </title>
-      <title>
-        <key>en</key>
-        <value>Save and close</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1443,14 +1407,6 @@
     <items xsi:type="form:Button">
       <name>ФормаНастроитьОтложенныйСтарт</name>
       <id>153</id>
-      <title>
-        <key>ru</key>
-        <value>Настроить отложенный старт</value>
-      </title>
-      <title>
-        <key>en</key>
-        <value>Schedule start</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1475,21 +1431,13 @@
     <items xsi:type="form:Button">
       <name>ФормаОстановить</name>
       <id>101</id>
-      <title>
-        <key>ru</key>
-        <value>Остановить</value>
-      </title>
-      <title>
-        <key>en</key>
-        <value>Suspend</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаОстановитьРасширеннаяПодсказка</name>
+        <name>ФормаОстановитьExtendedTooltip</name>
         <id>105</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1507,21 +1455,13 @@
     <items xsi:type="form:Button">
       <name>ФормаПродолжить</name>
       <id>102</id>
-      <title>
-        <key>ru</key>
-        <value>Продолжить</value>
-      </title>
-      <title>
-        <key>en</key>
-        <value>Resume</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаПродолжитьРасширеннаяПодсказка</name>
+        <name>ФормаПродолжитьExtendedTooltip</name>
         <id>106</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>

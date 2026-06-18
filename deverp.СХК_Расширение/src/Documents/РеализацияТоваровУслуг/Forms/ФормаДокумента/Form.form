@@ -157,7 +157,6 @@
         </extInfo>
       </extendedTooltip>
       <type>Hyperlink</type>
-      <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -294,7 +293,7 @@
               <headerHorizontalAlign>Left</headerHorizontalAlign>
               <showInFooter>true</showInFooter>
               <extInfo xsi:type="form:LabelFieldExtInfo">
-                <maxWidth>52</maxWidth>
+                <maxWidth>46</maxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <hyperlink>true</hyperlink>
               </extInfo>
@@ -319,7 +318,6 @@
                 </extInfo>
               </extendedTooltip>
               <type>Hyperlink</type>
-              <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
               <representation>PictureAndText</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -372,11 +370,7 @@
                 <autoMaxHeight>true</autoMaxHeight>
                 <horizontalStretch>false</horizontalStretch>
                 <groupVerticalAlign>Bottom</groupVerticalAlign>
-                <extInfo xsi:type="form:PictureDecorationExtInfo">
-                  <picture xsi:type="core:PictureRef">
-                    <picture>CommonPicture.ПревышениеЗаказа</picture>
-                  </picture>
-                </extInfo>
+                <extInfo xsi:type="form:PictureDecorationExtInfo"/>
               </items>
               <items xsi:type="form:FormField">
                 <name>НадписьРасхождениеЗаказ</name>
@@ -574,7 +568,6 @@
                 </extInfo>
               </extendedTooltip>
               <type>Hyperlink</type>
-              <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
               <representation>PictureAndText</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -627,11 +620,7 @@
                 <autoMaxHeight>true</autoMaxHeight>
                 <horizontalStretch>false</horizontalStretch>
                 <groupVerticalAlign>Bottom</groupVerticalAlign>
-                <extInfo xsi:type="form:PictureDecorationExtInfo">
-                  <picture xsi:type="core:PictureRef">
-                    <picture>CommonPicture.ПревышениеЗаказа</picture>
-                  </picture>
-                </extInfo>
+                <extInfo xsi:type="form:PictureDecorationExtInfo"/>
               </items>
               <items xsi:type="form:FormField">
                 <name>НадписьРасхождениеЗаказы</name>
@@ -890,7 +879,6 @@
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
-                <editTextUpdate>OnValueChange</editTextUpdate>
               </extInfo>
             </items>
             <visible>true</visible>
@@ -1036,7 +1024,6 @@
                 </extInfo>
               </extendedTooltip>
               <type>UsualButton</type>
-              <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
               <representation>Picture</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1144,11 +1131,7 @@
                   </contextMenu>
                   <maxWidth>3</maxWidth>
                   <maxHeight>1</maxHeight>
-                  <extInfo xsi:type="form:PictureDecorationExtInfo">
-                    <picture xsi:type="core:PictureRef">
-                      <picture>CommonPicture.ВниманиеКрасный</picture>
-                    </picture>
-                  </extInfo>
+                  <extInfo xsi:type="form:PictureDecorationExtInfo"/>
                 </items>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1404,11 +1387,7 @@
                   </contextMenu>
                   <maxWidth>3</maxWidth>
                   <maxHeight>1</maxHeight>
-                  <extInfo xsi:type="form:PictureDecorationExtInfo">
-                    <picture xsi:type="core:PictureRef">
-                      <picture>CommonPicture.ВниманиеКрасный</picture>
-                    </picture>
-                  </extInfo>
+                  <extInfo xsi:type="form:PictureDecorationExtInfo"/>
                 </items>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1591,13 +1570,13 @@
           </items>
           <items xsi:type="form:FormGroup">
             <name>ГруппаДанныеКлиента</name>
-            <id>1535</id>
+            <id>1637</id>
             <items xsi:type="form:FormGroup">
               <name>ГруппаКонечныйКлиентПартнер</name>
               <id>1557</id>
               <items xsi:type="form:FormField">
                 <name>КлиентПартнер</name>
-                <id>1570</id>
+                <id>1647</id>
                 <title>
                   <key>ru</key>
                   <value>Клиент</value>
@@ -1616,7 +1595,7 @@
                 </dataPath>
                 <extendedTooltip>
                   <name>КлиентПартнерРасширеннаяПодсказка</name>
-                  <id>1542</id>
+                  <id>1669</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
@@ -1667,7 +1646,7 @@
               </title>
               <extendedTooltip>
                 <name>ГруппаКонечныйКлиентПартнерРасширеннаяПодсказка</name>
-                <id>1558</id>
+                <id>1667</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -1686,10 +1665,10 @@
             </items>
             <items xsi:type="form:FormGroup">
               <name>ГруппаКонечныйКлиентКонтрагент</name>
-              <id>1559</id>
+              <id>1639</id>
               <items xsi:type="form:FormField">
                 <name>КлиентКонтрагент</name>
-                <id>1537</id>
+                <id>1644</id>
                 <title>
                   <key>ru</key>
                   <value>Контрагент</value>
@@ -1708,7 +1687,7 @@
                 </dataPath>
                 <extendedTooltip>
                   <name>КлиентКонтрагентРасширеннаяПодсказка</name>
-                  <id>1572</id>
+                  <id>1671</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
@@ -1718,7 +1697,7 @@
                 </extendedTooltip>
                 <contextMenu>
                   <name>КлиентКонтрагентКонтекстноеМеню</name>
-                  <id>1571</id>
+                  <id>1670</id>
                   <autoFill>true</autoFill>
                 </contextMenu>
                 <type>InputField</type>
@@ -1751,7 +1730,7 @@
               </title>
               <extendedTooltip>
                 <name>ГруппаКонечныйКлиентКонтрагентРасширеннаяПодсказка</name>
-                <id>1560</id>
+                <id>1668</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -1773,7 +1752,7 @@
               <id>1543</id>
               <items xsi:type="form:FormField">
                 <name>КлиентДоговор</name>
-                <id>1545</id>
+                <id>1643</id>
                 <title>
                   <key>ru</key>
                   <value>Договор</value>
@@ -1875,7 +1854,7 @@
             </title>
             <extendedTooltip>
               <name>ГруппаДанныеКлиентаРасширеннаяПодсказка</name>
-              <id>1536</id>
+              <id>1666</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1919,6 +1898,7 @@
           <extInfo xsi:type="form:UsualGroupExtInfo">
             <group>Vertical</group>
             <showLeftMargin>true</showLeftMargin>
+            <united>true</united>
             <throughAlign>Auto</throughAlign>
             <currentRowUse>Auto</currentRowUse>
           </extInfo>
@@ -1962,7 +1942,6 @@
               <headerHorizontalAlign>Left</headerHorizontalAlign>
               <showInFooter>true</showInFooter>
               <extInfo xsi:type="form:InputFieldExtInfo">
-                <autoMaxWidth>true</autoMaxWidth>
                 <maxWidth>29</maxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <wrap>true</wrap>
@@ -1993,23 +1972,17 @@
                   </value>
                 </choiceList>
                 <choiceList>
+                  <value xsi:type="core:ReferenceValue"/>
+                </choiceList>
+                <choiceList>
                   <value xsi:type="core:ReferenceValue">
                     <value>Enum.ХозяйственныеОперации.EnumValue.РеализацияЧерезКомиссионера</value>
-                  </value>
-                </choiceList>
-                <choiceList>
-                  <value xsi:type="core:ReferenceValue">
-                    <value>Enum.ХозяйственныеОперации.EnumValue.РеализацияЧерезКомиссионераБезПереходаПраваСобственности</value>
-                  </value>
-                </choiceList>
-                <choiceList>
-                  <value xsi:type="core:ReferenceValue">
-                    <value>Enum.ХозяйственныеОперации.EnumValue.ПереходПраваСобственности</value>
                   </value>
                 </choiceList>
                 <backColor xsi:type="core:ColorRef">
                   <color>Style.ЦветФонаВыделения</color>
                 </backColor>
+                <dropListWidth>28</dropListWidth>
               </extInfo>
             </items>
             <visible>true</visible>
@@ -2079,7 +2052,6 @@
               <headerHorizontalAlign>Left</headerHorizontalAlign>
               <showInFooter>true</showInFooter>
               <extInfo xsi:type="form:InputFieldExtInfo">
-                <autoMaxWidth>true</autoMaxWidth>
                 <maxWidth>29</maxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <dropListButton>true</dropListButton>
@@ -2162,7 +2134,6 @@
               <headerHorizontalAlign>Left</headerHorizontalAlign>
               <showInFooter>true</showInFooter>
               <extInfo xsi:type="form:InputFieldExtInfo">
-                <autoMaxWidth>true</autoMaxWidth>
                 <maxWidth>29</maxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <wrap>true</wrap>
@@ -2246,7 +2217,6 @@
               <headerHorizontalAlign>Left</headerHorizontalAlign>
               <showInFooter>true</showInFooter>
               <extInfo xsi:type="form:InputFieldExtInfo">
-                <autoMaxWidth>true</autoMaxWidth>
                 <maxWidth>29</maxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <dropListButton>false</dropListButton>
@@ -2315,6 +2285,7 @@
           <extInfo xsi:type="form:UsualGroupExtInfo">
             <group>Vertical</group>
             <showLeftMargin>true</showLeftMargin>
+            <united>true</united>
             <throughAlign>Auto</throughAlign>
             <currentRowUse>Auto</currentRowUse>
           </extInfo>
@@ -2425,11 +2396,7 @@
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <groupVerticalAlign>Bottom</groupVerticalAlign>
-              <extInfo xsi:type="form:PictureDecorationExtInfo">
-                <picture xsi:type="core:PictureRef">
-                  <picture>CommonPicture.ОтгрузкаЗапрещена</picture>
-                </picture>
-              </extInfo>
+              <extInfo xsi:type="form:PictureDecorationExtInfo"/>
             </items>
             <items xsi:type="form:Decoration">
               <name>ТекстОтгрузкаПартнеруЗапрещена</name>
@@ -2542,11 +2509,7 @@
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <groupVerticalAlign>Bottom</groupVerticalAlign>
-              <extInfo xsi:type="form:PictureDecorationExtInfo">
-                <picture xsi:type="core:PictureRef">
-                  <picture>CommonPicture.ОтгрузкаЗапрещена</picture>
-                </picture>
-              </extInfo>
+              <extInfo xsi:type="form:PictureDecorationExtInfo"/>
             </items>
             <items xsi:type="form:Decoration">
               <name>ДекорацияОграничениеЗадолженности</name>
@@ -2566,7 +2529,7 @@
               </userVisible>
               <extendedTooltip>
                 <name>ДекорацияОграничениеЗадолженностиРасширеннаяПодсказка</name>
-                <id>1463</id>
+                <id>1561</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -2778,6 +2741,7 @@
           <extInfo xsi:type="form:UsualGroupExtInfo">
             <group>Vertical</group>
             <showLeftMargin>true</showLeftMargin>
+            <united>true</united>
             <throughAlign>Auto</throughAlign>
             <currentRowUse>Auto</currentRowUse>
           </extInfo>
@@ -2815,10 +2779,10 @@
       </items>
       <items xsi:type="form:FormGroup">
         <name>ГруппаВалюты</name>
-        <id>1453</id>
+        <id>1535</id>
         <items xsi:type="form:Decoration">
           <name>ЗаголовокВалюты</name>
-          <id>1455</id>
+          <id>1548</id>
           <title>
             <key>ru</key>
             <value>Валюты:</value>
@@ -2834,7 +2798,7 @@
           </userVisible>
           <extendedTooltip>
             <name>ЗаголовокВалютыРасширеннаяПодсказка</name>
-            <id>1457</id>
+            <id>1563</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -2844,7 +2808,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>ЗаголовокВалютыКонтекстноеМеню</name>
-            <id>1456</id>
+            <id>1562</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>Label</type>
@@ -2857,7 +2821,7 @@
         </items>
         <items xsi:type="form:Decoration">
           <name>ДекорацияВалюты</name>
-          <id>1458</id>
+          <id>1539</id>
           <title>
             <key>ru</key>
             <value>Декорация валюты</value>
@@ -2873,7 +2837,7 @@
           </userVisible>
           <extendedTooltip>
             <name>ДекорацияВалютыРасширеннаяПодсказка</name>
-            <id>1460</id>
+            <id>1564</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -2909,7 +2873,7 @@
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
           <name>ГруппаВалютыРасширеннаяПодсказка</name>
-          <id>1454</id>
+          <id>1559</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -2928,7 +2892,7 @@
       </items>
       <items xsi:type="form:FormGroup">
         <name>ГруппаОплата</name>
-        <id>1390</id>
+        <id>1537</id>
         <items xsi:type="form:Decoration">
           <name>ЗаголовокОплата</name>
           <id>1392</id>
@@ -2969,7 +2933,7 @@
         </items>
         <items xsi:type="form:FormField">
           <name>ДекорацияЭтапыОплаты</name>
-          <id>1573</id>
+          <id>1545</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -2978,7 +2942,7 @@
           <titleLocation>None</titleLocation>
           <extendedTooltip>
             <name>ДекорацияЭтапыОплатыРасширеннаяПодсказка</name>
-            <id>1575</id>
+            <id>1673</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -2988,7 +2952,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>ДекорацияЭтапыОплатыКонтекстноеМеню</name>
-            <id>1574</id>
+            <id>1672</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>LabelField</type>
@@ -2997,14 +2961,14 @@
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:LabelFieldExtInfo">
-            <maxWidth>33</maxWidth>
+            <maxWidth>28</maxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <hyperlink>true</hyperlink>
           </extInfo>
         </items>
         <items xsi:type="form:Decoration">
           <name>ДекорацияСостояниеРасчетов</name>
-          <id>1450</id>
+          <id>1542</id>
           <title>
             <key>ru</key>
             <value>Декорация состояние расчетов</value>
@@ -3020,7 +2984,7 @@
           </userVisible>
           <extendedTooltip>
             <name>ДекорацияСостояниеРасчетовРасширеннаяПодсказка</name>
-            <id>1452</id>
+            <id>1568</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -3030,11 +2994,11 @@
           </extendedTooltip>
           <contextMenu>
             <name>ДекорацияСостояниеРасчетовКонтекстноеМеню</name>
-            <id>1451</id>
+            <id>1567</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>Label</type>
-          <maxWidth>40</maxWidth>
+          <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
             <hyperlink>true</hyperlink>
@@ -3060,7 +3024,6 @@
             </extInfo>
           </extendedTooltip>
           <type>UsualButton</type>
-          <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -3081,10 +3044,9 @@
           <key>en</key>
           <value>Payment group</value>
         </title>
-        <width>91</width>
         <extendedTooltip>
           <name>ГруппаОплатаРасширеннаяПодсказка</name>
-          <id>1391</id>
+          <id>1560</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -3133,7 +3095,7 @@
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:InputFieldExtInfo">
-          <maxWidth>81</maxWidth>
+          <maxWidth>70</maxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <verticalStretch>false</verticalStretch>
           <chooseType>true</chooseType>
@@ -3149,7 +3111,7 @@
           <id>1591</id>
           <items xsi:type="form:FormField">
             <name>СХК_Сдиз</name>
-            <id>1724</id>
+            <id>1575</id>
             <title>
               <key>ru</key>
               <value>СДИЗ</value>
@@ -3173,7 +3135,7 @@
             </handlers>
             <extendedTooltip>
               <name>СХК_СдизРасширеннаяПодсказка</name>
-              <id>1737</id>
+              <id>1577</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -3183,7 +3145,7 @@
             </extendedTooltip>
             <contextMenu>
               <name>СХК_СдизКонтекстноеМеню</name>
-              <id>1736</id>
+              <id>1576</id>
               <autoFill>true</autoFill>
             </contextMenu>
             <type>CheckBoxField</type>
@@ -3198,7 +3160,7 @@
             <id>1593</id>
             <items xsi:type="form:FormField">
               <name>СХК_ДатаСДИЗ</name>
-              <id>1738</id>
+              <id>1595</id>
               <title>
                 <key>ru</key>
                 <value>Дата СДИЗ</value>
@@ -3213,7 +3175,7 @@
               </dataPath>
               <extendedTooltip>
                 <name>СХК_ДатаСДИЗРасширеннаяПодсказка</name>
-                <id>1743</id>
+                <id>1597</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -3242,7 +3204,7 @@
             </items>
             <items xsi:type="form:FormField">
               <name>СХК_НомерСДИЗ</name>
-              <id>1739</id>
+              <id>1598</id>
               <title>
                 <key>ru</key>
                 <value>Номер СДИЗ</value>
@@ -3257,7 +3219,7 @@
               </dataPath>
               <extendedTooltip>
                 <name>СХК_НомерСДИЗРасширеннаяПодсказка</name>
-                <id>1744</id>
+                <id>1600</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -3375,7 +3337,7 @@
           </handlers>
           <extendedTooltip>
             <name>СХК_ТКРасширеннаяПодсказка</name>
-            <id>1726</id>
+            <id>1582</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -3385,7 +3347,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>СХК_ТККонтекстноеМеню</name>
-            <id>1725</id>
+            <id>1581</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>CheckBoxField</type>
@@ -3400,7 +3362,7 @@
           <id>1583</id>
           <items xsi:type="form:FormField">
             <name>СХК_Транспорт</name>
-            <id>1728</id>
+            <id>1585</id>
             <title>
               <key>ru</key>
               <value>Транспорт</value>
@@ -3425,7 +3387,7 @@
             </extendedTooltip>
             <contextMenu>
               <name>СХК_ТранспортКонтекстноеМеню</name>
-              <id>1740</id>
+              <id>1586</id>
               <autoFill>true</autoFill>
             </contextMenu>
             <type>InputField</type>
@@ -3469,7 +3431,7 @@
             </extendedTooltip>
             <contextMenu>
               <name>СХК_ВодительКонтекстноеМеню</name>
-              <id>1741</id>
+              <id>1589</id>
               <autoFill>true</autoFill>
             </contextMenu>
             <type>InputField</type>
@@ -3500,7 +3462,7 @@
           </toolTip>
           <extendedTooltip>
             <name>ГруппаТКРасширеннаяПодсказка</name>
-            <id>1727</id>
+            <id>1584</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -3732,9 +3694,6 @@
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible/>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.Товары.Артикул</segments>
-          </dataPath>
           <extendedTooltip>
             <name>ТоварыНоменклатураАртикулExtendedTooltip</name>
             <id>802</id>
@@ -3769,9 +3728,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.Товары.ИндексНабора</segments>
-          </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
             <name>ТоварыИндексНабораРасширеннаяПодсказка</name>
@@ -3923,7 +3879,7 @@
         </items>
         <items xsi:type="form:FormField">
           <name>ТоварыНоменклатураПартнера</name>
-          <id>1595</id>
+          <id>1651</id>
           <title>
             <key>ru</key>
             <value>Номенклатура клиента</value>
@@ -3942,7 +3898,7 @@
           </dataPath>
           <extendedTooltip>
             <name>ТоварыНоменклатураПартнераРасширеннаяПодсказка</name>
-            <id>1597</id>
+            <id>1675</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -3952,7 +3908,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>ТоварыНоменклатураПартнераКонтекстноеМеню</name>
-            <id>1596</id>
+            <id>1674</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>InputField</type>
@@ -4102,15 +4058,12 @@
         </items>
         <items xsi:type="form:FormField">
           <name>ТоварыОбособленно</name>
-          <id>1567</id>
+          <id>1484</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.Товары.Обособленно</segments>
-          </dataPath>
           <toolTip>
             <key>ru</key>
             <value>Отгружать номенклатуру обособленно по направлению деятельности</value>
@@ -4121,7 +4074,7 @@
           </toolTip>
           <extendedTooltip>
             <name>ТоварыОбособленноРасширеннаяПодсказка</name>
-            <id>1530</id>
+            <id>1486</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -4131,7 +4084,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>ТоварыОбособленноКонтекстноеМеню</name>
-            <id>1529</id>
+            <id>1485</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>CheckBoxField</type>
@@ -4495,36 +4448,6 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
-            <choiceParameterLinks>
-              <name>Отбор.ЦенаВключаетНДС</name>
-              <datapath xsi:type="form:DataPath">
-                <segments>Объект.ЦенаВключаетНДС</segments>
-              </datapath>
-            </choiceParameterLinks>
-            <choiceParameterLinks>
-              <name>Партнер</name>
-              <datapath xsi:type="form:DataPath">
-                <segments>Объект.Партнер</segments>
-              </datapath>
-            </choiceParameterLinks>
-            <choiceParameterLinks>
-              <name>Соглашение</name>
-              <datapath xsi:type="form:DataPath">
-                <segments>Объект.Соглашение</segments>
-              </datapath>
-            </choiceParameterLinks>
-            <choiceParameterLinks>
-              <name>ИспользоватьСоглашенияСКлиентами</name>
-              <datapath xsi:type="form:DataPath">
-                <segments>ИспользоватьСоглашенияСКлиентами</segments>
-              </datapath>
-            </choiceParameterLinks>
-            <choiceParameterLinks>
-              <name>ИспользуетсяЦенообразование25</name>
-              <datapath xsi:type="form:DataPath">
-                <segments>ИспользуетсяЦенообразование25</segments>
-              </datapath>
-            </choiceParameterLinks>
             <choiceParameters>
               <name>ВыводитьПроизвольныйВидЦен</name>
               <value xsi:type="form:FormChoiceListDesTimeValue">
@@ -4795,7 +4718,7 @@
         </items>
         <items xsi:type="form:FormField">
           <name>ТоварыСуммаБонусныхБалловКСписаниюВВалюте</name>
-          <id>1581</id>
+          <id>1657</id>
           <title>
             <key>ru</key>
             <value>Скидка бонусами</value>
@@ -4814,7 +4737,7 @@
           </dataPath>
           <extendedTooltip>
             <name>ТоварыСуммаБонусныхБалловКСписаниюВВалютеРасширеннаяПодсказка</name>
-            <id>1598</id>
+            <id>1677</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -4824,7 +4747,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>ТоварыСуммаБонусныхБалловКСписаниюВВалютеКонтекстноеМеню</name>
-            <id>1583</id>
+            <id>1676</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>InputField</type>
@@ -5344,7 +5267,7 @@
         </items>
         <items xsi:type="form:FormField">
           <name>ТоварыСуммаНачисленныхБонусныхБалловВВалюте</name>
-          <id>1582</id>
+          <id>1660</id>
           <title>
             <key>ru</key>
             <value>Начисленные бонусные баллы</value>
@@ -5361,7 +5284,7 @@
           </dataPath>
           <extendedTooltip>
             <name>ТоварыСуммаНачисленныхБонусныхБалловВВалютеРасширеннаяПодсказка</name>
-            <id>1600</id>
+            <id>1679</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -5371,7 +5294,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>ТоварыСуммаНачисленныхБонусныхБалловВВалютеКонтекстноеМеню</name>
-            <id>1599</id>
+            <id>1678</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>InputField</type>
@@ -5410,7 +5333,6 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -5435,7 +5357,6 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -5460,7 +5381,6 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -5485,7 +5405,6 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -5525,7 +5444,6 @@
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </extendedTooltip>
-                <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
                 <representation>Auto</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -5559,7 +5477,6 @@
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </extendedTooltip>
-                <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
                 <representation>Picture</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -5584,7 +5501,6 @@
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </extendedTooltip>
-                <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
                 <representation>Auto</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -5634,7 +5550,6 @@
                   <horizontalAlign>Left</horizontalAlign>
                 </extInfo>
               </extendedTooltip>
-              <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -5659,7 +5574,6 @@
                   <horizontalAlign>Left</horizontalAlign>
                 </extInfo>
               </extendedTooltip>
-              <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -5684,7 +5598,6 @@
                   <horizontalAlign>Left</horizontalAlign>
                 </extInfo>
               </extendedTooltip>
-              <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -5713,7 +5626,6 @@
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </extendedTooltip>
-                <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
                 <representation>Auto</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -5739,7 +5651,6 @@
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </extendedTooltip>
-                <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
                 <representation>Auto</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -5748,7 +5659,7 @@
               </items>
               <items xsi:type="form:Button">
                 <name>ТоварыПодобратьПереданныеТовары</name>
-                <id>1563</id>
+                <id>1655</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -5756,7 +5667,7 @@
                 </userVisible>
                 <extendedTooltip>
                   <name>ТоварыПодобратьПереданныеТоварыРасширеннаяПодсказка</name>
-                  <id>1564</id>
+                  <id>1680</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
@@ -5788,7 +5699,6 @@
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </extendedTooltip>
-                <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
                 <representation>Auto</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -5813,7 +5723,6 @@
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </extendedTooltip>
-                <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
                 <representation>Auto</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -5838,7 +5747,6 @@
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </extendedTooltip>
-                <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
                 <representation>Auto</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -6024,7 +5932,6 @@
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </extendedTooltip>
-                <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
                 <representation>Auto</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -6033,7 +5940,7 @@
               </items>
               <items xsi:type="form:Button">
                 <name>ТоварыЗаполнитьЦеныПоДоговору</name>
-                <id>1565</id>
+                <id>1649</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -6041,7 +5948,7 @@
                 </userVisible>
                 <extendedTooltip>
                   <name>ТоварыЗаполнитьЦеныПоДоговоруРасширеннаяПодсказка</name>
-                  <id>1566</id>
+                  <id>1681</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
@@ -6074,7 +5981,6 @@
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </extendedTooltip>
-                <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
                 <representation>Auto</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -6136,7 +6042,6 @@
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </extendedTooltip>
-                <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
                 <representation>Auto</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -6161,7 +6066,6 @@
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </extendedTooltip>
-                <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
                 <representation>Auto</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -6186,7 +6090,6 @@
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </extendedTooltip>
-                <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
                 <representation>Auto</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -6211,7 +6114,6 @@
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </extendedTooltip>
-                <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
                 <representation>Auto</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -6236,7 +6138,6 @@
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </extendedTooltip>
-                <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
                 <representation>Auto</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -6264,7 +6165,6 @@
                       <horizontalAlign>Left</horizontalAlign>
                     </extInfo>
                   </extendedTooltip>
-                  <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
                   <representation>Auto</representation>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
@@ -6325,7 +6225,7 @@
                 </items>
                 <items xsi:type="form:Button">
                   <name>ТоварыОтменитьОплатуБонуснымиБаллами</name>
-                  <id>1551</id>
+                  <id>1654</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -6354,7 +6254,7 @@
                 </userVisible>
                 <extendedTooltip>
                   <name>ГруппаТоварыБонусныеБаллыРасширеннаяПодсказка</name>
-                  <id>1548</id>
+                  <id>1682</id>
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
@@ -6435,12 +6335,12 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
+            <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
           </items>
           <items xsi:type="form:Button">
             <name>ТоварыВыделитьВсе</name>
@@ -6460,7 +6360,6 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -6573,7 +6472,6 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -6598,7 +6496,6 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -6623,7 +6520,6 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -6648,7 +6544,6 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -6673,7 +6568,6 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -6702,9 +6596,6 @@
         <initialListView>Auto</initialListView>
         <horizontalStretch>true</horizontalStretch>
         <verticalStretch>true</verticalStretch>
-        <rowPictureDataPath xsi:type="form:DataPath">
-          <segments>Объект.Товары.РасхождениеЗаказ</segments>
-        </rowPictureDataPath>
         <rowsPicture xsi:type="core:PictureRef">
           <picture>CommonPicture.СостоянияСтрок</picture>
         </rowsPicture>
@@ -6759,11 +6650,7 @@
           <autoMaxWidth>true</autoMaxWidth>
           <height>1</height>
           <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:PictureDecorationExtInfo">
-            <picture xsi:type="core:PictureRef">
-              <picture>StdPicture.Information</picture>
-            </picture>
-          </extInfo>
+          <extInfo xsi:type="form:PictureDecorationExtInfo"/>
         </items>
         <items xsi:type="form:FormField">
           <name>НадписьНесколькоСкладов</name>
@@ -6875,10 +6762,10 @@
       <id>594</id>
       <items xsi:type="form:FormGroup">
         <name>ГруппаСервисДоставки</name>
-        <id>1484</id>
+        <id>1458</id>
         <items xsi:type="form:Decoration">
           <name>ДекорацияСервисДоставкиЛоготип</name>
-          <id>1486</id>
+          <id>1460</id>
           <title>
             <key>ru</key>
             <value>1С:Доставка</value>
@@ -6902,7 +6789,7 @@
           </toolTip>
           <extendedTooltip>
             <name>ДекорацияСервисДоставкиЛоготипРасширеннаяПодсказка</name>
-            <id>1477</id>
+            <id>1465</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -6912,21 +6799,18 @@
           </extendedTooltip>
           <contextMenu>
             <name>ДекорацияСервисДоставкиЛоготипКонтекстноеМеню</name>
-            <id>1476</id>
+            <id>1464</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <maxWidth>9</maxWidth>
           <maxHeight>9</maxHeight>
           <extInfo xsi:type="form:PictureDecorationExtInfo">
-            <picture xsi:type="core:PictureRef">
-              <picture>CommonPicture.ЛоготипОсновнойСервисДоставки</picture>
-            </picture>
             <fileDragMode>AsFileRef</fileDragMode>
           </extInfo>
         </items>
         <items xsi:type="form:Decoration">
           <name>ДекорацияСервисДоставкиСписокЗаказов</name>
-          <id>1478</id>
+          <id>1452</id>
           <title>
             <key>ru</key>
             <value>Заказы на доставку</value>
@@ -6942,7 +6826,7 @@
           </userVisible>
           <extendedTooltip>
             <name>ДекорацияСервисДоставкиСписокЗаказовРасширеннаяПодсказка</name>
-            <id>1480</id>
+            <id>1454</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -6952,7 +6836,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>ДекорацияСервисДоставкиСписокЗаказовКонтекстноеМеню</name>
-            <id>1479</id>
+            <id>1453</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>Label</type>
@@ -6965,7 +6849,7 @@
         </items>
         <items xsi:type="form:Decoration">
           <name>ДекорацияСервисДоставкиСоздать</name>
-          <id>1481</id>
+          <id>1455</id>
           <title>
             <key>ru</key>
             <value>Создать</value>
@@ -6981,7 +6865,7 @@
           </userVisible>
           <extendedTooltip>
             <name>ДекорацияСервисДоставкиСоздатьРасширеннаяПодсказка</name>
-            <id>1483</id>
+            <id>1457</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -6991,7 +6875,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>ДекорацияСервисДоставкиСоздатьКонтекстноеМеню</name>
-            <id>1482</id>
+            <id>1456</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>Label</type>
@@ -7004,7 +6888,7 @@
         </items>
         <items xsi:type="form:Decoration">
           <name>ДекорацияСервисДоставкиДобавитьВЗаказНаДоставку</name>
-          <id>1538</id>
+          <id>1572</id>
           <title>
             <key>ru</key>
             <value>Добавить в имеющийся заказ на доставку</value>
@@ -7020,7 +6904,7 @@
           </userVisible>
           <extendedTooltip>
             <name>ДекорацияСервисДоставкиДобавитьВЗаказНаДоставкуРасширеннаяПодсказка</name>
-            <id>1540</id>
+            <id>1574</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -7030,7 +6914,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>ДекорацияСервисДоставкиДобавитьВЗаказНаДоставкуКонтекстноеМеню</name>
-            <id>1539</id>
+            <id>1536</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>Label</type>
@@ -7055,7 +6939,7 @@
         </title>
         <extendedTooltip>
           <name>ГруппаСервисДоставкиРасширеннаяПодсказка</name>
-          <id>1485</id>
+          <id>1463</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -7338,10 +7222,10 @@
           </items>
           <items xsi:type="form:FormGroup">
             <name>СтраницаКурьер</name>
-            <id>1531</id>
+            <id>1534</id>
             <items xsi:type="form:FormField">
               <name>Курьер</name>
-              <id>1533</id>
+              <id>1530</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -7353,7 +7237,7 @@
               <titleLocation>None</titleLocation>
               <extendedTooltip>
                 <name>КурьерРасширеннаяПодсказка</name>
-                <id>1569</id>
+                <id>1533</id>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -7363,7 +7247,7 @@
               </extendedTooltip>
               <contextMenu>
                 <name>КурьерКонтекстноеМеню</name>
-                <id>1568</id>
+                <id>1532</id>
                 <autoFill>true</autoFill>
               </contextMenu>
               <type>InputField</type>
@@ -7406,7 +7290,7 @@
             </title>
             <extendedTooltip>
               <name>СтраницаКурьерРасширеннаяПодсказка</name>
-              <id>1532</id>
+              <id>1529</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -7894,7 +7778,6 @@ details</value>
                 </extInfo>
               </extendedTooltip>
               <type>UsualButton</type>
-              <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -8392,7 +8275,6 @@ to the carrier</value>
                 </extInfo>
               </extendedTooltip>
               <type>UsualButton</type>
-              <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -8748,7 +8630,6 @@ information</value>
                 </extInfo>
               </extendedTooltip>
               <type>UsualButton</type>
-              <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -9463,7 +9344,6 @@ details</value>
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
-              <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
@@ -9559,7 +9439,7 @@ details</value>
             </dataPath>
             <extendedTooltip>
               <name>ОтпустилРасширеннаяПодсказка</name>
-              <id>1534</id>
+              <id>1531</id>
               <type>Label</type>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -9665,12 +9545,6 @@ details</value>
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
-              <choiceParameterLinks>
-                <name>Отбор.Владелец</name>
-                <datapath xsi:type="form:DataPath">
-                  <segments>Объект.Партнер</segments>
-                </datapath>
-              </choiceParameterLinks>
             </extInfo>
           </items>
           <items xsi:type="form:FormField">
@@ -9960,7 +9834,7 @@ business</value>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
             <extInfo xsi:type="form:InputFieldExtInfo">
-              <maxWidth>29</maxWidth>
+              <maxWidth>24</maxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <wrap>true</wrap>
               <listChoiceMode>true</listChoiceMode>
@@ -10371,7 +10245,7 @@ option</value>
         </items>
         <items xsi:type="form:Button">
           <name>РеквизитыПечати</name>
-          <id>571</id>
+          <id>1551</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -10379,7 +10253,7 @@ option</value>
           </userVisible>
           <extendedTooltip>
             <name>РеквизитыПечатиРасширеннаяПодсказка</name>
-            <id>896</id>
+            <id>1569</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -10427,10 +10301,10 @@ option</value>
       </items>
       <items xsi:type="form:FormGroup">
         <name>ГруппаВариантВыбытияМаркируемойПродукции</name>
-        <id>1576</id>
+        <id>1633</id>
         <items xsi:type="form:FormField">
           <name>ВариантВыбытияМаркируемойПродукции</name>
-          <id>1578</id>
+          <id>1627</id>
           <title>
             <key>ru</key>
             <value>Маркируемая продукция</value>
@@ -10449,7 +10323,7 @@ option</value>
           </dataPath>
           <extendedTooltip>
             <name>ВариантВыбытияМаркируемойПродукцииРасширеннаяПодсказка</name>
-            <id>1580</id>
+            <id>1686</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -10459,7 +10333,7 @@ option</value>
           </extendedTooltip>
           <contextMenu>
             <name>ВариантВыбытияМаркируемойПродукцииКонтекстноеМеню</name>
-            <id>1579</id>
+            <id>1685</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>InputField</type>
@@ -10518,7 +10392,7 @@ option</value>
         </title>
         <extendedTooltip>
           <name>ГруппаВариантВыбытияМаркируемойПродукцииРасширеннаяПодсказка</name>
-          <id>1577</id>
+          <id>1683</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -10537,10 +10411,10 @@ option</value>
       </items>
       <items xsi:type="form:FormGroup">
         <name>ГруппаГосКонтракт</name>
-        <id>1584</id>
+        <id>1635</id>
         <items xsi:type="form:FormField">
           <name>ГосКонтракт</name>
-          <id>1586</id>
+          <id>1630</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -10548,7 +10422,7 @@ option</value>
           </userVisible>
           <extendedTooltip>
             <name>ГосКонтрактРасширеннаяПодсказка</name>
-            <id>1588</id>
+            <id>1688</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -10558,7 +10432,7 @@ option</value>
           </extendedTooltip>
           <contextMenu>
             <name>ГосКонтрактКонтекстноеМеню</name>
-            <id>1587</id>
+            <id>1687</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>LabelField</type>
@@ -10574,7 +10448,7 @@ option</value>
         </items>
         <items xsi:type="form:FormField">
           <name>ЭтапГосконтрактаЕИС</name>
-          <id>1589</id>
+          <id>1663</id>
           <title>
             <key>ru</key>
             <value>Этап</value>
@@ -10591,7 +10465,7 @@ option</value>
           <titleLocation>Left</titleLocation>
           <extendedTooltip>
             <name>ЭтапГосконтрактаЕИСРасширеннаяПодсказка</name>
-            <id>1591</id>
+            <id>1690</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -10601,7 +10475,7 @@ option</value>
           </extendedTooltip>
           <contextMenu>
             <name>ЭтапГосконтрактаЕИСКонтекстноеМеню</name>
-            <id>1590</id>
+            <id>1689</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>InputField</type>
@@ -10633,7 +10507,7 @@ option</value>
         </title>
         <extendedTooltip>
           <name>ГруппаГосКонтрактРасширеннаяПодсказка</name>
-          <id>1585</id>
+          <id>1684</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -10750,7 +10624,7 @@ option</value>
         </extendedTooltip>
         <contextMenu>
           <name>ПолученОригиналКонтекстноеМеню</name>
-          <id>1722</id>
+          <id>1450</id>
           <autoFill>true</autoFill>
         </contextMenu>
         <type>CheckBoxField</type>
@@ -11976,15 +11850,11 @@ option</value>
       </contextMenu>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:PictureDecorationExtInfo">
-        <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.ВниманиеКрасный</picture>
-        </picture>
-      </extInfo>
+      <extInfo xsi:type="form:PictureDecorationExtInfo"/>
     </items>
     <items xsi:type="form:FormField">
       <name>ТекстДокументыНаОсновании</name>
-      <id>1444</id>
+      <id>1553</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -11993,7 +11863,7 @@ option</value>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
         <name>ТекстДокументыНаОснованииРасширеннаяПодсказка</name>
-        <id>1446</id>
+        <id>1571</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -12003,7 +11873,7 @@ option</value>
       </extendedTooltip>
       <contextMenu>
         <name>ТекстДокументыНаОснованииКонтекстноеМеню</name>
-        <id>1445</id>
+        <id>1570</id>
         <autoFill>true</autoFill>
       </contextMenu>
       <type>LabelField</type>
@@ -12067,6 +11937,7 @@ option</value>
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
+      <commandName>Form.Command.ПровестиИЗакрыть</commandName>
       <defaultButton>true</defaultButton>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -12091,6 +11962,7 @@ option</value>
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
+      <commandName>Form.Command.ЗаписатьДокумент</commandName>
       <representation>Picture</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -12115,6 +11987,7 @@ option</value>
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
+      <commandName>Form.Command.ПровестиДокумент</commandName>
       <representation>Picture</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -12123,7 +11996,7 @@ option</value>
     </items>
     <items xsi:type="form:Button">
       <name>ФормаУстановитьПометкуУдаленияДокумента</name>
-      <id>1464</id>
+      <id>1556</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -12131,7 +12004,7 @@ option</value>
       </userVisible>
       <extendedTooltip>
         <name>ФормаУстановитьПометкуУдаленияДокументаРасширеннаяПодсказка</name>
-        <id>1465</id>
+        <id>1558</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -12622,6 +12495,7 @@ option</value>
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
+      <commandName>Form.StandardCommand.Help</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -12646,6 +12520,7 @@ option</value>
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
+      <commandName>Form.Command.ПроверитьКонтрагентов</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -12705,7 +12580,6 @@ option</value>
   </handlers>
   <excludedCommands>Post</excludedCommands>
   <excludedCommands>PostAndClose</excludedCommands>
-  <excludedCommands>SetDeletionMark</excludedCommands>
   <excludedCommands>Write</excludedCommands>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>

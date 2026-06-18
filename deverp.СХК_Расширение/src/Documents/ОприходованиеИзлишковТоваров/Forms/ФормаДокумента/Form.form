@@ -1487,26 +1487,6 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
-            <choiceParameterLinks>
-              <name>Номенклатура</name>
-              <changeMode>DontChange</changeMode>
-              <datapath xsi:type="form:DataPath">
-                <segments>17:02023637-7868-4a5f-8576-835a76e0c9ba/0:63290f98-ba00-40e7-9493-b142d572b33a</segments>
-              </datapath>
-            </choiceParameterLinks>
-            <choiceParameterLinks>
-              <name>Отбор.СтранаПроисхождения</name>
-              <datapath xsi:type="form:DataPath">
-                <segments>17:02023637-7868-4a5f-8576-835a76e0c9ba/5:5bdad865-f2c5-434b-8041-ba4aad3b6687</segments>
-              </datapath>
-            </choiceParameterLinks>
-            <choiceParameterLinks>
-              <name>Характеристика</name>
-              <changeMode>DontChange</changeMode>
-              <datapath xsi:type="form:DataPath">
-                <segments>17:02023637-7868-4a5f-8576-835a76e0c9ba/0:6739a5bd-462e-4cfd-a56a-f4f66abad4bf</segments>
-              </datapath>
-            </choiceParameterLinks>
             <choiceParameters>
               <name>СозданиеЭлементаЛюбогоТипа</name>
               <value xsi:type="form:FormChoiceListDesTimeValue">

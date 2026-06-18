@@ -288,7 +288,7 @@
           <value>Прием ЦЕХ</value>
         </title>
         <visible>true</visible>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
@@ -432,9 +432,6 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>8</segments>
-        </dataPath>
         <extendedTooltip>
           <name>ПользовательРасширеннаяПодсказка</name>
           <id>45</id>
@@ -601,6 +598,11 @@
     <use>
       <common>true</common>
     </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПриемкаЦех</name>
+      </handler>
+    </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>

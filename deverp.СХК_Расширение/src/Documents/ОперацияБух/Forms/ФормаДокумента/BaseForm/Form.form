@@ -1124,12 +1124,6 @@ but they affect the opening balance of the next year.</value>
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
-                <choiceParameterLinks>
-                  <name>Отбор.Владелец</name>
-                  <datapath xsi:type="form:DataPath">
-                    <segments>1/0:bf6d1bc2-c239-4118-af61-a751a5e8a6e0</segments>
-                  </datapath>
-                </choiceParameterLinks>
               </extInfo>
             </items>
             <items xsi:type="form:FormField">
@@ -1750,12 +1744,6 @@ but they affect the opening balance of the next year.</value>
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
-                <choiceParameterLinks>
-                  <name>Отбор.Владелец</name>
-                  <datapath xsi:type="form:DataPath">
-                    <segments>1/0:bf6d1bc2-c239-4118-af61-a751a5e8a6e0</segments>
-                  </datapath>
-                </choiceParameterLinks>
               </extInfo>
             </items>
             <items xsi:type="form:FormField">

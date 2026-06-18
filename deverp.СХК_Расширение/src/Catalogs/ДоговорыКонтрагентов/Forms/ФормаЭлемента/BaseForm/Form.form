@@ -904,18 +904,6 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
-              <choiceParameterLinks>
-                <name>ИспользоватьСоглашенияСКлиентами</name>
-                <datapath xsi:type="form:DataPath">
-                  <segments>44</segments>
-                </datapath>
-              </choiceParameterLinks>
-              <choiceParameterLinks>
-                <name>Партнер</name>
-                <datapath xsi:type="form:DataPath">
-                  <segments>1/0:b18539ed-9cc9-424b-8b4c-759a9b105d6b</segments>
-                </datapath>
-              </choiceParameterLinks>
               <choiceParameters>
                 <name>ВыводитьПроизвольныйВидЦен</name>
                 <value xsi:type="form:FormChoiceListDesTimeValue">
@@ -981,18 +969,6 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
-              <choiceParameterLinks>
-                <name>ИспользоватьСоглашенияСКлиентами</name>
-                <datapath xsi:type="form:DataPath">
-                  <segments>44</segments>
-                </datapath>
-              </choiceParameterLinks>
-              <choiceParameterLinks>
-                <name>Партнер</name>
-                <datapath xsi:type="form:DataPath">
-                  <segments>1/0:b18539ed-9cc9-424b-8b4c-759a9b105d6b</segments>
-                </datapath>
-              </choiceParameterLinks>
               <choiceParameters>
                 <name>ВыводитьПроизвольныйВидЦен</name>
                 <value xsi:type="form:FormChoiceListDesTimeValue">
@@ -1688,12 +1664,6 @@
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
-              <choiceParameterLinks>
-                <name>Отбор.Владелец</name>
-                <datapath xsi:type="form:DataPath">
-                  <segments>1/0:b18539ed-9cc9-424b-8b4c-759a9b105d6b</segments>
-                </datapath>
-              </choiceParameterLinks>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -4559,9 +4529,7 @@
                   <key>en</key>
                   <value>Not removed from turnover</value>
                 </presentation>
-                <value xsi:type="core:ReferenceValue">
-                  <value>58e039f6-8152-46bb-9dce-25a44bd3bf91.0b13e329-b17e-4934-9d6e-8b40114254c8</value>
-                </value>
+                <value xsi:type="core:ReferenceValue"/>
               </choiceList>
               <choiceList>
                 <presentation>

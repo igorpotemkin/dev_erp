@@ -96,10 +96,6 @@
             <key>ru</key>
             <value>Любой</value>
           </presentation>
-          <presentation>
-            <key>en</key>
-            <value>Any</value>
-          </presentation>
           <value xsi:type="core:ReferenceValue">
             <value>Enum.СтатусыПланов.EmptyRef</value>
           </value>
@@ -208,10 +204,6 @@
       <key>ru</key>
       <value>Быстрые отборы</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>Quick filters</value>
-    </title>
     <extendedTooltip>
       <name>ГруппаБыстрыеОтборыРасширеннаяПодсказка</name>
       <id>78</id>
@@ -242,10 +234,6 @@
       <key>ru</key>
       <value>Группа пользовательских настроек</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>User settings group</value>
-    </title>
     <extendedTooltip>
       <name>ГруппаПользовательскихНастроекРасширеннаяПодсказка</name>
       <id>131</id>
@@ -272,10 +260,6 @@
       <key>ru</key>
       <value>Список</value>
     </title>
-    <title>
-      <key>en</key>
-      <value>List</value>
-    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -300,7 +284,7 @@
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>ДатаРасширеннаяПодсказка</name>
+        <name>ДатаExtendedTooltip</name>
         <id>128</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -337,7 +321,7 @@
         <segments>Список.Номер</segments>
       </dataPath>
       <extendedTooltip>
-        <name>НомерРасширеннаяПодсказка</name>
+        <name>НомерExtendedTooltip</name>
         <id>58</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -374,7 +358,7 @@
         <segments>Список.НачалоПериода</segments>
       </dataPath>
       <extendedTooltip>
-        <name>НачалоПериодаРасширеннаяПодсказка</name>
+        <name>НачалоПериодаExtendedTooltip</name>
         <id>59</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -410,7 +394,7 @@
         <segments>Список.ОкончаниеПериода</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ОкончаниеПериодаРасширеннаяПодсказка</name>
+        <name>ОкончаниеПериодаExtendedTooltip</name>
         <id>60</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -449,7 +433,7 @@
           <segments>Список.Сценарий</segments>
         </dataPath>
         <extendedTooltip>
-          <name>СценарийРасширеннаяПодсказка</name>
+          <name>СценарийExtendedTooltip</name>
           <id>62</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -487,7 +471,7 @@
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
-          <name>ПериодичностьРасширеннаяПодсказка</name>
+          <name>ПериодичностьExtendedTooltip</name>
           <id>63</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -525,7 +509,7 @@
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
-          <name>ВалютаРасширеннаяПодсказка</name>
+          <name>ВалютаExtendedTooltip</name>
           <id>64</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -559,12 +543,8 @@
         <key>ru</key>
         <value>Сценарий</value>
       </title>
-      <title>
-        <key>en</key>
-        <value>Scenario</value>
-      </title>
       <extendedTooltip>
-        <name>ГруппаСценарийРасширеннаяПодсказка</name>
+        <name>ГруппаСценарийExtendedTooltip</name>
         <id>61</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -591,7 +571,7 @@
         <segments>Список.Статус</segments>
       </dataPath>
       <extendedTooltip>
-        <name>СтатусРасширеннаяПодсказка</name>
+        <name>СтатусExtendedTooltip</name>
         <id>65</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -661,7 +641,7 @@
         <segments>Список.ВидПлана</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВидПланаРасширеннаяПодсказка</name>
+        <name>ВидПланаExtendedTooltip</name>
         <id>66</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -695,7 +675,7 @@
         <segments>Список.КроссТаблица</segments>
       </dataPath>
       <extendedTooltip>
-        <name>КроссТаблицаРасширеннаяПодсказка</name>
+        <name>КроссТаблицаExtendedTooltip</name>
         <id>67</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -726,7 +706,7 @@
         <segments>Список.ПланироватьПоСумме</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ПланироватьПоСуммеРасширеннаяПодсказка</name>
+        <name>ПланироватьПоСуммеExtendedTooltip</name>
         <id>68</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -757,7 +737,7 @@
         <segments>Список.СуммаДокумента</segments>
       </dataPath>
       <extendedTooltip>
-        <name>СуммаДокументаРасширеннаяПодсказка</name>
+        <name>СуммаДокументаExtendedTooltip</name>
         <id>69</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -791,7 +771,7 @@
         <segments>Список.Подразделение</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ПодразделениеРасширеннаяПодсказка</name>
+        <name>ПодразделениеExtendedTooltip</name>
         <id>70</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -825,7 +805,7 @@
         <segments>Список.Партнер</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ПартнерРасширеннаяПодсказка</name>
+        <name>ПартнерExtendedTooltip</name>
         <id>71</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -859,7 +839,7 @@
         <segments>Список.Соглашение</segments>
       </dataPath>
       <extendedTooltip>
-        <name>СоглашениеРасширеннаяПодсказка</name>
+        <name>СоглашениеExtendedTooltip</name>
         <id>72</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -893,7 +873,7 @@
         <segments>Список.Склад</segments>
       </dataPath>
       <extendedTooltip>
-        <name>СкладРасширеннаяПодсказка</name>
+        <name>СкладExtendedTooltip</name>
         <id>73</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -927,7 +907,7 @@
         <segments>Список.Ответственный</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ОтветственныйРасширеннаяПодсказка</name>
+        <name>ОтветственныйExtendedTooltip</name>
         <id>74</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -961,7 +941,7 @@
         <segments>Список.Комментарий</segments>
       </dataPath>
       <extendedTooltip>
-        <name>КомментарийРасширеннаяПодсказка</name>
+        <name>КомментарийExtendedTooltip</name>
         <id>75</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -995,7 +975,7 @@
         <segments>Список.Ссылка</segments>
       </dataPath>
       <extendedTooltip>
-        <name>СсылкаРасширеннаяПодсказка</name>
+        <name>СсылкаExtendedTooltip</name>
         <id>76</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1044,6 +1024,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
         <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
@@ -1068,6 +1049,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
         <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:FormGroup">
@@ -1084,10 +1066,6 @@
           <title>
             <key>ru</key>
             <value>Создать на основании (Важное)</value>
-          </title>
-          <title>
-            <key>en</key>
-            <value>Generate (Important)</value>
           </title>
           <extendedTooltip>
             <name>ПодменюСоздатьНаОснованииВажноеРасширеннаяПодсказка</name>
@@ -1113,10 +1091,6 @@
             <key>ru</key>
             <value>Создать на основании (Обычное)</value>
           </title>
-          <title>
-            <key>en</key>
-            <value>Generate (Standard)</value>
-          </title>
           <extendedTooltip>
             <name>ПодменюСоздатьНаОснованииОбычноеРасширеннаяПодсказка</name>
             <id>135</id>
@@ -1141,10 +1115,6 @@
             <key>ru</key>
             <value>Создать на основании (См. также)</value>
           </title>
-          <title>
-            <key>en</key>
-            <value>Generate (See also)</value>
-          </title>
           <extendedTooltip>
             <name>ПодменюСоздатьНаОснованииСмТакжеРасширеннаяПодсказка</name>
             <id>137</id>
@@ -1165,10 +1135,6 @@
         <title>
           <key>ru</key>
           <value>Создать на основании</value>
-        </title>
-        <title>
-          <key>en</key>
-          <value>Generate</value>
         </title>
         <extendedTooltip>
           <name>ПодменюСоздатьНаОснованииРасширеннаяПодсказка</name>
@@ -1213,6 +1179,7 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
         </items>
         <items xsi:type="form:Button">
           <name>СписокУстановитьСтатусВПодготовке</name>
@@ -1236,6 +1203,7 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
         </items>
         <items xsi:type="form:Button">
           <name>СписокУстановитьСтатусНаУтверждении</name>
@@ -1259,6 +1227,7 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
         </items>
         <items xsi:type="form:Button">
           <name>СписокУстановитьСтатусУтвержден</name>
@@ -1282,6 +1251,7 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
         </items>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1291,10 +1261,6 @@
         <title>
           <key>ru</key>
           <value>Установить статус</value>
-        </title>
-        <title>
-          <key>en</key>
-          <value>Set status</value>
         </title>
         <extendedTooltip>
           <name>ГруппаУстановитьСтатусРасширеннаяПодсказка</name>
@@ -1326,17 +1292,9 @@
             <key>ru</key>
             <value>Печать</value>
           </title>
-          <title>
-            <key>en</key>
-            <value>Print</value>
-          </title>
           <toolTip>
             <key>ru</key>
             <value>Команды печати</value>
-          </toolTip>
-          <toolTip>
-            <key>en</key>
-            <value>Print commands</value>
           </toolTip>
           <extendedTooltip>
             <name>ПодменюПечатьРасширеннаяПодсказка</name>
@@ -1365,12 +1323,8 @@
           <key>ru</key>
           <value>Группа команды формы</value>
         </title>
-        <title>
-          <key>en</key>
-          <value>Form commands group</value>
-        </title>
         <extendedTooltip>
-          <name>ГруппаГлобальныеКомандыРасширеннаяПодсказка</name>
+          <name>ГруппаГлобальныеКомандыExtendedTooltip</name>
           <id>53</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -1398,10 +1352,6 @@
             <key>ru</key>
             <value>Подменю отчеты важное</value>
           </title>
-          <title>
-            <key>en</key>
-            <value>Important reports submenu</value>
-          </title>
           <extendedTooltip>
             <name>ПодменюОтчетыВажноеРасширеннаяПодсказка</name>
             <id>117</id>
@@ -1426,17 +1376,9 @@
             <key>ru</key>
             <value>Подменю отчеты обычное</value>
           </title>
-          <title>
-            <key>en</key>
-            <value>Standard reports submenu</value>
-          </title>
           <toolTip>
             <key>ru</key>
             <value>Подменю отчеты важное</value>
-          </toolTip>
-          <toolTip>
-            <key>en</key>
-            <value>Important reports submenu</value>
           </toolTip>
           <extendedTooltip>
             <name>ПодменюОтчетыОбычноеРасширеннаяПодсказка</name>
@@ -1462,17 +1404,9 @@
             <key>ru</key>
             <value>Подменю отчеты см также</value>
           </title>
-          <title>
-            <key>en</key>
-            <value>See also reports submenu</value>
-          </title>
           <toolTip>
             <key>ru</key>
             <value>Подменю отчеты важное</value>
-          </toolTip>
-          <toolTip>
-            <key>en</key>
-            <value>Important reports submenu</value>
           </toolTip>
           <extendedTooltip>
             <name>ПодменюОтчетыСмТакжеРасширеннаяПодсказка</name>
@@ -1494,10 +1428,6 @@
         <title>
           <key>ru</key>
           <value>Отчеты</value>
-        </title>
-        <title>
-          <key>en</key>
-          <value>Reports</value>
         </title>
         <extendedTooltip>
           <name>ПодменюОтчетыРасширеннаяПодсказка</name>
@@ -1539,6 +1469,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
         <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
@@ -1563,6 +1494,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
         <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
@@ -1574,7 +1506,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>СписокСправкаРасширеннаяПодсказка</name>
+          <name>СписокСправкаExtendedTooltip</name>
           <id>55</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
@@ -1587,6 +1519,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <horizontalAlign>Left</horizontalAlign>
       <autoFill>true</autoFill>
@@ -1636,7 +1569,6 @@
       <source>Список</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
-        <horizontalLocation>Left</horizontalLocation>
       </extInfo>
     </viewStatusAddition>
     <searchControlAddition>
@@ -1664,7 +1596,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокРасширеннаяПодсказка</name>
+      <name>СписокExtendedTooltip</name>
       <id>56</id>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
@@ -1698,6 +1630,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:Button">
         <name>СписокКонтекстноеМенюОтменитьПроведение</name>
@@ -1721,6 +1654,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <autoFill>true</autoFill>
     </contextMenu>
@@ -1744,9 +1678,6 @@
     <horizontalStretch>true</horizontalStretch>
     <verticalStretch>true</verticalStretch>
     <enableStartDrag>true</enableStartDrag>
-    <rowPictureDataPath xsi:type="form:DataPath">
-      <segments>Список.DefaultPicture</segments>
-    </rowPictureDataPath>
     <extInfo xsi:type="form:DynamicListTableExtInfo">
       <autoRefreshPeriod>60</autoRefreshPeriod>
       <period>

@@ -417,9 +417,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>55</segments>
-            </dataPath>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
               <name>НадписьРеквизитыПлательщикаРасширеннаяПодсказка</name>
@@ -839,9 +836,6 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:DataPath">
-                <segments>5</segments>
-              </dataPath>
               <titleLocation>None</titleLocation>
               <toolTip>
                 <key>ru</key>
@@ -946,12 +940,6 @@
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
-                <choiceParameterLinks>
-                  <name>Организация</name>
-                  <datapath xsi:type="form:DataPath">
-                    <segments>1/0:270f8088-8c38-4b2c-828e-14fbd42be8a5</segments>
-                  </datapath>
-                </choiceParameterLinks>
               </extInfo>
             </items>
             <items xsi:type="form:Button">
@@ -977,7 +965,6 @@
                 </extInfo>
               </extendedTooltip>
               <type>UsualButton</type>
-              <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1071,7 +1058,6 @@
                 </extInfo>
               </extendedTooltip>
               <type>Hyperlink</type>
-              <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1668,9 +1654,6 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
-              <dataPath xsi:type="form:DataPath">
-                <segments>74</segments>
-              </dataPath>
               <titleLocation>None</titleLocation>
               <extendedTooltip>
                 <name>СписокФизЛицОтключеноРасширеннаяПодсказка</name>
@@ -1788,9 +1771,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>74</segments>
-            </dataPath>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
               <name>СписокФизЛицВключеноРасширеннаяПодсказка</name>
@@ -2114,9 +2094,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>24</segments>
-          </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
             <name>НадписьФактическаяОплатаРасширеннаяПодсказка</name>
@@ -2531,9 +2508,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>21</segments>
-          </dataPath>
           <toolTip>
             <key>ru</key>
             <value>Срок выдачи денежных средств под отчет</value>
@@ -2716,9 +2690,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>36</segments>
-          </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
             <name>НадписьРеквизитыПлатежаВБюджетРасширеннаяПодсказка</name>
@@ -2903,27 +2874,21 @@
                 <key>ru</key>
                 <value>BEN - Комиссия взимается из суммы перевода - за счет получателя</value>
               </presentation>
-              <value xsi:type="core:ReferenceValue">
-                <value>2a398fbf-4225-4079-a2c7-8fe94b2eb77c.7d47debe-f42e-42ea-ae11-37703f118e2e</value>
-              </value>
+              <value xsi:type="core:ReferenceValue"/>
             </choiceList>
             <choiceList>
               <presentation>
                 <key>ru</key>
                 <value>SNA - Комиссия оплачивается совместно: плательщик - комиссию своего банка, остальное - получатель</value>
               </presentation>
-              <value xsi:type="core:ReferenceValue">
-                <value>2a398fbf-4225-4079-a2c7-8fe94b2eb77c.b598783c-642d-4700-bfd1-be9b8158cb12</value>
-              </value>
+              <value xsi:type="core:ReferenceValue"/>
             </choiceList>
             <choiceList>
               <presentation>
                 <key>ru</key>
                 <value>OUR - Комиссия за счет плательщика - сверх суммы перевода</value>
               </presentation>
-              <value xsi:type="core:ReferenceValue">
-                <value>2a398fbf-4225-4079-a2c7-8fe94b2eb77c.2ae187f0-03c5-4e6e-8984-02a5be793bc1</value>
-              </value>
+              <value xsi:type="core:ReferenceValue"/>
             </choiceList>
             <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
           </extInfo>
@@ -2936,9 +2901,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>58</segments>
-          </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
             <name>КодыИнструкцийБанкуРасширеннаяПодсказка</name>
@@ -2975,9 +2937,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>71</segments>
-          </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
             <name>ИнформацияДляРегулирующихОргановРасширеннаяПодсказка</name>
@@ -3252,9 +3211,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>28</segments>
-          </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
             <name>ПереключательРасшифровкиРасширеннаяПодсказка</name>
@@ -3383,7 +3339,6 @@
             </extInfo>
           </extendedTooltip>
           <type>Hyperlink</type>
-          <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -5544,7 +5499,6 @@
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </extendedTooltip>
-                <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
                 <representation>Auto</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -5570,7 +5524,6 @@
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </extendedTooltip>
-                <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
                 <representation>Auto</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -5599,7 +5552,6 @@
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </extendedTooltip>
-                <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
                 <representation>Auto</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -6000,7 +5952,6 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -6268,18 +6219,6 @@
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
-            <choiceParameterLinks>
-              <name>Отбор.ВалютаДенежныхСредств</name>
-              <datapath xsi:type="form:DataPath">
-                <segments>1/0:bbdd7ef1-8534-429f-a83e-806de2e85c36</segments>
-              </datapath>
-            </choiceParameterLinks>
-            <choiceParameterLinks>
-              <name>Отбор.Владелец</name>
-              <datapath xsi:type="form:DataPath">
-                <segments>270:02023637-7868-4a5f-8576-835a76e0c9ba/0:650817aa-07a2-4697-813c-aca61657b42f</segments>
-              </datapath>
-            </choiceParameterLinks>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
@@ -7104,12 +7043,6 @@
             <quickChoice>false</quickChoice>
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
-            <choiceParameterLinks>
-              <name>Отбор.ВладелецФайла</name>
-              <datapath xsi:type="form:DataPath">
-                <segments>44</segments>
-              </datapath>
-            </choiceParameterLinks>
             <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
           </extInfo>
         </items>
@@ -7141,7 +7074,6 @@
                   <horizontalAlign>Left</horizontalAlign>
                 </extInfo>
               </extendedTooltip>
-              <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -7187,7 +7119,6 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</commandName>
             <representation>Auto</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>

@@ -1366,12 +1366,6 @@
                       <chooseType>true</chooseType>
                       <typeDomainEnabled>true</typeDomainEnabled>
                       <textEdit>true</textEdit>
-                      <choiceParameterLinks>
-                        <name>ВалютаОснованияСчетаФактуры</name>
-                        <datapath xsi:type="form:DataPath">
-                          <segments>23</segments>
-                        </datapath>
-                      </choiceParameterLinks>
                       <borderColor xsi:type="core:ColorRef">
                         <color>Style.BorderColor</color>
                       </borderColor>
